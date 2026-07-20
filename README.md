@@ -53,9 +53,9 @@
     $ros2 topic echo /turtle1/cmd_vel
     거북이 기준으로 바라보는 쪽이 linear x축의 +, 반시계 방향이 angular z축의 +
 
-#### 5. topic 발행
+#### 5. Topic(토픽) 발행
 ##### $ros2 topic pub "발행 횟수" "대상 토픽" "인터페이스 종류" "원하는 입력"
-    5-1. topic list 확인
+    5-1. 토픽 목록 확인
     $ros2 topic list
 
     5-2. 원하는 토픽의 인터페이스 확인
@@ -74,7 +74,7 @@
     5-5. rqt로 topic 발행
     rqt 실행 후 plugins의 topics -> message publisher를 통해 원하는 토픽 발행 가능
 
-#### 6. Service 발행
+#### 6. Service(서비스) 발행
 ##### $ros2 service call "대상 서비스" "인터페이스 종류" "원하는 입력"
     6-1. 서비스 목록 확인
     $ros2 service list
@@ -85,10 +85,10 @@
     6-3. spawn 서비스 발행
     $ros2 service call /spawn turtlesim/srv/Spawn "{x: 2.0, y: 2.0, theta: 0.0, name: 'my_turtle'}"
 
-    6-4. rqt plugin
+    6-4. rqt로 서비스 발행
     rqt를 실행하고 plugins의 services -> service caller를 실행하면 service call 가능
 
-#### 7. action 발행
+#### 7. Action(액션) 발행
 ##### $ros2 action send_goal "대상 액션" "인터페이스 종류" "원하는 입력"
     7-1. 액션 목록 확인
     $ros2 action list
@@ -96,5 +96,8 @@
     7-2. 액션 발행
     $ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 1.57}"
     : 3시 방향을 바라보는 turtle1이 반시계 방향으로 90도 회전하여 12시 방향을 바라 봄
+
+    #rqt
+    action은 rqt로 발행할 수 없음
     
 
