@@ -100,4 +100,23 @@
     #rqt
     action은 rqt로 발행할 수 없음
     
+#### 8. Param(파라미터) 설정
+##### $ros2 param list
+    8-1. background 색상 확인
+    $ros2 param get /turtlesim background_r #r(빨강) 색상 정도 파악
+    $ros2 param get /turtlesim background_g #g(초록) 색상 정도 파악
+    $ros2 param get /turtlesim background_b #b(파랑) 색상 정도 파악
+    : 기본 색상인 파란 바탕화면
+
+    8-2. background 색상 설정
+    $ros2 param set /turtlesim background_r "150"
+    $ros2 param set /turtlesim background_g "255"
+    $ros2 param set /turtlesim background_b "33"
+    : 형광 연두색을 가진 배경으로 바뀜
+
+    8-3. param 변경 값 저장
+    $ros2 param dump /turtlesim > "원하는 파일 이름.yaml" => $ros2 param dump /turtlesim > turtlesim.yaml
+
+    8-4. param 변경한 노드 불러오기
+    $ros2 run turtlesim turtlesim_node --ros-args --param-file ~/turtlesim.yaml(저장위치)
 
