@@ -88,7 +88,13 @@
     6-4. rqt plugin
     rqt를 실행하고 plugins의 services -> service caller를 실행하면 service call 가능
 
+#### 7. action 발행
+##### $ros2 action send_goal "대상 액션" "인터페이스 종류" "원하는 입력"
+    7-1. 액션 목록 확인
+    $ros2 action list
 
-
+    7-2. 액션 발행
+    $ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 1.57}"
+    : 3시 방향을 바라보는 turtle1이 반시계 방향으로 90도 회전하여 12시 방향을 바라 봄
     
 
