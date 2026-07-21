@@ -1,10 +1,5 @@
-import rclpy
-from rclpy.node import Node
-
-class SimplePublisher(Node):
-
 def main():
-    print("Simple Publisher Node")
+    print("가장 간단한 노드")
 
 if __name__ == '__main__':
     main()

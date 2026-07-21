@@ -25,6 +25,9 @@ setup(
     entry_points={
         'console_scripts': [
             "simple_pub = my_first_package.simple_pub:main",
+            "simple1_pub = my_first_package.simple1_pub:main",
+            "message_pub = my_first_package.message_pub:main",
+            "message1_pub = my_first_package.message1_pub:main",
         ],
     },
 )

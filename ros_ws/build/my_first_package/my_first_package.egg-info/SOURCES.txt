@@ -9,6 +9,9 @@ setup.py
 ../../build/my_first_package/my_first_package.egg-info/top_level.txt
 ../../build/my_first_package/my_first_package.egg-info/zip-safe
 my_first_package/__init__.py
+my_first_package/message1_pub.py
+my_first_package/message_pub.py
+my_first_package/simple1_pub.py
 my_first_package/simple_pub.py
 resource/my_first_package
 test/test_copyright.py

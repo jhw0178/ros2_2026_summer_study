@@ -1,2 +1,5 @@
 [console_scripts]
+message1_pub = my_first_package.message1_pub:main
+message_pub = my_first_package.message_pub:main
+simple1_pub = my_first_package.simple1_pub:main
 simple_pub = my_first_package.simple_pub:main
