@@ -127,8 +127,10 @@
 ### 1. ROS2 특징
 #### ROS2의 기본적인 특징
 ##### 1-1. ROS2 Common Packages
-##### ROS2에서 흔히 사용되는 패키지를 나열한 표
+##### ROS2에서 흔히 사용되는 패키지들
     Buildsystem : ament_cmake, ament_index_cpp, ament_lint, ament_package, ros_enviroment
+    RMW : rmw, rmw_implementation, rmw_vendor, rosidl_typesupport_vendor, Micro-XRCE-DDS
+    RCL : rcl, 
 ##### 1-2. DDS (Data Distribution Service)
 ##### OMG(Object Management Group)에서 표준화한 실시간 Pub-Sub(Publisher-Subscriber) 방식 통신 미들웨어
     통신 프로토콜 : RTPS(Real Time Publish Subscribe)
@@ -165,7 +167,8 @@
     $ros2 pkg create --build-type ament_python my_first_package
 ##### 3-3. colcon build
 ##### $colcon build
-    작성한 내용으로 패키지를 빌드하는 명령어
+    - 작성한 내용으로 패키지를 빌드하는 명령어
+    - 항상 워크스페이스에 이동하여 빌드해야 함
 ##### 3-4. packag.xml 파일 설정
     패키지에 대한 간단한 기본 설정을 작성
 ##### 3-5. setup.py 파일 설정
@@ -173,7 +176,7 @@
 ##### 3-6. bashrc 설정
     - export _colcon_cd_root=~/ros_ws : colcon_cd 명령어의 기준 디렉토리를 ~/ros_ws로 설정
     - alias cbp='colcon build --symlink-install --packages-select' : 특정 패키지만 빌드하는 명령어 설정
-    - alias cb='colcon build ~/ros_ws : ~/ros_ws 경로를 colcon build 하도록 명령어 설정
+    - alias cb='colcon build ~/ros2_2026_summer_study/ros_ws : 해당 경로를 colcon build 하도록 명령어 설정
 ##### 3-7. simple_pu.py 노드 생성
 ##### 간단한 문장을 출력하는 노드 생성
     def main():
@@ -186,10 +189,10 @@
      "simple_pub = my_first_package.simple_pub:main"
 ##### 3-9. bashrc에 source 설정
 ##### 매번 source 설정을 하기 번거로우니 bashrc에 추가함
-    source ~/ros_ws/install/local_setup.bash : 해당 패키지 경로의 install 폴더 안에 있는 local_setup.bash를 source 하면 됨
+    source ~/ros2_2026_summer_study/ros_ws/install/local_setup.bash : 해당 패키지 경로의 install 폴더 안에 있는 local_setup.bash를 source 하면 됨
 ##### 3-10. 수정한 내용을 Colcon Build
 ##### 해당 워크스페이스에 이동한 후 Colcon Build를 진행
-    $cd ~/ros_ws
+    $cd ~/ros2_2026_summer_study/ros_ws
     $colcon build 혹은 $cb (alias 설정)
 ##### 3-11. simple_pub 노드 실행
 ##### $ros2 run "생성한 패키지 이름" "생성한 노드 이름"

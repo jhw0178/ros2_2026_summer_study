@@ -1,0 +1,2 @@
+[console_scripts]
+simple_pub = my_first_package.simple_pub:main

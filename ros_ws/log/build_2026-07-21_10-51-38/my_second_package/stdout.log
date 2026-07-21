@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/my_second_package/my_second_package.egg-info
+writing ../../build/my_second_package/my_second_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_second_package/my_second_package.egg-info/dependency_links.txt
+writing requirements to ../../build/my_second_package/my_second_package.egg-info/requires.txt
+writing top-level names to ../../build/my_second_package/my_second_package.egg-info/top_level.txt
+writing manifest file '../../build/my_second_package/my_second_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_second_package/my_second_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_second_package/my_second_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jhw0178/ros_ws/build/my_second_package/build
+creating /home/jhw0178/ros_ws/build/my_second_package/build/lib
+creating /home/jhw0178/ros_ws/build/my_second_package/build/lib/my_second_package
+copying my_second_package/__init__.py -> /home/jhw0178/ros_ws/build/my_second_package/build/lib/my_second_package
+running install
+running install_lib
+creating /home/jhw0178/ros_ws/install/my_second_package/lib/python3.12/site-packages/my_second_package
+copying /home/jhw0178/ros_ws/build/my_second_package/build/lib/my_second_package/__init__.py -> /home/jhw0178/ros_ws/install/my_second_package/lib/python3.12/site-packages/my_second_package
+byte-compiling /home/jhw0178/ros_ws/install/my_second_package/lib/python3.12/site-packages/my_second_package/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/jhw0178/ros_ws/install/my_second_package/share/ament_index
+creating /home/jhw0178/ros_ws/install/my_second_package/share/ament_index/resource_index
+creating /home/jhw0178/ros_ws/install/my_second_package/share/ament_index/resource_index/packages
+copying resource/my_second_package -> /home/jhw0178/ros_ws/install/my_second_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/jhw0178/ros_ws/install/my_second_package/share/my_second_package
+running install_egg_info
+Copying ../../build/my_second_package/my_second_package.egg-info to /home/jhw0178/ros_ws/install/my_second_package/lib/python3.12/site-packages/my_second_package-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/jhw0178/ros_ws/build/my_second_package/install.log'
