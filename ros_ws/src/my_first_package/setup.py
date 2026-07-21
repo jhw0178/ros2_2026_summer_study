@@ -29,6 +29,7 @@ setup(
             "message_pub = my_first_package.message_pub:main",
             "message1_pub = my_first_package.message1_pub:main",
             "message_sub = my_first_package.message_sub:main",
+            "header_pub = my_first_package.header_pub:main",
         ],
     },
 )
