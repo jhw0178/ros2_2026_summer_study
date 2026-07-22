@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from user_interface/msg/UserInt.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module user_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "기존에 있는 인터페이스를 추가하는 연습")
+    struct UserInt {
+      std_msgs::msg::Header header;
+
+      int32 user_int1;
+
+      int32 user_int2;
+
+      int32 user_int3;
+    };
+  };
+};

@@ -37,6 +37,13 @@ setup(
             "my_turtle1 = my_first_package.my_turtle1:main",
             "qos_test_pub = my_first_package.qos_test_pub:main",
             "qos_test_sub = my_first_package.qos_test_sub:main",
-        ],
+            "user_int_pub = my_first_package.user_int_pub:main",
+            "user_int_sub = my_first_package.user_int_sub:main",
+            "service_server = my_first_package.service_server:main",
+            "service_thread_server = my_first_package.service_thread_server:main",
+            "service_client = my_first_package.service_client:main",
+            "my_param = my_first_package.my_param:main",
+            "param_async = my_first_package.param_async:main",
+        ]
     },
 )

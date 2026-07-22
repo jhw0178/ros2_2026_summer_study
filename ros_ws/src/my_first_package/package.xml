@@ -5,7 +5,7 @@
   <version>0.1.0</version>
   <description>my first package</description>
   <maintainer email="jhw0178@gmail.com">jhw0178</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

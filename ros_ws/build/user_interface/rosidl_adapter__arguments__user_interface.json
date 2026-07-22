@@ -1,0 +1,7 @@
+{
+  "package_name": "user_interface",
+  "non_idl_tuples": [
+    "/home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface:msg/UserInt.msg",
+    "/home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface:srv/AddAndOdd.srv"
+  ]
+}

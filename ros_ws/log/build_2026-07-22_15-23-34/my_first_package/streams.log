@@ -1,0 +1,95 @@
+[0.931s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/my_first_package': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data
+[1.154s] running egg_info
+[1.155s] creating ../../build/my_first_package/my_first_package.egg-info
+[1.170s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[1.170s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[1.171s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[1.171s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[1.171s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[1.171s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.202s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.203s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.204s] running build
+[1.204s] running build_py
+[1.204s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build
+[1.204s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib
+[1.205s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.205s] copying my_first_package/simple_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.205s] copying my_first_package/user_int_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.206s] copying my_first_package/my_turtle1.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.206s] copying my_first_package/message1_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.206s] copying my_first_package/qos_test_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.206s] copying my_first_package/message_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.207s] copying my_first_package/service_server.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.208s] copying my_first_package/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.208s] copying my_first_package/service_client.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.208s] copying my_first_package/my_turtle.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.208s] copying my_first_package/message_sub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.208s] copying my_first_package/header_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.208s] copying my_first_package/user_int_sub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.208s] copying my_first_package/simple1_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.209s] copying my_first_package/service_thread_server.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.209s] copying my_first_package/qos_test_sub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package
+[1.209s] running install
+[1.215s] running install_lib
+[1.231s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.231s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/simple_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.231s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/user_int_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.232s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/my_turtle1.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.232s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/message1_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.232s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/qos_test_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.232s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/message_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.232s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/service_server.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/service_client.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/my_turtle.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/message_sub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/header_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/user_int_sub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/simple1_pub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/service_thread_server.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build/lib/my_first_package/qos_test_sub.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[1.233s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/simple_pub.py to simple_pub.cpython-312.pyc
+[1.234s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/user_int_pub.py to user_int_pub.cpython-312.pyc
+[1.235s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/my_turtle1.py to my_turtle1.cpython-312.pyc
+[1.235s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/message1_pub.py to message1_pub.cpython-312.pyc
+[1.236s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/qos_test_pub.py to qos_test_pub.cpython-312.pyc
+[1.236s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/message_pub.py to message_pub.cpython-312.pyc
+[1.237s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/service_server.py to service_server.cpython-312.pyc
+[1.237s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/__init__.py to __init__.cpython-312.pyc
+[1.237s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/service_client.py to service_client.cpython-312.pyc
+[1.238s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/my_turtle.py to my_turtle.cpython-312.pyc
+[1.239s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/message_sub.py to message_sub.cpython-312.pyc
+[1.239s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/header_pub.py to header_pub.cpython-312.pyc
+[1.239s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/user_int_sub.py to user_int_sub.cpython-312.pyc
+[1.240s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/simple1_pub.py to simple1_pub.cpython-312.pyc
+[1.240s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/service_thread_server.py to service_thread_server.cpython-312.pyc
+[1.241s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/qos_test_sub.py to qos_test_sub.cpython-312.pyc
+[1.241s] running install_data
+[1.241s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/ament_index
+[1.241s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/ament_index/resource_index
+[1.242s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/ament_index/resource_index/packages
+[1.242s] copying resource/my_first_package -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/ament_index/resource_index/packages
+[1.242s] copying package.xml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package
+[1.242s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/launch
+[1.243s] copying launch/hello.launch.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/launch
+[1.243s] running install_egg_info
+[1.258s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info
+[1.259s] running install_scripts
+[1.367s] Installing header_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.367s] Installing message1_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.368s] Installing message_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.368s] Installing message_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.368s] Installing my_turtle script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.368s] Installing my_turtle1 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.368s] Installing qos_test_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.368s] Installing qos_test_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.369s] Installing service_client script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.369s] Installing service_server script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.369s] Installing service_thread_server script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.369s] Installing simple1_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.369s] Installing simple_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.369s] Installing user_int_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.370s] Installing user_int_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[1.370s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/install.log'
+[1.408s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/my_first_package' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data
