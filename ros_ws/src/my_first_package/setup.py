@@ -35,6 +35,8 @@ setup(
             "header_pub = my_first_package.header_pub:main",
             "my_turtle = my_first_package.my_turtle:main",
             "my_turtle1 = my_first_package.my_turtle1:main",
+            "qos_test_pub = my_first_package.qos_test_pub:main",
+            "qos_test_sub = my_first_package.qos_test_sub:main",
         ],
     },
 )
