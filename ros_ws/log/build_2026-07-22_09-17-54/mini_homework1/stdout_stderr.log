@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/mini_homework1/mini_homework1.egg-info
+writing ../../build/mini_homework1/mini_homework1.egg-info/PKG-INFO
+writing dependency_links to ../../build/mini_homework1/mini_homework1.egg-info/dependency_links.txt
+writing entry points to ../../build/mini_homework1/mini_homework1.egg-info/entry_points.txt
+writing requirements to ../../build/mini_homework1/mini_homework1.egg-info/requires.txt
+writing top-level names to ../../build/mini_homework1/mini_homework1.egg-info/top_level.txt
+writing manifest file '../../build/mini_homework1/mini_homework1.egg-info/SOURCES.txt'
+reading manifest file '../../build/mini_homework1/mini_homework1.egg-info/SOURCES.txt'
+writing manifest file '../../build/mini_homework1/mini_homework1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1
+copying mini_homework1/subscriber2.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1
+copying mini_homework1/time_and_topic1_subscriber.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1
+copying mini_homework1/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1
+copying mini_homework1/publisher.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1
+copying mini_homework1/subscriber1.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1
+copying mini_homework1/time_publisher.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1
+running install
+running install_lib
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1/subscriber2.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1/time_and_topic1_subscriber.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1/publisher.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1/subscriber1.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build/lib/mini_homework1/time_publisher.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1/subscriber2.py to subscriber2.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1/time_and_topic1_subscriber.py to time_and_topic1_subscriber.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1/publisher.py to publisher.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1/subscriber1.py to subscriber1.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1/time_publisher.py to time_publisher.cpython-312.pyc
+running install_data
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/ament_index
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/ament_index/resource_index
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/ament_index/resource_index/packages
+copying resource/mini_homework1 -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/ament_index/resource_index/packages
+copying package.xml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/launch
+copying launch/test.launch.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/launch
+running install_egg_info
+Copying ../../build/mini_homework1/mini_homework1.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publisher script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+Installing subscriber1 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+Installing subscriber2 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+Installing time_and_topic1_subscriber script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+Installing time_publisher script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/install.log'

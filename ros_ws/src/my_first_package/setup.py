@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+from glob import glob # glob 모듈을 사용하기 위해 추가
+import os # os 모듈을 사용하기 위해 추가
 
 package_name = 'my_first_package'
 
@@ -10,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', glob(os.path.join('launch', '*.launch.py'))), #추가된 부분
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -30,6 +33,8 @@ setup(
             "message1_pub = my_first_package.message1_pub:main",
             "message_sub = my_first_package.message_sub:main",
             "header_pub = my_first_package.header_pub:main",
+            "my_turtle = my_first_package.my_turtle:main",
+            "my_turtle1 = my_first_package.my_turtle1:main",
         ],
     },
 )

@@ -1,0 +1,6 @@
+[console_scripts]
+publisher = mini_homework1.publisher:main
+subscriber1 = mini_homework1.subscriber1:main
+subscriber2 = mini_homework1.subscriber2:main
+time_and_topic1_subscriber = mini_homework1.time_and_topic1_subscriber:main
+time_publisher = mini_homework1.time_publisher:main
