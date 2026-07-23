@@ -1,0 +1,43 @@
+[1.571s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/my_first_package': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data
+[1.828s] running egg_info
+[1.849s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[1.849s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[1.850s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[1.851s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[1.851s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[1.885s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.886s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.887s] running build
+[1.887s] running build_py
+[1.887s] running install
+[1.893s] running install_lib
+[1.914s] running install_data
+[1.915s] running install_egg_info
+[1.938s] removing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info' (and everything under it)
+[1.939s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info
+[1.940s] running install_scripts
+[2.090s] Installing action_client script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.090s] Installing action_server script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.091s] Installing action_thread_server script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.091s] Installing action_thread_server1 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.092s] Installing action_thread_server_professor script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.092s] Installing header_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.092s] Installing message1_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.093s] Installing message_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.093s] Installing message_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.093s] Installing my_param script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.093s] Installing my_turtle script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.093s] Installing my_turtle1 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.094s] Installing my_turtle_ns script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.094s] Installing param_async script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.094s] Installing qos_test_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.094s] Installing qos_test_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.095s] Installing service_client script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.095s] Installing service_server script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.095s] Installing service_thread_server script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.095s] Installing simple1_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.095s] Installing simple_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.095s] Installing user_int_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.095s] Installing user_int_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/my_first_package
+[2.095s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/install.log'
+[2.161s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/my_first_package' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data

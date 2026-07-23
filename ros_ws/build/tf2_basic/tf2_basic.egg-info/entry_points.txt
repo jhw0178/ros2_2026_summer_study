@@ -1,0 +1,3 @@
+[console_scripts]
+dynamic_turtle_tf2_broadcaster = tf2_basic.dynamic_turtle_tf2_broadcaster:main
+static_turtle_tf2_broadcaster = tf2_basic.static_turtle_tf2_broadcaster:main

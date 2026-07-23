@@ -1,0 +1,27 @@
+[1.566s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data
+[1.825s] running egg_info
+[1.847s] writing ../../build/tf2_basic/tf2_basic.egg-info/PKG-INFO
+[1.848s] writing dependency_links to ../../build/tf2_basic/tf2_basic.egg-info/dependency_links.txt
+[1.848s] writing entry points to ../../build/tf2_basic/tf2_basic.egg-info/entry_points.txt
+[1.849s] writing requirements to ../../build/tf2_basic/tf2_basic.egg-info/requires.txt
+[1.849s] writing top-level names to ../../build/tf2_basic/tf2_basic.egg-info/top_level.txt
+[1.889s] reading manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+[1.890s] writing manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+[1.891s] running build
+[1.891s] running build_py
+[1.891s] copying tf2_basic/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+[1.892s] copying tf2_basic/static_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+[1.892s] running install
+[1.901s] running install_lib
+[1.919s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+[1.919s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/static_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+[1.920s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/dynamic_turtle_tf2_broadcaster.py to dynamic_turtle_tf2_broadcaster.cpython-312.pyc
+[1.921s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-312.pyc
+[1.922s] running install_data
+[1.922s] running install_egg_info
+[1.943s] removing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info' (and everything under it)
+[1.944s] Copying ../../build/tf2_basic/tf2_basic.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info
+[1.945s] running install_scripts
+[2.109s] Installing static_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.109s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log'
+[2.178s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data
