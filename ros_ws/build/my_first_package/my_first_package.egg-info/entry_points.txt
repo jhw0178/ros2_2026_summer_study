@@ -11,6 +11,7 @@ message_sub = my_first_package.message_sub:main
 my_param = my_first_package.my_param:main
 my_turtle = my_first_package.my_turtle:main
 my_turtle1 = my_first_package.my_turtle1:main
+my_turtle_ns = my_first_package.my_turtle_ns:main
 param_async = my_first_package.param_async:main
 qos_test_pub = my_first_package.qos_test_pub:main
 qos_test_sub = my_first_package.qos_test_sub:main

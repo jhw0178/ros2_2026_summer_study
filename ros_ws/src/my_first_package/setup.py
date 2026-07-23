@@ -13,6 +13,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', glob(os.path.join('launch', '*.launch.py'))), #추가된 부분
+         ('share/' + package_name + '/param',glob('param/*.yaml')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -49,6 +50,7 @@ setup(
             "action_thread_server = my_first_package.action_thread_server:main",
             "action_thread_server1 = my_first_package.action_thread_server1:main",
             "action_thread_server_professor = my_first_package.action_thread_server_professor:main",
+            "my_turtle_ns = my_first_package.my_turtle_ns:main",
         ]
     },
 )

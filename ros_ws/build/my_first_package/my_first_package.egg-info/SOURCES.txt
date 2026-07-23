@@ -9,6 +9,7 @@ setup.py
 ../../build/my_first_package/my_first_package.egg-info/top_level.txt
 ../../build/my_first_package/my_first_package.egg-info/zip-safe
 launch/hello.launch.py
+launch/my_turtle.launch.py
 launch/param.launch.py
 my_first_package/__init__.py
 my_first_package/action_client.py
@@ -23,6 +24,7 @@ my_first_package/message_sub.py
 my_first_package/my_param.py
 my_first_package/my_turtle.py
 my_first_package/my_turtle1.py
+my_first_package/my_turtle_ns.py
 my_first_package/param_async.py
 my_first_package/qos_test_pub.py
 my_first_package/qos_test_sub.py
@@ -33,6 +35,8 @@ my_first_package/simple1_pub.py
 my_first_package/simple_pub.py
 my_first_package/user_int_pub.py
 my_first_package/user_int_sub.py
+param/my_param.yaml
+param/turtlesim.yaml
 resource/my_first_package
 test/test_copyright.py
 test/test_flake8.py
