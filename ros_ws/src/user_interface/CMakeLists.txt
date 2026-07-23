@@ -14,6 +14,7 @@ find_package(std_msgs REQUIRED) #Header를 추가하기 위한 패키지 탐색 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/UserInt.msg"
   "srv/AddAndOdd.srv"
+  "action/Fibonacci.action"
   DEPENDENCIES std_msgs #DEPENDENCIES를 적어주어야 Header를 잘 불러올 수 있음.
 )
 

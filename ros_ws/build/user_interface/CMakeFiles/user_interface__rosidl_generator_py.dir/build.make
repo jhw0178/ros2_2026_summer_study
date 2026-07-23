@@ -97,16 +97,32 @@ CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_inte
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/srv/_add_and_odd_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_py/user_interface/srv/_add_and_odd_s.c -o CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/srv/_add_and_odd_s.c.s
 
+CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o: CMakeFiles/user_interface__rosidl_generator_py.dir/flags.make
+CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o: rosidl_generator_py/user_interface/action/_fibonacci_s.c
+CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o: CMakeFiles/user_interface__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o -MF CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o.d -o CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o -c /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_py/user_interface/action/_fibonacci_s.c
+
+CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_py/user_interface/action/_fibonacci_s.c > CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.i
+
+CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_py/user_interface/action/_fibonacci_s.c -o CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.s
+
 # Object files for target user_interface__rosidl_generator_py
 user_interface__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/msg/_user_int_s.c.o" \
-"CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/srv/_add_and_odd_s.c.o"
+"CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/srv/_add_and_odd_s.c.o" \
+"CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o"
 
 # External object files for target user_interface__rosidl_generator_py
 user_interface__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 libuser_interface__rosidl_generator_py.so: CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/msg/_user_int_s.c.o
 libuser_interface__rosidl_generator_py.so: CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/srv/_add_and_odd_s.c.o
+libuser_interface__rosidl_generator_py.so: CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o
 libuser_interface__rosidl_generator_py.so: CMakeFiles/user_interface__rosidl_generator_py.dir/build.make
 libuser_interface__rosidl_generator_py.so: libuser_interface__rosidl_typesupport_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
@@ -115,37 +131,53 @@ libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosid
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_cpp.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_py.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_py.so
+libuser_interface__rosidl_generator_py.so: libuser_interface__rosidl_generator_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_py.so
-libuser_interface__rosidl_generator_py.so: libuser_interface__rosidl_generator_c.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.7
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/librmw.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
 libuser_interface__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.12.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
-libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libuser_interface__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 libuser_interface__rosidl_generator_py.so: CMakeFiles/user_interface__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libuser_interface__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libuser_interface__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/user_interface__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

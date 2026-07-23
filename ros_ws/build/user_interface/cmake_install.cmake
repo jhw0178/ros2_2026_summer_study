@@ -55,6 +55,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/user_interface/action" TYPE FILE FILES "/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_type_description/user_interface/action/Fibonacci.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/user_interface/user_interface" TYPE DIRECTORY FILES "/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_c/user_interface/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -383,11 +387,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/user_interface/action" TYPE FILE FILES "/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_adapter/user_interface/action/Fibonacci.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/user_interface/msg" TYPE FILE FILES "/home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface/msg/UserInt.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/user_interface/srv" TYPE FILE FILES "/home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface/srv/AddAndOdd.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/user_interface/action" TYPE FILE FILES "/home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface/action/Fibonacci.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -76,6 +76,11 @@ CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/srv/detail/a
 CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/srv/detail/add_and_odd__struct.hpp
 CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/srv/detail/add_and_odd__traits.hpp
 CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/srv/detail/add_and_odd__type_support.hpp
+CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/action/fibonacci.hpp
+CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/action/detail/fibonacci__builder.hpp
+CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/action/detail/fibonacci__struct.hpp
+CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/action/detail/fibonacci__traits.hpp
+CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/action/detail/fibonacci__type_support.hpp
 CMakeFiles/user_interface__cpp: rosidl_generator_cpp/user_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -99,6 +104,7 @@ rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/rosid
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: rosidl_adapter/user_interface/msg/UserInt.idl
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: rosidl_adapter/user_interface/srv/AddAndOdd.idl
+rosidl_generator_cpp/user_interface/msg/user_int.hpp: rosidl_adapter/user_interface/action/Fibonacci.idl
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -132,6 +138,11 @@ rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/std_m
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/user_interface/msg/user_int.hpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_cpp__arguments.json
 
@@ -162,10 +173,30 @@ rosidl_generator_cpp/user_interface/srv/detail/add_and_odd__traits.hpp: rosidl_g
 rosidl_generator_cpp/user_interface/srv/detail/add_and_odd__type_support.hpp: rosidl_generator_cpp/user_interface/msg/user_int.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/user_interface/srv/detail/add_and_odd__type_support.hpp
 
+rosidl_generator_cpp/user_interface/action/fibonacci.hpp: rosidl_generator_cpp/user_interface/msg/user_int.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/user_interface/action/fibonacci.hpp
+
+rosidl_generator_cpp/user_interface/action/detail/fibonacci__builder.hpp: rosidl_generator_cpp/user_interface/msg/user_int.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/user_interface/action/detail/fibonacci__builder.hpp
+
+rosidl_generator_cpp/user_interface/action/detail/fibonacci__struct.hpp: rosidl_generator_cpp/user_interface/msg/user_int.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/user_interface/action/detail/fibonacci__struct.hpp
+
+rosidl_generator_cpp/user_interface/action/detail/fibonacci__traits.hpp: rosidl_generator_cpp/user_interface/msg/user_int.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/user_interface/action/detail/fibonacci__traits.hpp
+
+rosidl_generator_cpp/user_interface/action/detail/fibonacci__type_support.hpp: rosidl_generator_cpp/user_interface/msg/user_int.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/user_interface/action/detail/fibonacci__type_support.hpp
+
 rosidl_generator_cpp/user_interface/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/user_interface/msg/user_int.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/user_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 user_interface__cpp: CMakeFiles/user_interface__cpp
+user_interface__cpp: rosidl_generator_cpp/user_interface/action/detail/fibonacci__builder.hpp
+user_interface__cpp: rosidl_generator_cpp/user_interface/action/detail/fibonacci__struct.hpp
+user_interface__cpp: rosidl_generator_cpp/user_interface/action/detail/fibonacci__traits.hpp
+user_interface__cpp: rosidl_generator_cpp/user_interface/action/detail/fibonacci__type_support.hpp
+user_interface__cpp: rosidl_generator_cpp/user_interface/action/fibonacci.hpp
 user_interface__cpp: rosidl_generator_cpp/user_interface/msg/detail/user_int__builder.hpp
 user_interface__cpp: rosidl_generator_cpp/user_interface/msg/detail/user_int__struct.hpp
 user_interface__cpp: rosidl_generator_cpp/user_interface/msg/detail/user_int__traits.hpp

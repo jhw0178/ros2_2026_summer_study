@@ -71,10 +71,13 @@ include /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_in
 /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_c.c
 /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/msg/_user_int.py
 /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/srv/_add_and_odd.py
+/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/action/_fibonacci.py
 /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/msg/__init__.py
 /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/srv/__init__.py
+/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/action/__init__.py
 /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/msg/_user_int_s.c
 /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/srv/_add_and_odd_s.c
+/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py/CMakeFiles/user_interface__py: rosidl_generator_py/user_interface/action/_fibonacci_s.c
 
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -91,6 +94,7 @@ rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/user_interface/msg/UserInt.idl
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/user_interface/srv/AddAndOdd.idl
+rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/user_interface/action/Fibonacci.idl
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -124,6 +128,11 @@ rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/user_interface__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -139,11 +148,17 @@ rosidl_generator_py/user_interface/msg/_user_int.py: rosidl_generator_py/user_in
 rosidl_generator_py/user_interface/srv/_add_and_odd.py: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/user_interface/srv/_add_and_odd.py
 
+rosidl_generator_py/user_interface/action/_fibonacci.py: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/user_interface/action/_fibonacci.py
+
 rosidl_generator_py/user_interface/msg/__init__.py: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/user_interface/msg/__init__.py
 
 rosidl_generator_py/user_interface/srv/__init__.py: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/user_interface/srv/__init__.py
+
+rosidl_generator_py/user_interface/action/__init__.py: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/user_interface/action/__init__.py
 
 rosidl_generator_py/user_interface/msg/_user_int_s.c: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/user_interface/msg/_user_int_s.c
@@ -151,9 +166,15 @@ rosidl_generator_py/user_interface/msg/_user_int_s.c: rosidl_generator_py/user_i
 rosidl_generator_py/user_interface/srv/_add_and_odd_s.c: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/user_interface/srv/_add_and_odd_s.c
 
+rosidl_generator_py/user_interface/action/_fibonacci_s.c: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/user_interface/action/_fibonacci_s.c
+
 user_interface__py: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_c.c
 user_interface__py: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 user_interface__py: rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_introspection_c.c
+user_interface__py: rosidl_generator_py/user_interface/action/__init__.py
+user_interface__py: rosidl_generator_py/user_interface/action/_fibonacci.py
+user_interface__py: rosidl_generator_py/user_interface/action/_fibonacci_s.c
 user_interface__py: rosidl_generator_py/user_interface/msg/__init__.py
 user_interface__py: rosidl_generator_py/user_interface/msg/_user_int.py
 user_interface__py: rosidl_generator_py/user_interface/msg/_user_int_s.c

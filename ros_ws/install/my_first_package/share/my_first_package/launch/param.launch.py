@@ -12,5 +12,5 @@ def generate_launch_description():
         [
             DeclareLaunchArgument('param_dir', default_value=param_dir, description="launch parameter를 지정하는 옶션"),
             Node(package="my_first_package", executable="my_param", parameters=[{"my_param": "launch에서 설정한 값"}])
-        ]
+        ]   
     )

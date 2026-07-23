@@ -68,18 +68,24 @@ include CMakeFiles/user_interface__rosidl_generator_type_description.dir/progres
 
 CMakeFiles/user_interface__rosidl_generator_type_description: rosidl_generator_type_description/user_interface/msg/UserInt.json
 CMakeFiles/user_interface__rosidl_generator_type_description: rosidl_generator_type_description/user_interface/srv/AddAndOdd.json
+CMakeFiles/user_interface__rosidl_generator_type_description: rosidl_generator_type_description/user_interface/action/Fibonacci.json
 
 rosidl_generator_type_description/user_interface/msg/UserInt.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/user_interface/msg/UserInt.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/user_interface/msg/UserInt.json: rosidl_adapter/user_interface/msg/UserInt.idl
 rosidl_generator_type_description/user_interface/msg/UserInt.json: rosidl_adapter/user_interface/srv/AddAndOdd.idl
+rosidl_generator_type_description/user_interface/msg/UserInt.json: rosidl_adapter/user_interface/action/Fibonacci.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/user_interface/srv/AddAndOdd.json: rosidl_generator_type_description/user_interface/msg/UserInt.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/user_interface/srv/AddAndOdd.json
 
+rosidl_generator_type_description/user_interface/action/Fibonacci.json: rosidl_generator_type_description/user_interface/msg/UserInt.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/user_interface/action/Fibonacci.json
+
 user_interface__rosidl_generator_type_description: CMakeFiles/user_interface__rosidl_generator_type_description
+user_interface__rosidl_generator_type_description: rosidl_generator_type_description/user_interface/action/Fibonacci.json
 user_interface__rosidl_generator_type_description: rosidl_generator_type_description/user_interface/msg/UserInt.json
 user_interface__rosidl_generator_type_description: rosidl_generator_type_description/user_interface/srv/AddAndOdd.json
 user_interface__rosidl_generator_type_description: CMakeFiles/user_interface__rosidl_generator_type_description.dir/build.make
