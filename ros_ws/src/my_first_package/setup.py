@@ -44,6 +44,11 @@ setup(
             "service_client = my_first_package.service_client:main",
             "my_param = my_first_package.my_param:main",
             "param_async = my_first_package.param_async:main",
+            "action_server = my_first_package.action_server:main",
+            "action_client = my_first_package.action_client:main",
+            "action_thread_server = my_first_package.action_thread_server:main",
+            "action_thread_server1 = my_first_package.action_thread_server1:main",
+            "action_thread_server_professor = my_first_package.action_thread_server_professor:main",
         ]
     },
 )

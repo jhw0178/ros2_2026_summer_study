@@ -1,4 +1,9 @@
 [console_scripts]
+action_client = my_first_package.action_client:main
+action_server = my_first_package.action_server:main
+action_thread_server = my_first_package.action_thread_server:main
+action_thread_server1 = my_first_package.action_thread_server1:main
+action_thread_server_professor = my_first_package.action_thread_server_professor:main
 header_pub = my_first_package.header_pub:main
 message1_pub = my_first_package.message1_pub:main
 message_pub = my_first_package.message_pub:main

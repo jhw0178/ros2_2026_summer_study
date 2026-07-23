@@ -1,0 +1,351 @@
+[0.372s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake /home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface -DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface
+[0.613s] -- The C compiler identification is GNU 13.3.0
+[1.161s] -- The CXX compiler identification is GNU 13.3.0
+[1.638s] -- Detecting C compiler ABI info
+[1.863s] -- Detecting C compiler ABI info - done
+[1.871s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.872s] -- Detecting C compile features
+[1.873s] -- Detecting C compile features - done
+[1.944s] -- Detecting CXX compiler ABI info
+[2.153s] -- Detecting CXX compiler ABI info - done
+[2.160s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.161s] -- Detecting CXX compile features
+[2.161s] -- Detecting CXX compile features - done
+[2.173s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.337s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.473s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.681s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.775s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.784s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.530s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.928s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.436s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.549s] -- Found PythonExtra: /usr/bin/python3  
+[5.006s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.080s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.084s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.118s] -- Added test 'lint_cmake' to check CMake code style
+[5.120s] -- Added test 'xmllint' to check XML markup files
+[5.127s] -- Configuring done (4.7s)
+[5.179s] -- Generating done (0.0s)
+[5.191s] -- Build files have been written to: /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface
+[5.200s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake /home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface -DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface
+[5.201s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface -- -j16 -l16
+[5.243s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.243s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.250s] [  3%] Built target ament_cmake_python_copy_user_interface
+[5.441s] running egg_info
+[5.442s] creating user_interface.egg-info
+[5.455s] [  3%] Built target user_interface__rosidl_generator_type_description
+[5.459s] writing user_interface.egg-info/PKG-INFO
+[5.460s] writing dependency_links to user_interface.egg-info/dependency_links.txt
+[5.461s] writing top-level names to user_interface.egg-info/top_level.txt
+[5.461s] writing manifest file 'user_interface.egg-info/SOURCES.txt'
+[5.464s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.478s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.523s] reading manifest file 'user_interface.egg-info/SOURCES.txt'
+[5.524s] writing manifest file 'user_interface.egg-info/SOURCES.txt'
+[5.532s] [  7%] Built target user_interface__rs
+[5.560s] [  7%] Built target ament_cmake_python_build_user_interface_egg
+[5.947s] [  7%] Built target user_interface__cpp
+[5.995s] [  9%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__description.c.o[0m
+[5.997s] [ 12%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__description.c.o[0m
+[5.997s] [ 12%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__functions.c.o[0m
+[5.998s] [ 14%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/action/detail/fibonacci__description.c.o[0m
+[5.999s] [ 20%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__functions.c.o[0m
+[6.000s] [ 16%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/msg/detail/user_int__type_support.c.o[0m
+[6.000s] [ 20%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/srv/detail/add_and_odd__type_support.c.o[0m
+[6.000s] [ 21%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/action/detail/fibonacci__type_support.c.o[0m
+[6.002s] [ 23%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_c.dir/rosidl_generator_c/user_interface/action/detail/fibonacci__functions.c.o[0m
+[6.170s] [ 25%] [32m[1mLinking C shared library libuser_interface__rosidl_generator_c.so[0m
+[6.257s] [ 25%] Built target user_interface__rosidl_generator_c
+[6.265s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.266s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.266s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.268s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.270s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.270s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.660s] [ 38%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/user_interface/msg/user_int__type_support.cpp.o[0m
+[6.661s] [ 40%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/user_interface/srv/add_and_odd__type_support.cpp.o[0m
+[6.663s] [ 41%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/user_interface/action/fibonacci__type_support.cpp.o[0m
+[6.685s] [ 43%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/user_interface/msg/user_int__type_support.cpp.o[0m
+[6.687s] [ 47%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/user_interface/srv/add_and_odd__type_support.cpp.o[0m
+[6.687s] [ 47%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/user_interface/action/fibonacci__type_support.cpp.o[0m
+[6.740s] [ 49%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_c.so[0m
+[6.755s] [ 50%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/user_interface/msg/detail/user_int__type_support.cpp.o[0m
+[6.757s] [ 52%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/user_interface/srv/detail/add_and_odd__type_support.cpp.o[0m
+[6.758s] [ 54%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/user_interface/action/detail/fibonacci__type_support.cpp.o[0m
+[6.807s] [ 56%] [32mBuilding C object CMakeFiles/user_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/user_interface/msg/detail/user_int__type_support.c.o[0m
+[6.809s] [ 58%] [32mBuilding C object CMakeFiles/user_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/user_interface/action/detail/fibonacci__type_support.c.o[0m
+[6.812s] [ 60%] [32mBuilding C object CMakeFiles/user_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/user_interface/srv/detail/add_and_odd__type_support.c.o[0m
+[6.876s] [ 60%] Built target user_interface__rosidl_typesupport_c
+[6.935s] [ 61%] [32m[1mLinking C shared library libuser_interface__rosidl_typesupport_introspection_c.so[0m
+[7.019s] [ 63%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/dds_fastrtps/user_int__type_support.cpp.o[0m
+[7.021s] [ 65%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/user_interface/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[7.028s] [ 67%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/user_interface/srv/detail/dds_fastrtps/add_and_odd__type_support.cpp.o[0m
+[7.062s] [ 67%] Built target user_interface__rosidl_typesupport_introspection_c
+[7.098s] [ 69%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/user_interface/msg/detail/user_int__type_support_c.cpp.o[0m
+[7.101s] [ 70%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/user_interface/srv/detail/add_and_odd__type_support_c.cpp.o[0m
+[7.102s] [ 72%] [32mBuilding CXX object CMakeFiles/user_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/user_interface/action/detail/fibonacci__type_support_c.cpp.o[0m
+[8.056s] [ 74%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_cpp.so[0m
+[8.151s] [ 76%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_fastrtps_c.so[0m
+[8.165s] [ 78%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_introspection_cpp.so[0m
+[8.218s] [ 78%] Built target user_interface__rosidl_typesupport_cpp
+[8.299s] [ 78%] Built target user_interface__rosidl_typesupport_fastrtps_c
+[8.305s] [ 78%] Built target user_interface__rosidl_typesupport_introspection_cpp
+[8.576s] [ 80%] [32m[1mLinking CXX shared library libuser_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.712s] [ 80%] Built target user_interface__rosidl_typesupport_fastrtps_cpp
+[8.730s] [ 80%] Built target user_interface
+[8.750s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.381s] [ 81%] Built target user_interface__py
+[9.395s] [ 87%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/action/_fibonacci_s.c.o[0m
+[9.395s] [ 87%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/srv/_add_and_odd_s.c.o[0m
+[9.395s] [ 87%] [32mBuilding C object CMakeFiles/user_interface__rosidl_generator_py.dir/rosidl_generator_py/user_interface/msg/_user_int_s.c.o[0m
+[9.618s] [ 89%] [32m[1mLinking C shared library libuser_interface__rosidl_generator_py.so[0m
+[9.740s] [ 89%] Built target user_interface__rosidl_generator_py
+[9.757s] [ 94%] [32mBuilding C object CMakeFiles/user_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.757s] [ 94%] [32mBuilding C object CMakeFiles/user_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[9.757s] [ 94%] [32mBuilding C object CMakeFiles/user_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/user_interface/_user_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.867s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/user_interface/user_interface_s__rosidl_typesupport_c.so[0m
+[9.869s] [100%] [32m[1mLinking C shared module rosidl_generator_py/user_interface/user_interface_s__rosidl_typesupport_introspection_c.so[0m
+[9.869s] [100%] [32m[1mLinking C shared module rosidl_generator_py/user_interface/user_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.941s] [100%] Built target user_interface_s__rosidl_typesupport_c
+[9.941s] [100%] Built target user_interface_s__rosidl_typesupport_introspection_c
+[9.943s] [100%] Built target user_interface_s__rosidl_typesupport_fastrtps_c
+[9.954s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface -- -j16 -l16
+[9.963s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface
+[9.970s] -- Install configuration: ""
+[9.971s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/ament_index/resource_index/rosidl_interfaces/user_interface
+[9.971s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/msg/UserInt.json
+[9.971s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/srv/AddAndOdd.json
+[9.971s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/action/Fibonacci.json
+[9.972s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface
+[9.972s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv
+[9.972s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail
+[9.972s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__description.c
+[9.973s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__type_support.h
+[9.973s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__struct.h
+[9.973s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__functions.c
+[9.973s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__type_support.c
+[9.973s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__functions.h
+[9.973s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/add_and_odd.h
+[9.973s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg
+[9.974s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/user_int.h
+[9.974s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_generator_c__visibility_control.h
+[9.974s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail
+[9.974s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__struct.h
+[9.974s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__type_support.c
+[9.974s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__functions.c
+[9.974s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__description.c
+[9.974s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__functions.h
+[9.975s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__type_support.h
+[9.975s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action
+[9.975s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail
+[9.975s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__struct.h
+[9.975s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__type_support.c
+[9.975s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__description.c
+[9.975s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__type_support.h
+[9.976s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__functions.h
+[9.976s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__functions.c
+[9.976s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/fibonacci.h
+[9.976s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/environment/library_path.sh
+[9.976s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/environment/library_path.dsv
+[9.976s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_generator_c.so
+[9.976s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_generator_c.so" to ""
+[9.976s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface
+[9.977s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv
+[9.977s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail
+[9.977s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__rosidl_typesupport_fastrtps_c.h
+[9.977s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg
+[9.977s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.977s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail
+[9.977s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__rosidl_typesupport_fastrtps_c.h
+[9.977s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action
+[9.978s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail
+[9.978s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[9.978s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_fastrtps_c.so
+[9.978s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[9.978s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface
+[9.978s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv
+[9.978s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail
+[9.978s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__type_support.c
+[9.978s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__rosidl_typesupport_introspection_c.h
+[9.979s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg
+[9.979s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail
+[9.979s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__type_support.c
+[9.979s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__rosidl_typesupport_introspection_c.h
+[9.979s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.979s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action
+[9.979s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail
+[9.979s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__type_support.c
+[9.980s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[9.980s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_introspection_c.so
+[9.980s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_introspection_c.so" to ""
+[9.980s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_c.so
+[9.981s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_c.so" to ""
+[9.981s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface
+[9.981s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv
+[9.981s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/add_and_odd.hpp
+[9.981s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail
+[9.982s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__builder.hpp
+[9.982s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__traits.hpp
+[9.982s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__type_support.hpp
+[9.982s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__struct.hpp
+[9.983s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg
+[9.983s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.983s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail
+[9.983s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__struct.hpp
+[9.983s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__builder.hpp
+[9.983s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__traits.hpp
+[9.984s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__type_support.hpp
+[9.984s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/user_int.hpp
+[9.984s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action
+[9.984s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail
+[9.984s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__struct.hpp
+[9.984s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__builder.hpp
+[9.984s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__type_support.hpp
+[9.984s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__traits.hpp
+[9.985s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/fibonacci.hpp
+[9.985s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface
+[9.985s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv
+[9.985s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail
+[9.985s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__rosidl_typesupport_fastrtps_cpp.hpp
+[9.985s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/dds_fastrtps
+[9.985s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg
+[9.985s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.986s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail
+[9.986s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__rosidl_typesupport_fastrtps_cpp.hpp
+[9.986s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/dds_fastrtps
+[9.986s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action
+[9.986s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail
+[9.986s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[9.986s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/dds_fastrtps
+[9.987s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_fastrtps_cpp.so
+[9.987s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.987s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface
+[9.987s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv
+[9.987s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail
+[9.987s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__rosidl_typesupport_introspection_cpp.hpp
+[9.987s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/srv/detail/add_and_odd__type_support.cpp
+[9.987s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg
+[9.987s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__rosidl_typesupport_introspection_cpp.hpp
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/msg/detail/user_int__type_support.cpp
+[9.988s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action
+[9.988s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/include/user_interface/user_interface/action/detail/fibonacci__type_support.cpp
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_introspection_cpp.so
+[9.988s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_cpp.so
+[9.988s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_typesupport_cpp.so" to ""
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/environment/pythonpath.sh
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/environment/pythonpath.dsv
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface-0.1.0-py3.12.egg-info
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface-0.1.0-py3.12.egg-info/dependency_links.txt
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface-0.1.0-py3.12.egg-info/SOURCES.txt
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface-0.1.0-py3.12.egg-info/PKG-INFO
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface-0.1.0-py3.12.egg-info/top_level.txt
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/_add_and_odd.py
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/_add_and_odd_s.c
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/__init__.py
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg
+[9.988s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/_user_int.py
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/_user_int_s.c
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/__init__.py
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/_user_interface_s.ep.rosidl_typesupport_c.c
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/_user_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/action
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/action/_fibonacci.py
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/action/_fibonacci_s.c
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/action/__init__.py
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/__init__.py
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/_user_interface_s.ep.rosidl_typesupport_introspection_c.c
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_c.so
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_introspection_c.so
+[9.989s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_fastrtps_c.so
+[10.038s] Listing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface'...
+[10.038s] Compiling '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/__init__.py'...
+[10.038s] Listing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/action'...
+[10.038s] Compiling '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/action/__init__.py'...
+[10.038s] Compiling '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/action/_fibonacci.py'...
+[10.038s] Listing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg'...
+[10.038s] Compiling '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/__init__.py'...
+[10.038s] Compiling '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/msg/_user_int.py'...
+[10.038s] Listing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv'...
+[10.038s] Compiling '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/__init__.py'...
+[10.038s] Compiling '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/srv/_add_and_odd.py'...
+[10.044s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_fastrtps_c.so
+[10.044s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_fastrtps_c.so" to ""
+[10.044s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_introspection_c.so
+[10.045s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_introspection_c.so" to ""
+[10.045s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_c.so
+[10.045s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages/user_interface/user_interface_s__rosidl_typesupport_c.so" to ""
+[10.045s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_generator_py.so
+[10.045s] -- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/libuser_interface__rosidl_generator_py.so" to ""
+[10.046s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/ament_index/resource_index/rust_packages/user_interface
+[10.046s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust
+[10.046s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/Cargo.toml
+[10.046s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src
+[10.047s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/srv
+[10.047s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/srv/rmw.rs
+[10.048s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/msg
+[10.048s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/msg/rmw.rs
+[10.048s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/action
+[10.048s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/action/rmw.rs
+[10.048s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/action.rs
+[10.049s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/srv.rs
+[10.049s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/lib.rs
+[10.049s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/src/msg.rs
+[10.049s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/rust/build.rs
+[10.049s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/msg/UserInt.idl
+[10.049s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/srv/AddAndOdd.idl
+[10.049s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/action/Fibonacci.idl
+[10.050s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/msg/UserInt.msg
+[10.050s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/srv/AddAndOdd.srv
+[10.050s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/action/Fibonacci.action
+[10.050s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/ament_index/resource_index/package_run_dependencies/user_interface
+[10.050s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/ament_index/resource_index/parent_prefix_path/user_interface
+[10.050s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/environment/ament_prefix_path.sh
+[10.050s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/environment/ament_prefix_path.dsv
+[10.051s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/environment/path.sh
+[10.051s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/environment/path.dsv
+[10.051s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/local_setup.bash
+[10.051s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/local_setup.sh
+[10.051s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/local_setup.zsh
+[10.051s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/local_setup.dsv
+[10.051s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.dsv
+[10.051s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/ament_index/resource_index/packages/user_interface
+[10.052s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_cExport.cmake
+[10.052s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_cExport-noconfig.cmake
+[10.052s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[10.052s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.052s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_introspection_cExport.cmake
+[10.052s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.052s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_cExport.cmake
+[10.053s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_cExport-noconfig.cmake
+[10.053s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_cppExport.cmake
+[10.053s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.053s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.053s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_introspection_cppExport.cmake
+[10.053s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.053s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_cppExport.cmake
+[10.053s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_pyExport.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/export_user_interface__rosidl_generator_pyExport-noconfig.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/rosidl_cmake-extras.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/ament_cmake_export_targets-extras.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interfaceConfig.cmake
+[10.054s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/cmake/user_interfaceConfig-version.cmake
+[10.055s] -- Installing: /home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.xml
+[10.056s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface
