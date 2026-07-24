@@ -1,0 +1,55 @@
+[1.319s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data
+[1.552s] running egg_info
+[1.552s] creating ../../build/tf2_basic/tf2_basic.egg-info
+[1.567s] writing ../../build/tf2_basic/tf2_basic.egg-info/PKG-INFO
+[1.568s] writing dependency_links to ../../build/tf2_basic/tf2_basic.egg-info/dependency_links.txt
+[1.569s] writing entry points to ../../build/tf2_basic/tf2_basic.egg-info/entry_points.txt
+[1.569s] writing requirements to ../../build/tf2_basic/tf2_basic.egg-info/requires.txt
+[1.569s] writing top-level names to ../../build/tf2_basic/tf2_basic.egg-info/top_level.txt
+[1.570s] writing manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+[1.606s] reading manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+[1.607s] writing manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+[1.607s] running build
+[1.607s] running build_py
+[1.607s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build
+[1.608s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib
+[1.608s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+[1.609s] copying tf2_basic/tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+[1.610s] copying tf2_basic/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+[1.610s] copying tf2_basic/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+[1.611s] copying tf2_basic/turtle_tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+[1.611s] copying tf2_basic/static_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+[1.611s] running install
+[1.621s] running install_lib
+[1.644s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+[1.644s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+[1.644s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+[1.644s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+[1.644s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/turtle_tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+[1.645s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/static_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+[1.645s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/tf_listener.py to tf_listener.cpython-312.pyc
+[1.645s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/dynamic_turtle_tf2_broadcaster.py to dynamic_turtle_tf2_broadcaster.cpython-312.pyc
+[1.645s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/__init__.py to __init__.cpython-312.pyc
+[1.645s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/turtle_tf_listener.py to turtle_tf_listener.cpython-312.pyc
+[1.646s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-312.pyc
+[1.646s] running install_data
+[1.646s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/ament_index
+[1.647s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/ament_index/resource_index
+[1.647s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/ament_index/resource_index/packages
+[1.647s] copying resource/tf2_basic -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/ament_index/resource_index/packages
+[1.648s] copying package.xml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic
+[1.648s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/launch
+[1.648s] copying launch/display.launch.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/launch
+[1.648s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/urdf
+[1.649s] copying urdf/01_myfirst.urdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/urdf
+[1.649s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/rviz
+[1.649s] copying rviz/urdf.rviz -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/rviz
+[1.649s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/meshes
+[1.649s] running install_egg_info
+[1.663s] Copying ../../build/tf2_basic/tf2_basic.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info
+[1.664s] running install_scripts
+[1.772s] Installing dynamic_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[1.772s] Installing static_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[1.772s] Installing tf_listener script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[1.772s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log'
+[1.826s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data

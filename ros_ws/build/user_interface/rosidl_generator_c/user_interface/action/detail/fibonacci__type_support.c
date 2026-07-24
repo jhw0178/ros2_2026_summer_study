@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "user_interface/action/detail/fibonacci__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "user_interface/action/detail/fibonacci__type_support.h"
 #include "user_interface/action/detail/fibonacci__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "user_interface/action/detail/fibonacci__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,0 +1,25 @@
+[1.371s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data
+[1.631s] running egg_info
+[1.649s] writing ../../build/tf2_basic/tf2_basic.egg-info/PKG-INFO
+[1.649s] writing dependency_links to ../../build/tf2_basic/tf2_basic.egg-info/dependency_links.txt
+[1.649s] writing entry points to ../../build/tf2_basic/tf2_basic.egg-info/entry_points.txt
+[1.650s] writing requirements to ../../build/tf2_basic/tf2_basic.egg-info/requires.txt
+[1.650s] writing top-level names to ../../build/tf2_basic/tf2_basic.egg-info/top_level.txt
+[1.693s] reading manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+[1.693s] writing manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+[1.693s] running build
+[1.693s] running build_py
+[1.694s] running install
+[1.699s] running install_lib
+[1.717s] running install_data
+[1.718s] copying launch/display.launch.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/launch
+[1.719s] copying urdf/03_myfirst.urdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/urdf
+[1.719s] running install_egg_info
+[1.738s] removing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info' (and everything under it)
+[1.738s] Copying ../../build/tf2_basic/tf2_basic.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info
+[1.741s] running install_scripts
+[1.862s] Installing dynamic_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[1.862s] Installing static_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[1.863s] Installing tf_listener script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[1.863s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log'
+[1.914s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data

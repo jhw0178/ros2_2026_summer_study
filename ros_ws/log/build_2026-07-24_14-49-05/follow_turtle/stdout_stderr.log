@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/follow_turtle/follow_turtle.egg-info
+writing ../../build/follow_turtle/follow_turtle.egg-info/PKG-INFO
+writing dependency_links to ../../build/follow_turtle/follow_turtle.egg-info/dependency_links.txt
+writing entry points to ../../build/follow_turtle/follow_turtle.egg-info/entry_points.txt
+writing requirements to ../../build/follow_turtle/follow_turtle.egg-info/requires.txt
+writing top-level names to ../../build/follow_turtle/follow_turtle.egg-info/top_level.txt
+writing manifest file '../../build/follow_turtle/follow_turtle.egg-info/SOURCES.txt'
+reading manifest file '../../build/follow_turtle/follow_turtle.egg-info/SOURCES.txt'
+writing manifest file '../../build/follow_turtle/follow_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle
+copying follow_turtle/tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle
+copying follow_turtle/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle
+copying follow_turtle/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle
+running install
+running install_lib
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle/tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle/tf_listener.py to tf_listener.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle/dynamic_turtle_tf2_broadcaster.py to dynamic_turtle_tf2_broadcaster.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/ament_index
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/ament_index/resource_index
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/ament_index/resource_index/packages
+copying resource/follow_turtle -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/ament_index/resource_index/packages
+copying package.xml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle
+running install_egg_info
+Copying ../../build/follow_turtle/follow_turtle.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dynamic_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/follow_turtle
+Installing tf_listener script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/follow_turtle
+writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/install.log'

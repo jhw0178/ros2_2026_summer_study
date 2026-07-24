@@ -1,0 +1,363 @@
+[0.159s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.159s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78e4d008aba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78e4d008a900>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78e4d008a900>>, mixin_verb=('build',))
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.202s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jhw0178/ros2_2026_summer_study/ros_ws'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_turtle) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_turtle) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_turtle) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_turtle) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_turtle) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_turtle) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_turtle) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_turtle) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_turtle) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_turtle' with type 'ros.ament_python' and name 'follow_turtle'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_homework1) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_homework1) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_homework1) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_homework1) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_homework1) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_homework1) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_homework1) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_homework1) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_homework1) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_homework1' with type 'ros.ament_python' and name 'mini_homework1'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_first_package' with type 'ros.ament_python' and name 'my_first_package'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_basic) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_basic) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_basic) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_basic) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_basic) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_basic) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_basic) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_basic) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_basic) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_basic' with type 'ros.ament_python' and name 'tf2_basic'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_interface) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/user_interface' with type 'ros.ament_cmake' and name 'user_interface'
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jhw0178/ros2_2026_summer_study/ros_ws/install
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 292 installed packages in /opt/ros/jazzy
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'follow_turtle' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'follow_turtle' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'follow_turtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'follow_turtle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'follow_turtle' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'follow_turtle' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'follow_turtle' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'follow_turtle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'follow_turtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'follow_turtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle', 'merge_install': False, 'path': '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/follow_turtle', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'mini_homework1' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'mini_homework1' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'mini_homework1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'mini_homework1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'mini_homework1' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'mini_homework1' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'mini_homework1' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'mini_homework1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'mini_homework1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'mini_homework1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1', 'merge_install': False, 'path': '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/mini_homework1', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package', 'merge_install': False, 'path': '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/my_first_package', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'tf2_basic' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'tf2_basic' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'tf2_basic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'tf2_basic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'tf2_basic' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'tf2_basic' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'tf2_basic' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'tf2_basic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'tf2_basic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_basic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic', 'merge_install': False, 'path': '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic', 'symlink_install': False, 'test_result_base': None}
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.288s] Level 5:colcon.colcon_core.verb:set package 'user_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.288s] DEBUG:colcon.colcon_core.verb:Building package 'user_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface', 'merge_install': False, 'path': '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface', 'symlink_install': False, 'test_result_base': None}
+[0.288s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.289s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/follow_turtle' with build type 'ament_python'
+[0.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_turtle', 'ament_prefix_path')
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/hook/ament_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/hook/ament_prefix_path.dsv'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/hook/ament_prefix_path.sh'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/mini_homework1' with build type 'ament_python'
+[0.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_homework1', 'ament_prefix_path')
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/hook/ament_prefix_path.ps1'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/hook/ament_prefix_path.dsv'
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/hook/ament_prefix_path.sh'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/my_first_package' with build type 'ament_python'
+[0.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package', 'ament_prefix_path')
+[0.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/hook/ament_prefix_path.ps1'
+[0.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/hook/ament_prefix_path.dsv'
+[0.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/hook/ament_prefix_path.sh'
+[0.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic' with build type 'ament_python'
+[0.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_basic', 'ament_prefix_path')
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/hook/ament_prefix_path.ps1'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/hook/ament_prefix_path.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/hook/ament_prefix_path.sh'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface' with build type 'ament_cmake'
+[0.320s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/user_interface'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.561s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/follow_turtle'
+[0.561s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.561s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.752s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/mini_homework1'
+[0.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.927s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/my_first_package'
+[0.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.092s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic'
+[1.092s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.092s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface -- -j16 -l16
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface -- -j16 -l16
+[1.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface
+[1.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_interface)
+[1.613s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface' for CMake module files
+[1.616s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface' for CMake config files
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface
+[1.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'cmake_prefix_path')
+[1.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.ps1'
+[1.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.dsv'
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.sh'
+[1.626s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib'
+[1.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'ld_library_path_lib')
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.ps1'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.dsv'
+[1.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.sh'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/bin'
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/pkgconfig/user_interface.pc'
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages'
+[1.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'pythonpath')
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/pythonpath.ps1'
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/pythonpath.dsv'
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/pythonpath.sh'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/bin'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.ps1'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.dsv'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.sh'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.bash'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.zsh'
+[1.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/colcon-core/packages/user_interface)
+[1.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_interface)
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface' for CMake module files
+[1.637s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface' for CMake config files
+[1.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'cmake_prefix_path')
+[1.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.ps1'
+[1.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.dsv'
+[1.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/cmake_prefix_path.sh'
+[1.639s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib'
+[1.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'ld_library_path_lib')
+[1.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.ps1'
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.dsv'
+[1.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/ld_library_path_lib.sh'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/bin'
+[1.640s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/pkgconfig/user_interface.pc'
+[1.641s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages'
+[1.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('user_interface', 'pythonpath')
+[1.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/pythonpath.ps1'
+[1.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/pythonpath.dsv'
+[1.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/hook/pythonpath.sh'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/bin'
+[1.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.ps1'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.dsv'
+[1.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.sh'
+[1.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.bash'
+[1.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/user_interface/package.zsh'
+[1.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/share/colcon-core/packages/user_interface)
+[1.720s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, install_data, sdist, build_clib, bdist_dumb, build_py, install, compile_catalog, install_headers, check, register, upload, alias, develop, editable_wheel, dist_info, build_ext, clean, easy_install, build, rotate, install_egg_info, bdist_rpm, saveopts, install_lib, egg_info, update_catalog, upload_docs, install_scripts, bdist, build_scripts, bdist_egg, extract_messages, init_catalog, setopt, test
+[1.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data
+[1.728s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, install_data, sdist, build_clib, bdist_dumb, build_py, install, compile_catalog, install_headers, check, register, upload, alias, develop, editable_wheel, dist_info, build_ext, clean, easy_install, build, rotate, install_egg_info, bdist_rpm, saveopts, install_lib, egg_info, update_catalog, upload_docs, install_scripts, bdist, build_scripts, bdist_egg, extract_messages, init_catalog, setopt, test
+[1.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/follow_turtle': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/follow_turtle build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/install.log --install-scripts $base/lib/follow_turtle --single-version-externally-managed install_data
+[1.737s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, install_data, sdist, build_clib, bdist_dumb, build_py, install, compile_catalog, install_headers, check, register, upload, alias, develop, editable_wheel, dist_info, build_ext, clean, easy_install, build, rotate, install_egg_info, bdist_rpm, saveopts, install_lib, egg_info, update_catalog, upload_docs, install_scripts, bdist, build_scripts, bdist_egg, extract_messages, init_catalog, setopt, test
+[1.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/my_first_package': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data
+[1.782s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, install_data, sdist, build_clib, bdist_dumb, build_py, install, compile_catalog, install_headers, check, register, upload, alias, develop, editable_wheel, dist_info, build_ext, clean, easy_install, build, rotate, install_egg_info, bdist_rpm, saveopts, install_lib, egg_info, update_catalog, upload_docs, install_scripts, bdist, build_scripts, bdist_egg, extract_messages, init_catalog, setopt, test
+[1.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/mini_homework1': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mini_homework1 build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/install.log --install-scripts $base/lib/mini_homework1 --single-version-externally-managed install_data
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle' for CMake module files
+[2.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/follow_turtle' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/follow_turtle build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/install.log --install-scripts $base/lib/follow_turtle --single-version-externally-managed install_data
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle' for CMake config files
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/bin'
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/pkgconfig/follow_turtle.pc'
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages'
+[2.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_turtle', 'pythonpath')
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/hook/pythonpath.ps1'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/hook/pythonpath.dsv'
+[2.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/hook/pythonpath.sh'
+[2.320s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/bin'
+[2.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(follow_turtle)
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/package.ps1'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/package.dsv'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/package.sh'
+[2.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/package.bash'
+[2.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle/package.zsh'
+[2.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/colcon-core/packages/follow_turtle)
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package' for CMake module files
+[2.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/my_first_package' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/my_first_package/install.log --install-scripts $base/lib/my_first_package --single-version-externally-managed install_data
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package' for CMake config files
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/bin'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/pkgconfig/my_first_package.pc'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages'
+[2.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package', 'pythonpath')
+[2.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/hook/pythonpath.ps1'
+[2.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/hook/pythonpath.dsv'
+[2.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/hook/pythonpath.sh'
+[2.361s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/bin'
+[2.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_package)
+[2.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/package.ps1'
+[2.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/package.dsv'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/package.sh'
+[2.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/package.bash'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/my_first_package/package.zsh'
+[2.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/share/colcon-core/packages/my_first_package)
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic' for CMake module files
+[2.367s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic' for CMake config files
+[2.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/bin'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/pkgconfig/tf2_basic.pc'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages'
+[2.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_basic', 'pythonpath')
+[2.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/hook/pythonpath.ps1'
+[2.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/hook/pythonpath.dsv'
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/hook/pythonpath.sh'
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/bin'
+[2.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_basic)
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/package.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/package.dsv'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/package.sh'
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/package.bash'
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/package.zsh'
+[2.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/colcon-core/packages/tf2_basic)
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1' for CMake module files
+[2.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/mini_homework1' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mini_homework1 build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/install.log --install-scripts $base/lib/mini_homework1 --single-version-externally-managed install_data
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1' for CMake config files
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/bin'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/pkgconfig/mini_homework1.pc'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages'
+[2.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_homework1', 'pythonpath')
+[2.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/hook/pythonpath.ps1'
+[2.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/hook/pythonpath.dsv'
+[2.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/hook/pythonpath.sh'
+[2.384s] Level 1:colcon.colcon_core.environment:checking '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/bin'
+[2.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_homework1)
+[2.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/package.ps1'
+[2.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/package.dsv'
+[2.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/package.sh'
+[2.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/package.bash'
+[2.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/mini_homework1/package.zsh'
+[2.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/share/colcon-core/packages/mini_homework1)
+[2.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.389s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.435s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.436s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.436s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.436s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.437s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.437s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.437s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/local_setup.ps1'
+[2.438s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/_local_setup_util_ps1.py'
+[2.439s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/setup.ps1'
+[2.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/local_setup.sh'
+[2.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/_local_setup_util_sh.py'
+[2.440s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/setup.sh'
+[2.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/local_setup.bash'
+[2.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/setup.bash'
+[2.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/local_setup.zsh'
+[2.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/setup.zsh'

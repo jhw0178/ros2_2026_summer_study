@@ -1,0 +1,41 @@
+[1.343s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/follow_turtle': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/follow_turtle build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/install.log --install-scripts $base/lib/follow_turtle --single-version-externally-managed install_data
+[1.568s] running egg_info
+[1.568s] creating ../../build/follow_turtle/follow_turtle.egg-info
+[1.583s] writing ../../build/follow_turtle/follow_turtle.egg-info/PKG-INFO
+[1.584s] writing dependency_links to ../../build/follow_turtle/follow_turtle.egg-info/dependency_links.txt
+[1.584s] writing entry points to ../../build/follow_turtle/follow_turtle.egg-info/entry_points.txt
+[1.584s] writing requirements to ../../build/follow_turtle/follow_turtle.egg-info/requires.txt
+[1.584s] writing top-level names to ../../build/follow_turtle/follow_turtle.egg-info/top_level.txt
+[1.584s] writing manifest file '../../build/follow_turtle/follow_turtle.egg-info/SOURCES.txt'
+[1.615s] reading manifest file '../../build/follow_turtle/follow_turtle.egg-info/SOURCES.txt'
+[1.616s] writing manifest file '../../build/follow_turtle/follow_turtle.egg-info/SOURCES.txt'
+[1.616s] running build
+[1.616s] running build_py
+[1.616s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build
+[1.617s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib
+[1.617s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle
+[1.617s] copying follow_turtle/tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle
+[1.618s] copying follow_turtle/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle
+[1.618s] copying follow_turtle/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle
+[1.618s] running install
+[1.623s] running install_lib
+[1.646s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle
+[1.646s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle/tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle
+[1.646s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle
+[1.646s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build/lib/follow_turtle/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle
+[1.647s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle/tf_listener.py to tf_listener.cpython-312.pyc
+[1.648s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle/dynamic_turtle_tf2_broadcaster.py to dynamic_turtle_tf2_broadcaster.cpython-312.pyc
+[1.649s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle/__init__.py to __init__.cpython-312.pyc
+[1.649s] running install_data
+[1.649s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/ament_index
+[1.650s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/ament_index/resource_index
+[1.650s] creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/ament_index/resource_index/packages
+[1.650s] copying resource/follow_turtle -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/ament_index/resource_index/packages
+[1.651s] copying package.xml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/share/follow_turtle
+[1.651s] running install_egg_info
+[1.670s] Copying ../../build/follow_turtle/follow_turtle.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle-0.0.0-py3.12.egg-info
+[1.671s] running install_scripts
+[1.784s] Installing dynamic_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/follow_turtle
+[1.785s] Installing tf_listener script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/follow_turtle
+[1.785s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/install.log'
+[1.838s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/follow_turtle' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/follow_turtle build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/install.log --install-scripts $base/lib/follow_turtle --single-version-externally-managed install_data
