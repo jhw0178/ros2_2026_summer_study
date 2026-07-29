@@ -1,0 +1,9 @@
+{
+  "package_name": "dynamixel_interfaces",
+  "non_idl_tuples": [
+    "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/dynamixel_interfaces:msg/DynamixelState.msg",
+    "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/dynamixel_interfaces:srv/GetDataFromDxl.srv",
+    "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/dynamixel_interfaces:srv/SetDataToDxl.srv",
+    "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/dynamixel_interfaces:srv/RebootDxl.srv"
+  ]
+}

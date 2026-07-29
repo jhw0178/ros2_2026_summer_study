@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000699] (-) JobUnselected: {'identifier': 'dynamixel_hardware_interface'}
+[0.000762] (-) JobUnselected: {'identifier': 'dynamixel_interfaces'}
+[0.000779] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000809] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000841] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000872] (-) JobUnselected: {'identifier': 'om_gravity_compensation_controller'}
+[0.000902] (-) JobUnselected: {'identifier': 'om_joint_trajectory_command_broadcaster'}
+[0.000914] (-) JobUnselected: {'identifier': 'om_spring_actuator_controller'}
+[0.000924] (-) JobUnselected: {'identifier': 'open_manipulator'}
+[0.000934] (-) JobUnselected: {'identifier': 'open_manipulator_bringup'}
+[0.000942] (-) JobUnselected: {'identifier': 'open_manipulator_description'}
+[0.000951] (-) JobUnselected: {'identifier': 'open_manipulator_gui'}
+[0.000965] (-) JobUnselected: {'identifier': 'open_manipulator_moveit_config'}
+[0.000975] (-) JobUnselected: {'identifier': 'open_manipulator_playground'}
+[0.000988] (-) JobUnselected: {'identifier': 'open_manipulator_teleop'}
+[0.001036] (open_manipulator_collision) JobQueued: {'identifier': 'open_manipulator_collision', 'dependencies': OrderedDict()}
+[0.001297] (open_manipulator_collision) JobStarted: {'identifier': 'open_manipulator_collision'}
+[0.011584] (open_manipulator_collision) JobProgress: {'identifier': 'open_manipulator_collision', 'progress': 'cmake'}
+[0.013254] (open_manipulator_collision) Command: {'cmd': ['/usr/bin/cmake', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/open_manipulator_collision', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d6f7d07b-da78-4ed0-a052-9b7b4fb2fe16.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install:/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/9027_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-39b729e741af20c3.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.099680] (-) TimerEvent: {}
+[0.135540] (open_manipulator_collision) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199809] (-) TimerEvent: {}
+[0.300236] (-) TimerEvent: {}
+[0.400699] (-) TimerEvent: {}
+[0.501022] (-) TimerEvent: {}
+[0.601357] (-) TimerEvent: {}
+[0.701692] (-) TimerEvent: {}
+[0.785124] (open_manipulator_collision) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.801843] (-) TimerEvent: {}
+[0.902214] (-) TimerEvent: {}
+[1.002564] (-) TimerEvent: {}
+[1.102894] (-) TimerEvent: {}
+[1.203362] (-) TimerEvent: {}
+[1.303818] (-) TimerEvent: {}
+[1.404220] (-) TimerEvent: {}
+[1.428801] (open_manipulator_collision) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.504459] (-) TimerEvent: {}
+[1.605108] (-) TimerEvent: {}
+[1.705547] (-) TimerEvent: {}
+[1.709743] (open_manipulator_collision) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.717168] (open_manipulator_collision) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.717430] (open_manipulator_collision) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.717854] (open_manipulator_collision) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.805853] (-) TimerEvent: {}
+[1.817609] (open_manipulator_collision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.906130] (-) TimerEvent: {}
+[2.006672] (-) TimerEvent: {}
+[2.100326] (open_manipulator_collision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.106890] (-) TimerEvent: {}
+[2.109067] (open_manipulator_collision) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.109492] (open_manipulator_collision) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.109822] (open_manipulator_collision) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.114689] (open_manipulator_collision) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.207090] (-) TimerEvent: {}
+[2.302385] (open_manipulator_collision) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.307274] (-) TimerEvent: {}
+[2.391934] (open_manipulator_collision) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.407427] (-) TimerEvent: {}
+[2.444980] (open_manipulator_collision) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.507566] (-) TimerEvent: {}
+[2.607926] (-) TimerEvent: {}
+[2.673507] (open_manipulator_collision) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.699246] (open_manipulator_collision) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.708073] (-) TimerEvent: {}
+[2.737980] (open_manipulator_collision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.774989] (open_manipulator_collision) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.808275] (-) TimerEvent: {}
+[2.908679] (-) TimerEvent: {}
+[2.916863] (open_manipulator_collision) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.924969] (open_manipulator_collision) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.008838] (-) TimerEvent: {}
+[3.068828] (open_manipulator_collision) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.109195] (-) TimerEvent: {}
+[3.209617] (-) TimerEvent: {}
+[3.305347] (open_manipulator_collision) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.309786] (-) TimerEvent: {}
+[3.410178] (-) TimerEvent: {}
+[3.438822] (open_manipulator_collision) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.510328] (-) TimerEvent: {}
+[3.610802] (-) TimerEvent: {}
+[3.709092] (open_manipulator_collision) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.711023] (-) TimerEvent: {}
+[3.737394] (open_manipulator_collision) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[3.811301] (-) TimerEvent: {}
+[3.825610] (open_manipulator_collision) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[3.861413] (open_manipulator_collision) StdoutLine: {'line': b'-- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)\n'}
+[3.911507] (-) TimerEvent: {}
+[3.926727] (open_manipulator_collision) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[3.930017] (open_manipulator_collision) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.930262] (open_manipulator_collision) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.945201] (open_manipulator_collision) StdoutLine: {'line': b'-- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[4.011781] (-) TimerEvent: {}
+[4.095201] (open_manipulator_collision) StdoutLine: {'line': b'-- Configuring done (4.1s)\n'}
+[4.109854] (open_manipulator_collision) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.111905] (-) TimerEvent: {}
+[4.114521] (open_manipulator_collision) StdoutLine: {'line': b'-- Build files have been written to: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision\n'}
+[4.126670] (open_manipulator_collision) CommandEnded: {'returncode': 0}
+[4.128441] (open_manipulator_collision) JobProgress: {'identifier': 'open_manipulator_collision', 'progress': 'build'}
+[4.128486] (open_manipulator_collision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision', '--', '-j16', '-l16'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d6f7d07b-da78-4ed0-a052-9b7b4fb2fe16.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install:/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/9027_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-39b729e741af20c3.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[4.179646] (open_manipulator_collision) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o\x1b[0m\n'}
+[4.212101] (-) TimerEvent: {}
+[4.312450] (-) TimerEvent: {}
+[4.412848] (-) TimerEvent: {}
+[4.513226] (-) TimerEvent: {}
+[4.613601] (-) TimerEvent: {}
+[4.713951] (-) TimerEvent: {}
+[4.814414] (-) TimerEvent: {}
+[4.914815] (-) TimerEvent: {}
+[5.015207] (-) TimerEvent: {}
+[5.115621] (-) TimerEvent: {}
+[5.215982] (-) TimerEvent: {}
+[5.316355] (-) TimerEvent: {}
+[5.416744] (-) TimerEvent: {}
+[5.517186] (-) TimerEvent: {}
+[5.617613] (-) TimerEvent: {}
+[5.718057] (-) TimerEvent: {}
+[5.818593] (-) TimerEvent: {}
+[5.918991] (-) TimerEvent: {}
+[6.019437] (-) TimerEvent: {}
+[6.119860] (-) TimerEvent: {}
+[6.220226] (-) TimerEvent: {}
+[6.320735] (-) TimerEvent: {}
+[6.421222] (-) TimerEvent: {}
+[6.521775] (-) TimerEvent: {}
+[6.622329] (-) TimerEvent: {}
+[6.722925] (-) TimerEvent: {}
+[6.823584] (-) TimerEvent: {}
+[6.924026] (-) TimerEvent: {}
+[7.024520] (-) TimerEvent: {}
+[7.124983] (-) TimerEvent: {}
+[7.225532] (-) TimerEvent: {}
+[7.325935] (-) TimerEvent: {}
+[7.426358] (-) TimerEvent: {}
+[7.526774] (-) TimerEvent: {}
+[7.627149] (-) TimerEvent: {}
+[7.727517] (-) TimerEvent: {}
+[7.827942] (-) TimerEvent: {}
+[7.928333] (-) TimerEvent: {}
+[8.028746] (-) TimerEvent: {}
+[8.129286] (-) TimerEvent: {}
+[8.229909] (-) TimerEvent: {}
+[8.330400] (-) TimerEvent: {}
+[8.430812] (-) TimerEvent: {}
+[8.531248] (-) TimerEvent: {}
+[8.631655] (-) TimerEvent: {}
+[8.732037] (-) TimerEvent: {}
+[8.832481] (-) TimerEvent: {}
+[8.933090] (-) TimerEvent: {}
+[9.033540] (-) TimerEvent: {}
+[9.133974] (-) TimerEvent: {}
+[9.234422] (-) TimerEvent: {}
+[9.334863] (-) TimerEvent: {}
+[9.435441] (-) TimerEvent: {}
+[9.535959] (-) TimerEvent: {}
+[9.636672] (-) TimerEvent: {}
+[9.737114] (-) TimerEvent: {}
+[9.837654] (-) TimerEvent: {}
+[9.938042] (-) TimerEvent: {}
+[10.038454] (-) TimerEvent: {}
+[10.139088] (-) TimerEvent: {}
+[10.239622] (-) TimerEvent: {}
+[10.340163] (-) TimerEvent: {}
+[10.440642] (-) TimerEvent: {}
+[10.541020] (-) TimerEvent: {}
+[10.641456] (-) TimerEvent: {}
+[10.742051] (-) TimerEvent: {}
+[10.843089] (-) TimerEvent: {}
+[10.943537] (-) TimerEvent: {}
+[11.044076] (-) TimerEvent: {}
+[11.144726] (-) TimerEvent: {}
+[11.245194] (-) TimerEvent: {}
+[11.345610] (-) TimerEvent: {}
+[11.446011] (-) TimerEvent: {}
+[11.546480] (-) TimerEvent: {}
+[11.646879] (-) TimerEvent: {}
+[11.747283] (-) TimerEvent: {}
+[11.847687] (-) TimerEvent: {}
+[11.948203] (-) TimerEvent: {}
+[12.048751] (-) TimerEvent: {}
+[12.149181] (-) TimerEvent: {}
+[12.249617] (-) TimerEvent: {}
+[12.350020] (-) TimerEvent: {}
+[12.450479] (-) TimerEvent: {}
+[12.550976] (-) TimerEvent: {}
+[12.651458] (-) TimerEvent: {}
+[12.751942] (-) TimerEvent: {}
+[12.852470] (-) TimerEvent: {}
+[12.953153] (-) TimerEvent: {}
+[13.053685] (-) TimerEvent: {}
+[13.154099] (-) TimerEvent: {}
+[13.254511] (-) TimerEvent: {}
+[13.354925] (-) TimerEvent: {}
+[13.455323] (-) TimerEvent: {}
+[13.555725] (-) TimerEvent: {}
+[13.656198] (-) TimerEvent: {}
+[13.756580] (-) TimerEvent: {}
+[13.857048] (-) TimerEvent: {}
+[13.957429] (-) TimerEvent: {}
+[14.057916] (-) TimerEvent: {}
+[14.158289] (-) TimerEvent: {}
+[14.258699] (-) TimerEvent: {}
+[14.359071] (-) TimerEvent: {}
+[14.459498] (-) TimerEvent: {}
+[14.560023] (-) TimerEvent: {}
+[14.660575] (-) TimerEvent: {}
+[14.761104] (-) TimerEvent: {}
+[14.861600] (-) TimerEvent: {}
+[14.962212] (-) TimerEvent: {}
+[15.062710] (-) TimerEvent: {}
+[15.163172] (-) TimerEvent: {}
+[15.263717] (-) TimerEvent: {}
+[15.364194] (-) TimerEvent: {}
+[15.464591] (-) TimerEvent: {}
+[15.565072] (-) TimerEvent: {}
+[15.665724] (-) TimerEvent: {}
+[15.766228] (-) TimerEvent: {}
+[15.866715] (-) TimerEvent: {}
+[15.967235] (-) TimerEvent: {}
+[16.067747] (-) TimerEvent: {}
+[16.168345] (-) TimerEvent: {}
+[16.268843] (-) TimerEvent: {}
+[16.369372] (-) TimerEvent: {}
+[16.469864] (-) TimerEvent: {}
+[16.570359] (-) TimerEvent: {}
+[16.670845] (-) TimerEvent: {}
+[16.771436] (-) TimerEvent: {}
+[16.872035] (-) TimerEvent: {}
+[16.972548] (-) TimerEvent: {}
+[17.072991] (-) TimerEvent: {}
+[17.173466] (-) TimerEvent: {}
+[17.273958] (-) TimerEvent: {}
+[17.374457] (-) TimerEvent: {}
+[17.475061] (-) TimerEvent: {}
+[17.575499] (-) TimerEvent: {}
+[17.676020] (-) TimerEvent: {}
+[17.776470] (-) TimerEvent: {}
+[17.877017] (-) TimerEvent: {}
+[17.977619] (-) TimerEvent: {}
+[18.078106] (-) TimerEvent: {}
+[18.178625] (-) TimerEvent: {}
+[18.279149] (-) TimerEvent: {}
+[18.379762] (-) TimerEvent: {}
+[18.480299] (-) TimerEvent: {}
+[18.580847] (-) TimerEvent: {}
+[18.681339] (-) TimerEvent: {}
+[18.781788] (-) TimerEvent: {}
+[18.882543] (-) TimerEvent: {}
+[18.982967] (-) TimerEvent: {}
+[19.083406] (-) TimerEvent: {}
+[19.183967] (-) TimerEvent: {}
+[19.284577] (-) TimerEvent: {}
+[19.384968] (-) TimerEvent: {}
+[19.485338] (-) TimerEvent: {}
+[19.585775] (-) TimerEvent: {}
+[19.686231] (-) TimerEvent: {}
+[19.786721] (-) TimerEvent: {}
+[19.887218] (-) TimerEvent: {}
+[19.987700] (-) TimerEvent: {}
+[20.088132] (-) TimerEvent: {}
+[20.188783] (-) TimerEvent: {}
+[20.289324] (-) TimerEvent: {}
+[20.389868] (-) TimerEvent: {}
+[20.490345] (-) TimerEvent: {}
+[20.590832] (-) TimerEvent: {}
+[20.691321] (-) TimerEvent: {}
+[20.791819] (-) TimerEvent: {}
+[20.892238] (-) TimerEvent: {}
+[20.992799] (-) TimerEvent: {}
+[21.093182] (-) TimerEvent: {}
+[21.193676] (-) TimerEvent: {}
+[21.294177] (-) TimerEvent: {}
+[21.394744] (-) TimerEvent: {}
+[21.495173] (-) TimerEvent: {}
+[21.595730] (-) TimerEvent: {}
+[21.696347] (-) TimerEvent: {}
+[21.727156] (open_manipulator_collision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable self_collision_node\x1b[0m\n'}
+[21.796562] (-) TimerEvent: {}
+[21.897060] (-) TimerEvent: {}
+[21.997456] (-) TimerEvent: {}
+[22.097945] (-) TimerEvent: {}
+[22.140993] (open_manipulator_collision) StdoutLine: {'line': b'[100%] Built target self_collision_node\n'}
+[22.153025] (open_manipulator_collision) CommandEnded: {'returncode': 0}
+[22.153988] (open_manipulator_collision) JobProgress: {'identifier': 'open_manipulator_collision', 'progress': 'install'}
+[22.164324] (open_manipulator_collision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d6f7d07b-da78-4ed0-a052-9b7b4fb2fe16.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install:/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/9027_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-39b729e741af20c3.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[22.172384] (open_manipulator_collision) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[22.172734] (open_manipulator_collision) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[22.173331] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/lib/open_manipulator_collision/self_collision_node\n'}
+[22.183862] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/include//open_manipulator_collision/self_collision_node.hpp\n'}
+[22.194783] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/self_collision.launch.py\n'}
+[22.198152] (-) TimerEvent: {}
+[22.205108] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.sh\n'}
+[22.214723] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.dsv\n'}
+[22.225598] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/package_run_dependencies/open_manipulator_collision\n'}
+[22.235655] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/parent_prefix_path/open_manipulator_collision\n'}
+[22.244581] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.sh\n'}
+[22.253885] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.dsv\n'}
+[22.262800] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.sh\n'}
+[22.272928] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.dsv\n'}
+[22.282576] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.bash\n'}
+[22.291509] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.sh\n'}
+[22.298351] (-) TimerEvent: {}
+[22.300897] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.zsh\n'}
+[22.310273] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.dsv\n'}
+[22.319453] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.dsv\n'}
+[22.328557] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/packages/open_manipulator_collision\n'}
+[22.338714] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.347382] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.356265] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.365740] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig.cmake\n'}
+[22.375049] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig-version.cmake\n'}
+[22.385217] (open_manipulator_collision) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.xml\n'}
+[22.396832] (open_manipulator_collision) CommandEnded: {'returncode': 0}
+[22.398641] (-) TimerEvent: {}
+[22.418015] (open_manipulator_collision) JobEnded: {'identifier': 'open_manipulator_collision', 'rc': 0}
+[22.419332] (-) EventReactorShutdown: {}

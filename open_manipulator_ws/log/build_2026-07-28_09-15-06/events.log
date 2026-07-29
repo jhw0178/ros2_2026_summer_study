@@ -1,0 +1,428 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (-) JobUnselected: {'identifier': 'dynamixel_interfaces'}
+[0.000226] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000318] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000349] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000378] (-) JobUnselected: {'identifier': 'om_gravity_compensation_controller'}
+[0.000407] (-) JobUnselected: {'identifier': 'om_joint_trajectory_command_broadcaster'}
+[0.000417] (-) JobUnselected: {'identifier': 'om_spring_actuator_controller'}
+[0.000425] (-) JobUnselected: {'identifier': 'open_manipulator'}
+[0.000452] (-) JobUnselected: {'identifier': 'open_manipulator_bringup'}
+[0.000480] (-) JobUnselected: {'identifier': 'open_manipulator_collision'}
+[0.000508] (-) JobUnselected: {'identifier': 'open_manipulator_description'}
+[0.000518] (-) JobUnselected: {'identifier': 'open_manipulator_gui'}
+[0.000546] (-) JobUnselected: {'identifier': 'open_manipulator_moveit_config'}
+[0.000780] (-) JobUnselected: {'identifier': 'open_manipulator_playground'}
+[0.000834] (-) JobUnselected: {'identifier': 'open_manipulator_teleop'}
+[0.000865] (dynamixel_hardware_interface) JobQueued: {'identifier': 'dynamixel_hardware_interface', 'dependencies': OrderedDict({'dynamixel_interfaces': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces', 'dynamixel_sdk': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk'})}
+[0.000917] (dynamixel_hardware_interface) JobStarted: {'identifier': 'dynamixel_hardware_interface'}
+[0.098954] (-) TimerEvent: {}
+[0.199347] (-) TimerEvent: {}
+[0.223171] (dynamixel_hardware_interface) JobProgress: {'identifier': 'dynamixel_hardware_interface', 'progress': 'cmake'}
+[0.224961] (dynamixel_hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/dynamixel_hardware_interface', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_hardware_interface', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3ad2773c-4f86-4a83-9586-31d829a7d3e1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/514_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-30a50c73df9755d6.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_hardware_interface', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.299640] (-) TimerEvent: {}
+[0.344407] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.399884] (-) TimerEvent: {}
+[0.500318] (-) TimerEvent: {}
+[0.600654] (-) TimerEvent: {}
+[0.701217] (-) TimerEvent: {}
+[0.801576] (-) TimerEvent: {}
+[0.902015] (-) TimerEvent: {}
+[0.980606] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.002256] (-) TimerEvent: {}
+[1.102658] (-) TimerEvent: {}
+[1.203023] (-) TimerEvent: {}
+[1.303352] (-) TimerEvent: {}
+[1.403810] (-) TimerEvent: {}
+[1.434933] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.504009] (-) TimerEvent: {}
+[1.604398] (-) TimerEvent: {}
+[1.684543] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.691671] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.692065] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.692217] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.704559] (-) TimerEvent: {}
+[1.783863] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.804733] (-) TimerEvent: {}
+[1.905159] (-) TimerEvent: {}
+[2.006042] (-) TimerEvent: {}
+[2.042245] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.049520] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.049913] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.050283] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.053928] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.106326] (-) TimerEvent: {}
+[2.199559] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.206447] (-) TimerEvent: {}
+[2.275944] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.306662] (-) TimerEvent: {}
+[2.318556] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found hardware_interface: 4.45.2 (/opt/ros/jazzy/share/hardware_interface/cmake)\n'}
+[2.406787] (-) TimerEvent: {}
+[2.443525] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.456234] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.471133] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.490004] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.506978] (-) TimerEvent: {}
+[2.607340] (-) TimerEvent: {}
+[2.707796] (-) TimerEvent: {}
+[2.769518] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[2.808024] (-) TimerEvent: {}
+[2.839354] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.846490] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.887624] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[2.908158] (-) TimerEvent: {}
+[2.947992] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.954826] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[3.008357] (-) TimerEvent: {}
+[3.077682] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.081076] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[3.088943] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[3.108513] (-) TimerEvent: {}
+[3.146783] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.208711] (-) TimerEvent: {}
+[3.309422] (-) TimerEvent: {}
+[3.409993] (-) TimerEvent: {}
+[3.510567] (-) TimerEvent: {}
+[3.611087] (-) TimerEvent: {}
+[3.711494] (-) TimerEvent: {}
+[3.811861] (-) TimerEvent: {}
+[3.872470] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found dynamixel_sdk: 4.0.5 (/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)\n'}
+[3.877475] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[3.901940] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found dynamixel_interfaces: 1.0.1 (/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake)\n'}
+[3.912071] (-) TimerEvent: {}
+[3.930547] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.012370] (-) TimerEvent: {}
+[4.053603] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.058421] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.058692] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/dynamixel_hardware_interface/include>\n'}
+[4.058808] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.063065] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.063198] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.064427] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.064520] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[4.066395] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.067766] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.072360] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.072490] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.073830] (dynamixel_hardware_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.078655] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Configuring done (3.8s)\n'}
+[4.111224] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.112495] (-) TimerEvent: {}
+[4.116294] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_hardware_interface\n'}
+[4.129976] (dynamixel_hardware_interface) CommandEnded: {'returncode': 0}
+[4.131627] (dynamixel_hardware_interface) JobProgress: {'identifier': 'dynamixel_hardware_interface', 'progress': 'build'}
+[4.131675] (dynamixel_hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_hardware_interface', '--', '-j16', '-l16'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_hardware_interface', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3ad2773c-4f86-4a83-9586-31d829a7d3e1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/514_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-30a50c73df9755d6.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_hardware_interface', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[4.174561] (dynamixel_hardware_interface) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o\x1b[0m\n'}
+[4.191222] (dynamixel_hardware_interface) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o\x1b[0m\n'}
+[4.191324] (dynamixel_hardware_interface) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o\x1b[0m\n'}
+[4.212873] (-) TimerEvent: {}
+[4.313529] (-) TimerEvent: {}
+[4.414000] (-) TimerEvent: {}
+[4.514346] (-) TimerEvent: {}
+[4.614663] (-) TimerEvent: {}
+[4.715000] (-) TimerEvent: {}
+[4.815476] (-) TimerEvent: {}
+[4.915875] (-) TimerEvent: {}
+[5.016324] (-) TimerEvent: {}
+[5.116738] (-) TimerEvent: {}
+[5.217226] (-) TimerEvent: {}
+[5.317892] (-) TimerEvent: {}
+[5.418327] (-) TimerEvent: {}
+[5.518839] (-) TimerEvent: {}
+[5.619290] (-) TimerEvent: {}
+[5.719757] (-) TimerEvent: {}
+[5.820517] (-) TimerEvent: {}
+[5.921091] (-) TimerEvent: {}
+[6.021726] (-) TimerEvent: {}
+[6.122235] (-) TimerEvent: {}
+[6.222625] (-) TimerEvent: {}
+[6.323267] (-) TimerEvent: {}
+[6.423687] (-) TimerEvent: {}
+[6.524259] (-) TimerEvent: {}
+[6.624625] (-) TimerEvent: {}
+[6.724978] (-) TimerEvent: {}
+[6.825563] (-) TimerEvent: {}
+[6.926127] (-) TimerEvent: {}
+[7.026720] (-) TimerEvent: {}
+[7.127509] (-) TimerEvent: {}
+[7.227908] (-) TimerEvent: {}
+[7.328330] (-) TimerEvent: {}
+[7.428763] (-) TimerEvent: {}
+[7.529397] (-) TimerEvent: {}
+[7.629916] (-) TimerEvent: {}
+[7.730387] (-) TimerEvent: {}
+[7.830749] (-) TimerEvent: {}
+[7.931172] (-) TimerEvent: {}
+[8.031689] (-) TimerEvent: {}
+[8.132081] (-) TimerEvent: {}
+[8.232526] (-) TimerEvent: {}
+[8.333091] (-) TimerEvent: {}
+[8.433924] (-) TimerEvent: {}
+[8.534306] (-) TimerEvent: {}
+[8.634700] (-) TimerEvent: {}
+[8.735260] (-) TimerEvent: {}
+[8.835827] (-) TimerEvent: {}
+[8.936248] (-) TimerEvent: {}
+[9.036775] (-) TimerEvent: {}
+[9.137233] (-) TimerEvent: {}
+[9.237611] (-) TimerEvent: {}
+[9.338063] (-) TimerEvent: {}
+[9.438716] (-) TimerEvent: {}
+[9.539227] (-) TimerEvent: {}
+[9.639820] (-) TimerEvent: {}
+[9.740214] (-) TimerEvent: {}
+[9.840722] (-) TimerEvent: {}
+[9.941345] (-) TimerEvent: {}
+[10.041858] (-) TimerEvent: {}
+[10.142315] (-) TimerEvent: {}
+[10.242857] (-) TimerEvent: {}
+[10.343384] (-) TimerEvent: {}
+[10.443905] (-) TimerEvent: {}
+[10.544525] (-) TimerEvent: {}
+[10.645103] (-) TimerEvent: {}
+[10.745630] (-) TimerEvent: {}
+[10.846096] (-) TimerEvent: {}
+[10.946586] (-) TimerEvent: {}
+[11.047094] (-) TimerEvent: {}
+[11.147629] (-) TimerEvent: {}
+[11.248125] (-) TimerEvent: {}
+[11.348725] (-) TimerEvent: {}
+[11.449168] (-) TimerEvent: {}
+[11.549603] (-) TimerEvent: {}
+[11.650067] (-) TimerEvent: {}
+[11.750505] (-) TimerEvent: {}
+[11.851036] (-) TimerEvent: {}
+[11.951765] (-) TimerEvent: {}
+[12.052343] (-) TimerEvent: {}
+[12.152844] (-) TimerEvent: {}
+[12.253399] (-) TimerEvent: {}
+[12.353900] (-) TimerEvent: {}
+[12.454366] (-) TimerEvent: {}
+[12.554943] (-) TimerEvent: {}
+[12.655435] (-) TimerEvent: {}
+[12.756038] (-) TimerEvent: {}
+[12.856585] (-) TimerEvent: {}
+[12.957051] (-) TimerEvent: {}
+[13.057587] (-) TimerEvent: {}
+[13.158070] (-) TimerEvent: {}
+[13.258657] (-) TimerEvent: {}
+[13.359142] (-) TimerEvent: {}
+[13.459567] (-) TimerEvent: {}
+[13.560168] (-) TimerEvent: {}
+[13.660694] (-) TimerEvent: {}
+[13.761172] (-) TimerEvent: {}
+[13.861722] (-) TimerEvent: {}
+[13.962184] (-) TimerEvent: {}
+[14.062684] (-) TimerEvent: {}
+[14.163182] (-) TimerEvent: {}
+[14.263596] (-) TimerEvent: {}
+[14.364112] (-) TimerEvent: {}
+[14.464615] (-) TimerEvent: {}
+[14.565042] (-) TimerEvent: {}
+[14.665512] (-) TimerEvent: {}
+[14.765939] (-) TimerEvent: {}
+[14.866446] (-) TimerEvent: {}
+[14.966882] (-) TimerEvent: {}
+[15.067430] (-) TimerEvent: {}
+[15.167886] (-) TimerEvent: {}
+[15.268392] (-) TimerEvent: {}
+[15.368823] (-) TimerEvent: {}
+[15.469355] (-) TimerEvent: {}
+[15.569875] (-) TimerEvent: {}
+[15.670519] (-) TimerEvent: {}
+[15.771012] (-) TimerEvent: {}
+[15.871595] (-) TimerEvent: {}
+[15.972179] (-) TimerEvent: {}
+[16.072716] (-) TimerEvent: {}
+[16.173352] (-) TimerEvent: {}
+[16.273820] (-) TimerEvent: {}
+[16.374366] (-) TimerEvent: {}
+[16.474863] (-) TimerEvent: {}
+[16.575452] (-) TimerEvent: {}
+[16.676051] (-) TimerEvent: {}
+[16.776542] (-) TimerEvent: {}
+[16.877089] (-) TimerEvent: {}
+[16.977546] (-) TimerEvent: {}
+[17.077953] (-) TimerEvent: {}
+[17.178402] (-) TimerEvent: {}
+[17.278822] (-) TimerEvent: {}
+[17.379286] (-) TimerEvent: {}
+[17.479751] (-) TimerEvent: {}
+[17.580326] (-) TimerEvent: {}
+[17.680722] (-) TimerEvent: {}
+[17.781260] (-) TimerEvent: {}
+[17.881756] (-) TimerEvent: {}
+[17.897121] (dynamixel_hardware_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_hardware_interface.so\x1b[0m\n'}
+[17.981916] (-) TimerEvent: {}
+[18.082324] (-) TimerEvent: {}
+[18.182870] (-) TimerEvent: {}
+[18.283423] (-) TimerEvent: {}
+[18.350364] (dynamixel_hardware_interface) StdoutLine: {'line': b'[100%] Built target dynamixel_hardware_interface\n'}
+[18.360471] (dynamixel_hardware_interface) CommandEnded: {'returncode': 0}
+[18.361808] (dynamixel_hardware_interface) JobProgress: {'identifier': 'dynamixel_hardware_interface', 'progress': 'install'}
+[18.369651] (dynamixel_hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_hardware_interface'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_hardware_interface', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3ad2773c-4f86-4a83-9586-31d829a7d3e1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/514_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-30a50c73df9755d6.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_hardware_interface', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[18.375741] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[18.376176] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.376426] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//dynamixel_hardware_interface_plugin.xml\n'}
+[18.383560] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel.hpp\n'}
+[18.383760] (-) TimerEvent: {}
+[18.391384] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp\n'}
+[18.399878] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel_hardware_interface.hpp\n'}
+[18.408407] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/visibility_control.h\n'}
+[18.417666] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib/dynamixel_hardware_interface//create_udev_rules\n'}
+[18.426702] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/99-manipulator-cdc.rules\n'}
+[18.434106] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/check_model_file_formatting.py\n'}
+[18.441000] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/cluster_model_files.py\n'}
+[18.447446] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/create_udev_rules\n'}
+[18.455201] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/hx_synctable_model_generator.py\n'}
+[18.462378] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/xml_to_model_parser.py\n'}
+[18.470389] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/2xc430_w250.model\n'}
+[18.476853] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/2xl430_w250.model\n'}
+[18.483227] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/dynamixel.model\n'}
+[18.483950] (-) TimerEvent: {}
+[18.490459] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g10_led.model\n'}
+[18.499017] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g10_rcu.model\n'}
+[18.507227] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g40_imu.model\n'}
+[18.513713] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_1.model\n'}
+[18.521211] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_2.model\n'}
+[18.527561] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_3.model\n'}
+[18.533994] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_1.model\n'}
+[18.540516] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_2.model\n'}
+[18.547316] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_3.model\n'}
+[18.554487] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h42_20_s300_ra.model\n'}
+[18.560755] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h54_100_s500_ra.model\n'}
+[18.567495] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h54_200_s500_ra.model\n'}
+[18.574448] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_1.model\n'}
+[18.580839] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_2.model\n'}
+[18.584186] (-) TimerEvent: {}
+[18.588028] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_3.model\n'}
+[18.596400] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_4.model\n'}
+[18.605168] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_5.model\n'}
+[18.612231] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_1.model\n'}
+[18.619262] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_2.model\n'}
+[18.625770] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_3.model\n'}
+[18.632189] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_4.model\n'}
+[18.638914] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_5.model\n'}
+[18.645055] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_1.model\n'}
+[18.652824] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_2.model\n'}
+[18.659262] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_3.model\n'}
+[18.665520] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_4.model\n'}
+[18.672758] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_5.model\n'}
+[18.679517] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_1.model\n'}
+[18.684554] (-) TimerEvent: {}
+[18.686515] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_2.model\n'}
+[18.694073] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_3.model\n'}
+[18.702643] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_4.model\n'}
+[18.710353] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_5.model\n'}
+[18.717599] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_1.model\n'}
+[18.724793] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_2.model\n'}
+[18.731990] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_3.model\n'}
+[18.739557] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_4.model\n'}
+[18.746517] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_5.model\n'}
+[18.754324] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_rl.model\n'}
+[18.761138] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_rr.model\n'}
+[18.768137] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m42_10_s260_ra.model\n'}
+[18.774920] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m54_40_s250_ra.model\n'}
+[18.781483] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m54_60_s250_ra.model\n'}
+[18.784914] (-) TimerEvent: {}
+[18.788638] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_106.model\n'}
+[18.798116] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_28.model\n'}
+[18.808452] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_64.model\n'}
+[18.819359] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_end.model\n'}
+[18.828402] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_end_rh_p12_rn.model\n'}
+[18.837618] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_hat.model\n'}
+[18.846081] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph42_020_s300.model\n'}
+[18.854721] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph54_100_s500.model\n'}
+[18.863418] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph54_200_s500.model\n'}
+[18.872273] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm42_010_s260.model\n'}
+[18.882354] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm54_040_s250.model\n'}
+[18.885032] (-) TimerEvent: {}
+[18.890944] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm54_060_s250.model\n'}
+[18.900079] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/rh_p12_rn.model\n'}
+[18.908657] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/sensorxel_joy.model\n'}
+[18.916709] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m181.model\n'}
+[18.925402] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m181_fw52.model\n'}
+[18.933755] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m288.model\n'}
+[18.942012] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m288_fw52.model\n'}
+[18.949803] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t181.model\n'}
+[18.957673] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t181_fw52.model\n'}
+[18.965196] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t288.model\n'}
+[18.973713] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t288_fw52.model\n'}
+[18.981344] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc430_w150.model\n'}
+[18.985400] (-) TimerEvent: {}
+[18.989702] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc430_w240.model\n'}
+[18.998385] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd430_t210.model\n'}
+[19.006359] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd430_t350.model\n'}
+[19.013889] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd540_t150.model\n'}
+[19.021732] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd540_t270.model\n'}
+[19.029199] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_v210.model\n'}
+[19.037930] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_v350.model\n'}
+[19.045066] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_w210.model\n'}
+[19.053424] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_w350.model\n'}
+[19.060140] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_v150.model\n'}
+[19.068482] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_v270.model\n'}
+[19.075295] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_w150.model\n'}
+[19.082810] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_w270.model\n'}
+[19.085523] (-) TimerEvent: {}
+[19.090857] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl320.model\n'}
+[19.100406] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m077.model\n'}
+[19.109518] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m077_fw52.model\n'}
+[19.116902] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m288.model\n'}
+[19.125108] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m288_fw52.model\n'}
+[19.132529] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl430_w250.model\n'}
+[19.140340] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm335_t323.model\n'}
+[19.148287] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm335_t332.model\n'}
+[19.157247] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm430_w210.model\n'}
+[19.165482] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm430_w350.model\n'}
+[19.173541] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm540_w150.model\n'}
+[19.181464] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm540_w270.model\n'}
+[19.185659] (-) TimerEvent: {}
+[19.189548] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw430_t200.model\n'}
+[19.197347] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw430_t333.model\n'}
+[19.205553] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_h260.model\n'}
+[19.213536] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_t140.model\n'}
+[19.221881] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_t260.model\n'}
+[19.229905] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_a051.model\n'}
+[19.237740] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_a099.model\n'}
+[19.245395] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_b001.model\n'}
+[19.253519] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_m001.model\n'}
+[19.261275] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_r051.model\n'}
+[19.269184] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_r099.model\n'}
+[19.278488] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_a051.model\n'}
+[19.285788] (-) TimerEvent: {}
+[19.286673] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_a099.model\n'}
+[19.294406] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_b001.model\n'}
+[19.303014] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_m001.model\n'}
+[19.313566] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_r051.model\n'}
+[19.321809] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_r099.model\n'}
+[19.333723] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/library_path.sh\n'}
+[19.342997] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/library_path.dsv\n'}
+[19.353710] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware_interface\n'}
+[19.364309] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware_interface\n'}
+[19.375225] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/ament_prefix_path.sh\n'}
+[19.385417] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/ament_prefix_path.dsv\n'}
+[19.385950] (-) TimerEvent: {}
+[19.393829] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/path.sh\n'}
+[19.402644] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/path.dsv\n'}
+[19.410407] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.bash\n'}
+[19.418743] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.sh\n'}
+[19.426447] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.zsh\n'}
+[19.434124] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.dsv\n'}
+[19.442034] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/package.dsv\n'}
+[19.450760] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/packages/dynamixel_hardware_interface\n'}
+[19.459982] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware_interface\n'}
+[19.468408] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.475800] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.483161] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.486260] (-) TimerEvent: {}
+[19.491411] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.499429] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/dynamixel_hardware_interfaceConfig.cmake\n'}
+[19.507695] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/dynamixel_hardware_interfaceConfig-version.cmake\n'}
+[19.515411] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/package.xml\n'}
+[19.523647] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Installing: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib/libdynamixel_hardware_interface.so\n'}
+[19.524733] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib/libdynamixel_hardware_interface.so" to ""\n'}
+[19.524927] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Installing: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake\n'}
+[19.525114] (dynamixel_hardware_interface) StdoutLine: {'line': b'-- Installing: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport-release.cmake\n'}
+[19.526549] (dynamixel_hardware_interface) CommandEnded: {'returncode': 0}
+[19.548737] (dynamixel_hardware_interface) JobEnded: {'identifier': 'dynamixel_hardware_interface', 'rc': 0}
+[19.549887] (-) EventReactorShutdown: {}

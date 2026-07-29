@@ -1,0 +1,136 @@
+[0.014s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/open_manipulator_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description
+[0.283s] -- The C compiler identification is GNU 13.3.0
+[0.989s] -- The CXX compiler identification is GNU 13.3.0
+[1.657s] -- Detecting C compiler ABI info
+[1.979s] -- Detecting C compiler ABI info - done
+[1.994s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.995s] -- Detecting C compile features
+[1.996s] -- Detecting C compile features - done
+[2.105s] -- Detecting CXX compiler ABI info
+[2.444s] -- Detecting CXX compiler ABI info - done
+[2.459s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.459s] -- Detecting CXX compile features
+[2.460s] -- Detecting CXX compile features - done
+[2.483s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.683s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.781s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.965s] -- Configuring done (2.9s)
+[2.969s] -- Generating done (0.0s)
+[2.971s] -- Build files have been written to: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description
+[2.978s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/open_manipulator_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description
+[2.978s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description -- -j16 -l16
+[3.018s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description -- -j16 -l16
+[3.028s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description
+[3.036s] -- Install configuration: ""
+[3.037s] -- Execute custom install script
+[3.038s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omx_f.launch.py
+[3.047s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omx_l.launch.py
+[3.056s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omy_3m.launch.py
+[3.065s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omy_f3m.launch.py
+[3.075s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/omy_l100.launch.py
+[3.083s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/launch/open_manipulator_x.launch.py
+[3.094s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_01_base.stl
+[3.102s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_02_base_tilt_Revised.stl
+[3.111s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_03_middle_verticle.stl
+[3.121s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_04_middle_horizontal.stl
+[3.130s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_05_tip.stl
+[3.139s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_06_pan_Revised.stl
+[3.148s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_07_gripper_motorized.stl
+[3.157s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_f/follower_08_gripper_gear.stl
+[3.166s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_01_base_roll.stl
+[3.174s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_02_base_tilt_revised.stl
+[3.183s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_03_middle_vertical.stl
+[3.191s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_04_middle_horizontal.stl
+[3.200s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_05_tip_roll.stl
+[3.208s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_06_tip_pan_revised.stl
+[3.217s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omx_l/leader_07_tip_grip.stl
+[3.227s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/base_unit.stl
+[3.237s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link1.stl
+[3.246s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link2.stl
+[3.255s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link3.stl
+[3.264s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link4.stl
+[3.273s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link5.stl
+[3.282s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_3m/link6.stl
+[3.291s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/base_unit.stl
+[3.300s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/flange.stl
+[3.309s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link1.stl
+[3.318s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link2.stl
+[3.328s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link3.stl
+[3.336s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link4.stl
+[3.346s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link5.stl
+[3.355s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_f3m/link6.stl
+[3.365s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/base_unit.stl
+[3.375s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link1.stl
+[3.385s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link2.stl
+[3.394s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link3.stl
+[3.403s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link4.stl
+[3.412s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link5.stl
+[3.421s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link6.stl
+[3.431s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/omy_l100/link7.stl
+[3.440s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[3.450s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[3.459s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link1.stl
+[3.469s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link2.stl
+[3.478s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link3.stl
+[3.487s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link4.stl
+[3.497s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/link5.stl
+[3.505s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/open_manipulator_x/plate.stl
+[3.515s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/base.stl
+[3.526s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/l1.stl
+[3.536s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/l2.stl
+[3.545s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/r1.stl
+[3.555s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/meshes/rh_p12_rn_a/r2.stl
+[3.565s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/rviz/open_manipulator.rviz
+[3.576s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_f/omx_f.urdf
+[3.585s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_f/omx_f.urdf.xacro
+[3.594s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_f/omx_f_arm.urdf.xacro
+[3.604s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_l/omx_l.urdf
+[3.614s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_l/omx_l.urdf.xacro
+[3.624s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omx_l/omx_l_arm.urdf.xacro
+[3.634s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_3m/omy_3m.urdf
+[3.644s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_3m/omy_3m.urdf.xacro
+[3.654s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_3m/omy_3m_arm.urdf.xacro
+[3.663s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_f3m/omy_f3m.urdf
+[3.673s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_f3m/omy_f3m.urdf.xacro
+[3.682s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_f3m/omy_f3m_arm.urdf.xacro
+[3.693s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_f3m/rh_p12_rn_a.urdf.xacro
+[3.704s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_l100/omy_l100.urdf
+[3.714s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_l100/omy_l100.urdf.xacro
+[3.725s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/omy_l100/omy_l100_arm.urdf.xacro
+[3.736s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/open_manipulator_x/open_manipulator_x.urdf
+[3.746s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/open_manipulator_x/open_manipulator_x.urdf.xacro
+[3.756s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/urdf/open_manipulator_x/open_manipulator_x_arm.urdf.xacro
+[3.768s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omx_f.gazebo.xacro
+[3.780s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omx_l.gazebo.xacro
+[3.791s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omy_3m.gazebo.xacro
+[3.803s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omy_f3m.gazebo.xacro
+[3.814s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/omy_l100.gazebo.xacro
+[3.828s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/open_manipulator_x.gazebo.xacro
+[3.840s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/gazebo/rh_p12_rn_a.gazebo.xacro
+[3.852s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omx_f.ros2_control.xacro
+[3.863s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omx_l.ros2_control.xacro
+[3.875s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_3m_end_unit.ros2_control.xacro
+[3.886s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_3m_position.ros2_control.xacro
+[3.897s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_f3m_current.ros2_control.xacro
+[3.910s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_f3m_end_unit.ros2_control.xacro
+[3.923s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_f3m_position.ros2_control.xacro
+[3.935s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_f3m_smooth.ros2_control.xacro
+[3.951s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_l100_current.ros2_control.xacro
+[3.962s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/omy_l100_position.ros2_control.xacro
+[3.972s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/ros2_control/open_manipulator_x_position.ros2_control.xacro
+[3.984s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/ament_index/resource_index/package_run_dependencies/open_manipulator_description
+[3.994s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/ament_index/resource_index/parent_prefix_path/open_manipulator_description
+[4.007s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/environment/ament_prefix_path.sh
+[4.016s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/environment/ament_prefix_path.dsv
+[4.027s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/environment/path.sh
+[4.038s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/environment/path.dsv
+[4.049s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/local_setup.bash
+[4.060s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/local_setup.sh
+[4.070s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/local_setup.zsh
+[4.079s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/local_setup.dsv
+[4.090s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/package.dsv
+[4.100s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/ament_index/resource_index/packages/open_manipulator_description
+[4.113s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/cmake/open_manipulator_descriptionConfig.cmake
+[4.124s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/cmake/open_manipulator_descriptionConfig-version.cmake
+[4.134s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description/share/open_manipulator_description/package.xml
+[4.146s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_description

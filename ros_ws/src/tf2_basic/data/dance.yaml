@@ -1,0 +1,75 @@
+poses:
+
+  home:
+    joints: [0.0, 0.0, 0.0, 0.0]
+    gripper: 0.010
+
+  bow:
+    joints: [0.0, -0.80, 0.55, 0.20]
+    gripper: 0.010
+
+  left_up:
+    joints: [0.80, -0.40, -0.20, 0.30]
+    gripper: 0.010
+
+  right_up:
+    joints: [-0.80, -0.40, -0.20, 0.30]
+    gripper: 0.010
+
+  left_down:
+    joints: [0.70, 0.30, -0.60, 0.50]
+    gripper: 0.010
+
+  right_down:
+    joints: [-0.70, 0.30, -0.60, 0.50]
+    gripper: 0.010
+
+  center_up:
+    joints: [0.0, -0.20, -0.80, 0.80]
+    gripper: 0.010
+
+  center_down:
+    joints: [0.0, 0.50, -0.30, 0.20]
+    gripper: 0.010
+
+  open_hand:
+    joints: [0.0, -0.20, -0.60, 0.40]
+    gripper: 0.010
+
+  close_hand:
+    joints: [0.0, -0.20, -0.60, 0.40]
+    gripper: 0.000
+
+dances:
+
+  dance_A:
+    - home
+    - bow
+    - left_up
+    - right_up
+    - center_up
+    - home
+
+  dance_B:
+    - home
+    - left_down
+    - right_down
+    - left_down
+    - right_down
+    - home
+
+  dance_C:
+    - home
+    - open_hand
+    - close_hand
+    - open_hand
+    - close_hand
+    - home
+
+  dance_D:
+    - home
+    - left_up
+    - center_up
+    - right_up
+    - center_down
+    - home

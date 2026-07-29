@@ -10,14 +10,14 @@ def generate_launch_description():
         [FindPackageShare("tf2_basic"), "rviz", "urdf.rviz"]
     )
     default_model_path = PathJoinSubstitution(
-        [FindPackageShare("tf2_basic"), "urdf", "03_myfirst.urdf"]
+        [FindPackageShare("tf2_basic"), "urdf", "05_myfirst.urdf"]
     )
     model = DeclareLaunchArgument(
         name="model", default_value=default_model_path, description="model path"
     )
     gui_arg = DeclareLaunchArgument(
         name="gui",
-        default_value="false",
+        default_value="true",
         choices=["true", "false"],
         description="gui display enable option",
     )

@@ -1,0 +1,211 @@
+[0.011s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk
+[0.027s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.227s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.471s] -- Configuring done (0.5s)
+[0.479s] -- Generating done (0.0s)
+[0.482s] -- Build files have been written to: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk
+[0.486s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk
+[0.499s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk -- -j16 -l16
+[0.542s] [  5%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.543s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.543s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.543s] [ 16%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[0.544s] [ 22%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[0.545s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.546s] [ 27%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[0.546s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[0.546s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.547s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.547s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[0.547s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[0.548s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[0.551s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[0.554s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[0.556s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[0.619s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[0.951s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[1.026s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[1.202s] running egg_info
+[1.266s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[1.268s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[1.268s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[1.318s] running egg_info
+[1.374s] writing dynamixel_sdk.egg-info/PKG-INFO
+[1.375s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[1.376s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[1.433s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[1.434s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[1.512s] [ 94%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[1.533s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.535s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.598s] [ 94%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[2.886s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[3.055s] [100%] Built target dynamixel_sdk
+[3.067s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk -- -j16 -l16
+[3.077s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk
+[3.084s] -- Install configuration: "Release"
+[3.084s] -- Execute custom install script
+[3.085s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[3.085s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[3.085s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[3.085s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[3.086s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[3.086s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[3.086s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[3.086s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[3.086s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[3.086s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[3.086s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[3.087s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[3.087s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[3.087s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[3.087s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[3.087s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[3.087s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[3.088s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[3.088s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[3.088s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[3.088s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[3.088s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[3.088s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[3.089s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[3.089s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[3.089s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[3.089s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[3.089s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[3.089s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[3.090s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[3.090s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[3.091s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[3.091s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[3.091s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[3.091s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[3.091s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[3.091s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[3.092s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[3.092s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[3.092s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[3.092s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[3.092s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[3.093s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[3.093s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[3.093s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[3.093s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[3.093s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[3.093s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[3.093s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[3.093s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[3.093s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[3.094s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[3.094s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[3.094s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[3.094s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[3.094s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[3.094s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[3.094s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[3.095s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[3.095s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[3.095s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[3.095s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[3.095s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[3.095s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[3.096s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[3.096s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[3.096s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[3.096s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[3.097s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[3.097s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[3.097s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[3.097s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[3.097s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[3.097s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[3.098s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[3.099s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[3.099s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[3.099s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[3.099s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[3.099s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[3.099s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[3.099s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[3.099s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[3.100s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[3.100s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[3.100s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[3.100s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[3.100s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[3.100s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py
+[3.100s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.cpp
+[3.101s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py
+[3.101s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.cpp
+[3.101s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py
+[3.101s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[3.101s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[3.102s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_handler.cpp
+[3.102s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.cpp
+[3.102s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py
+[3.102s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.cpp
+[3.102s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py
+[3.102s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.cpp
+[3.102s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py
+[3.102s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.cpp
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_arduino.cpp
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_linux.cpp
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_mac.cpp
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_windows.cpp
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py
+[3.103s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py
+[3.104s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[3.104s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[3.104s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[3.104s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[3.104s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py
+[3.104s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.cpp
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.cpp
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.cpp
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.cpp
+[3.105s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py
+[3.106s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[3.106s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[3.106s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[3.106s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[3.106s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[3.106s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[3.107s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[3.107s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[3.107s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[3.107s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[3.107s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[3.107s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[3.107s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[3.115s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[3.115s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[3.116s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.116s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[3.116s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[3.116s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[3.116s] -- Up-to-date symlink: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[3.116s] -- Installing: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[3.155s] Listing '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk'...
+[3.195s] Listing '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk'...
+[3.201s] -- Up-to-date: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[3.201s] -- Installing: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-release.cmake
+[3.204s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk

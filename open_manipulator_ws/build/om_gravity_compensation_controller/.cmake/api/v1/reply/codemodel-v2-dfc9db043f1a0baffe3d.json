@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2e165c5d3b977d6f4a95.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "om_gravity_compensation_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gravity_compensation_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gravity_compensation_controller-Release-c2374b76d67383edb951.json",
+					"name" : "gravity_compensation_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gravity_compensation_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gravity_compensation_controller_parameters-Release-4b5f92156ed97938cc6d.json",
+					"name" : "gravity_compensation_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_gravity_compensation_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_gravity_compensation_controller_uninstall-Release-bd3b7f1f6295801d4c39.json",
+					"name" : "om_gravity_compensation_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-439615d4114fc1c5839c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller",
+		"source" : "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

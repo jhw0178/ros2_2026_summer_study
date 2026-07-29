@@ -1,0 +1,1 @@
+/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/dynamixel_sdk_custom_interfaces/rosidl_generator_rs/dynamixel_sdk_custom_interfaces/rust/src/msg.rs

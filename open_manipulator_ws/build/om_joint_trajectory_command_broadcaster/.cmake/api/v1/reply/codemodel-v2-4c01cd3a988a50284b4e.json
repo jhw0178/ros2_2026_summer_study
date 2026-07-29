@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7d728984ab7ef9afde45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "om_joint_trajectory_command_broadcaster",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_trajectory_command_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_trajectory_command_broadcaster-Release-d2f74289e8a28cd23623.json",
+					"name" : "joint_trajectory_command_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_trajectory_command_broadcaster_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_trajectory_command_broadcaster_parameters-Release-1488521f49527a2aa6d6.json",
+					"name" : "joint_trajectory_command_broadcaster_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_joint_trajectory_command_broadcaster_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_joint_trajectory_command_broadcaster_uninstall-Release-4c275ce44e89f9031b5e.json",
+					"name" : "om_joint_trajectory_command_broadcaster_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-46ff7da8cf4a9b1051e0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_joint_trajectory_command_broadcaster",
+		"source" : "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

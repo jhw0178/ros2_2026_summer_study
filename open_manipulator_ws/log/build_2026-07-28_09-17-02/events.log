@@ -1,0 +1,20 @@
+[0.000000] (-) TimerEvent: {}
+[0.000489] (-) JobUnselected: {'identifier': 'dynamixel_hardware_interface'}
+[0.000827] (-) JobUnselected: {'identifier': 'dynamixel_interfaces'}
+[0.000888] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000899] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000908] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000917] (-) JobUnselected: {'identifier': 'om_gravity_compensation_controller'}
+[0.000924] (-) JobUnselected: {'identifier': 'om_joint_trajectory_command_broadcaster'}
+[0.001110] (-) JobUnselected: {'identifier': 'om_spring_actuator_controller'}
+[0.001906] (-) JobUnselected: {'identifier': 'open_manipulator_bringup'}
+[0.002040] (-) JobUnselected: {'identifier': 'open_manipulator_collision'}
+[0.002122] (-) JobUnselected: {'identifier': 'open_manipulator_description'}
+[0.002310] (-) JobUnselected: {'identifier': 'open_manipulator_gui'}
+[0.002363] (-) JobUnselected: {'identifier': 'open_manipulator_moveit_config'}
+[0.002392] (-) JobUnselected: {'identifier': 'open_manipulator_playground'}
+[0.002440] (-) JobUnselected: {'identifier': 'open_manipulator_teleop'}
+[0.002472] (open_manipulator) JobQueued: {'identifier': 'open_manipulator', 'dependencies': OrderedDict({'dynamixel_interfaces': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces', 'dynamixel_sdk': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk', 'om_gravity_compensation_controller': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller', 'om_joint_trajectory_command_broadcaster': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster', 'om_spring_actuator_controller': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_spring_actuator_controller', 'open_manipulator_collision': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision', 'open_manipulator_description': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description', 'open_manipulator_gui': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_gui', 'open_manipulator_playground': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_playground', 'open_manipulator_teleop': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop', 'dynamixel_hardware_interface': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface', 'open_manipulator_moveit_config': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_moveit_config', 'open_manipulator_bringup': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_bringup'})}
+[0.002654] (open_manipulator) JobStarted: {'identifier': 'open_manipulator'}
+[0.031558] (open_manipulator) JobEnded: {'identifier': 'open_manipulator', 'rc': 1}
+[0.042227] (-) EventReactorShutdown: {}

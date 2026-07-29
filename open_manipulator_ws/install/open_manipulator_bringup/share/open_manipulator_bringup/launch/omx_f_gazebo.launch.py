@@ -1,0 +1,1 @@
+/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_bringup/launch/omx_f_gazebo.launch.py

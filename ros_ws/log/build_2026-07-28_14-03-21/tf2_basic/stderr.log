@@ -1,0 +1,6 @@
+Sorry: IndentationError: unindent does not match any outer indentation level (move_manipulator2.py, line 63)
+  File "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/teach_manipulator.py", line 7
+    from 
+         ^
+SyntaxError: invalid syntax
+

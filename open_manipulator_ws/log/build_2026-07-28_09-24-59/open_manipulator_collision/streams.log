@@ -1,0 +1,70 @@
+[0.012s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/open_manipulator_collision -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision
+[0.134s] -- The C compiler identification is GNU 13.3.0
+[0.784s] -- The CXX compiler identification is GNU 13.3.0
+[1.427s] -- Detecting C compiler ABI info
+[1.708s] -- Detecting C compiler ABI info - done
+[1.716s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.716s] -- Detecting C compile features
+[1.716s] -- Detecting C compile features - done
+[1.816s] -- Detecting CXX compiler ABI info
+[2.099s] -- Detecting CXX compiler ABI info - done
+[2.107s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.108s] -- Detecting CXX compile features
+[2.108s] -- Detecting CXX compile features - done
+[2.113s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.301s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.390s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.443s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.672s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.698s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.773s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.915s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.923s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.067s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.304s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.437s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.708s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.736s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.824s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.860s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[3.925s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.928s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.929s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.944s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[4.094s] -- Configuring done (4.1s)
+[4.108s] -- Generating done (0.0s)
+[4.113s] -- Build files have been written to: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision
+[4.126s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/open_manipulator_collision -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision
+[4.127s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision -- -j16 -l16
+[4.178s] [ 50%] [32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o[0m
+[21.726s] [100%] [32m[1mLinking CXX executable self_collision_node[0m
+[22.139s] [100%] Built target self_collision_node
+[22.152s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --build /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision -- -j16 -l16
+[22.163s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision
+[22.171s] -- Install configuration: "Release"
+[22.171s] -- Execute custom install script
+[22.172s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/lib/open_manipulator_collision/self_collision_node
+[22.182s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/include//open_manipulator_collision/self_collision_node.hpp
+[22.193s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/self_collision.launch.py
+[22.204s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.sh
+[22.213s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.dsv
+[22.224s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/package_run_dependencies/open_manipulator_collision
+[22.234s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/parent_prefix_path/open_manipulator_collision
+[22.243s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.sh
+[22.252s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.dsv
+[22.261s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.sh
+[22.271s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.dsv
+[22.281s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.bash
+[22.290s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.sh
+[22.299s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.zsh
+[22.309s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.dsv
+[22.318s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.dsv
+[22.327s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/ament_index/resource_index/packages/open_manipulator_collision
+[22.337s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.346s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.355s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_libraries-extras.cmake
+[22.364s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig.cmake
+[22.373s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig-version.cmake
+[22.384s] -- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.xml
+[22.396s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy /usr/bin/cmake --install /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_collision

@@ -1,0 +1,302 @@
+[0.000000] (-) TimerEvent: {}
+[0.000418] (-) JobUnselected: {'identifier': 'dynamixel_hardware_interface'}
+[0.000483] (-) JobUnselected: {'identifier': 'dynamixel_interfaces'}
+[0.000664] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000705] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000744] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000772] (-) JobUnselected: {'identifier': 'om_joint_trajectory_command_broadcaster'}
+[0.000785] (-) JobUnselected: {'identifier': 'om_spring_actuator_controller'}
+[0.001364] (-) JobUnselected: {'identifier': 'open_manipulator'}
+[0.001410] (-) JobUnselected: {'identifier': 'open_manipulator_bringup'}
+[0.001438] (-) JobUnselected: {'identifier': 'open_manipulator_collision'}
+[0.001468] (-) JobUnselected: {'identifier': 'open_manipulator_description'}
+[0.001657] (-) JobUnselected: {'identifier': 'open_manipulator_gui'}
+[0.001696] (-) JobUnselected: {'identifier': 'open_manipulator_moveit_config'}
+[0.001724] (-) JobUnselected: {'identifier': 'open_manipulator_playground'}
+[0.002000] (-) JobUnselected: {'identifier': 'open_manipulator_teleop'}
+[0.002043] (om_gravity_compensation_controller) JobQueued: {'identifier': 'om_gravity_compensation_controller', 'dependencies': OrderedDict()}
+[0.002059] (om_gravity_compensation_controller) JobStarted: {'identifier': 'om_gravity_compensation_controller'}
+[0.010129] (om_gravity_compensation_controller) JobProgress: {'identifier': 'om_gravity_compensation_controller', 'progress': 'cmake'}
+[0.011274] (om_gravity_compensation_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d6f7d07b-da78-4ed0-a052-9b7b4fb2fe16.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install:/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/9027_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-39b729e741af20c3.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.099575] (-) TimerEvent: {}
+[0.126737] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.199722] (-) TimerEvent: {}
+[0.300119] (-) TimerEvent: {}
+[0.400451] (-) TimerEvent: {}
+[0.500954] (-) TimerEvent: {}
+[0.601322] (-) TimerEvent: {}
+[0.613973] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701692] (-) TimerEvent: {}
+[0.802407] (-) TimerEvent: {}
+[0.815369] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.823493] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.823805] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.824177] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.829269] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.902627] (-) TimerEvent: {}
+[0.955349] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.002973] (-) TimerEvent: {}
+[1.019916] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.064054] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)\n'}
+[1.069439] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found control_msgs: 5.9.0 (/opt/ros/jazzy/share/control_msgs/cmake)\n'}
+[1.103114] (-) TimerEvent: {}
+[1.198220] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.203250] (-) TimerEvent: {}
+[1.214136] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.236479] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.261450] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.303470] (-) TimerEvent: {}
+[1.404079] (-) TimerEvent: {}
+[1.431713] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found control_toolbox: 4.11.0 (/opt/ros/jazzy/share/control_toolbox/cmake)\n'}
+[1.484709] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.488057] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.504282] (-) TimerEvent: {}
+[1.562839] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.604488] (-) TimerEvent: {}
+[1.705064] (-) TimerEvent: {}
+[1.787259] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.805335] (-) TimerEvent: {}
+[1.905817] (-) TimerEvent: {}
+[1.938289] (om_gravity_compensation_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.005963] (-) TimerEvent: {}
+[2.097880] (om_gravity_compensation_controller) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):\n'}
+[2.098134] (om_gravity_compensation_controller) StderrLine: {'line': b"  Package 'tl_expected' is deprecated (This package will be removed in ROS 2\n"}
+[2.098236] (om_gravity_compensation_controller) StderrLine: {'line': b'  Lyrical Luth.\n'}
+[2.098298] (om_gravity_compensation_controller) StderrLine: {'line': b'\n'}
+[2.098380] (om_gravity_compensation_controller) StderrLine: {'line': b'        Use tl/expected.hpp from libexpected-dev,\n'}
+[2.098426] (om_gravity_compensation_controller) StderrLine: {'line': b'        or rcpputils/tl_expected/expected.hpp if the system header is not available)\n'}
+[2.098496] (om_gravity_compensation_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.098578] (om_gravity_compensation_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.098634] (om_gravity_compensation_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)\n'}
+[2.098677] (om_gravity_compensation_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.098735] (om_gravity_compensation_controller) StderrLine: {'line': b'  /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)\n'}
+[2.098786] (om_gravity_compensation_controller) StderrLine: {'line': b'  CMakeLists.txt:37 (find_package)\n'}
+[2.098826] (om_gravity_compensation_controller) StderrLine: {'line': b'\n'}
+[2.098865] (om_gravity_compensation_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[2.106216] (-) TimerEvent: {}
+[2.206790] (-) TimerEvent: {}
+[2.307331] (-) TimerEvent: {}
+[2.407860] (-) TimerEvent: {}
+[2.498931] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.500143] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.500259] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.508106] (-) TimerEvent: {}
+[2.582387] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found controller_interface: 4.45.2 (/opt/ros/jazzy/share/controller_interface/cmake)\n'}
+[2.608258] (-) TimerEvent: {}
+[2.673920] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)\n'}
+[2.708637] (-) TimerEvent: {}
+[2.761046] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Configuring done (2.7s)\n'}
+[2.788221] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.793357] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller\n'}
+[2.803848] (om_gravity_compensation_controller) CommandEnded: {'returncode': 0}
+[2.804258] (om_gravity_compensation_controller) JobProgress: {'identifier': 'om_gravity_compensation_controller', 'progress': 'build'}
+[2.804948] (om_gravity_compensation_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller', '--', '-j16', '-l16'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d6f7d07b-da78-4ed0-a052-9b7b4fb2fe16.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install:/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/9027_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-39b729e741af20c3.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[2.808726] (-) TimerEvent: {}
+[2.853771] (om_gravity_compensation_controller) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/src/gravity_compensation_controller_parameters.yaml `\x1b[0m\n'}
+[2.908901] (-) TimerEvent: {}
+[3.009213] (-) TimerEvent: {}
+[3.109515] (-) TimerEvent: {}
+[3.209808] (-) TimerEvent: {}
+[3.310189] (-) TimerEvent: {}
+[3.410660] (-) TimerEvent: {}
+[3.511138] (-) TimerEvent: {}
+[3.562908] (om_gravity_compensation_controller) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mCreating deprecated header file /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller/include/gravity_compensation_controller_parameters.hpp\x1b[0m\n'}
+[3.579945] (om_gravity_compensation_controller) StdoutLine: {'line': b'[ 50%] Built target gravity_compensation_controller_parameters\n'}
+[3.599170] (om_gravity_compensation_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gravity_compensation_controller.dir/src/gravity_compensation_controller.cpp.o\x1b[0m\n'}
+[3.611419] (-) TimerEvent: {}
+[3.711973] (-) TimerEvent: {}
+[3.812582] (-) TimerEvent: {}
+[3.913218] (-) TimerEvent: {}
+[4.013865] (-) TimerEvent: {}
+[4.114485] (-) TimerEvent: {}
+[4.215066] (-) TimerEvent: {}
+[4.315545] (-) TimerEvent: {}
+[4.416017] (-) TimerEvent: {}
+[4.516486] (-) TimerEvent: {}
+[4.616952] (-) TimerEvent: {}
+[4.717584] (-) TimerEvent: {}
+[4.818210] (-) TimerEvent: {}
+[4.918744] (-) TimerEvent: {}
+[5.019227] (-) TimerEvent: {}
+[5.119754] (-) TimerEvent: {}
+[5.220195] (-) TimerEvent: {}
+[5.320796] (-) TimerEvent: {}
+[5.421391] (-) TimerEvent: {}
+[5.521883] (-) TimerEvent: {}
+[5.622562] (-) TimerEvent: {}
+[5.723029] (-) TimerEvent: {}
+[5.823380] (-) TimerEvent: {}
+[5.923892] (-) TimerEvent: {}
+[6.024293] (-) TimerEvent: {}
+[6.124884] (-) TimerEvent: {}
+[6.225304] (-) TimerEvent: {}
+[6.325695] (-) TimerEvent: {}
+[6.327698] (om_gravity_compensation_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/parameter_traits/parameter_traits/parameter_traits.hpp:37\x1b[m\x1b[K,\n'}
+[6.327896] (om_gravity_compensation_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp:26\x1b[m\x1b[K,\n'}
+[6.328003] (om_gravity_compensation_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller.hpp:46\x1b[m\x1b[K,\n'}
+[6.328112] (om_gravity_compensation_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/src/gravity_compensation_controller.cpp:15\x1b[m\x1b[K:\n'}
+[6.328174] (om_gravity_compensation_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/tl_expected/expected.hpp:18:167:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.328253] (om_gravity_compensation_controller) StderrLine: {'line': b'   18 | ated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."\x1b[01;36m\x1b[K)\x1b[m\x1b[K // NOLINT\n'}
+[6.328341] (om_gravity_compensation_controller) StderrLine: {'line': b'      |                                                                                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.328386] (om_gravity_compensation_controller) StderrLine: {'line': b'\n'}
+[6.425979] (-) TimerEvent: {}
+[6.526354] (-) TimerEvent: {}
+[6.626844] (-) TimerEvent: {}
+[6.727327] (-) TimerEvent: {}
+[6.827756] (-) TimerEvent: {}
+[6.928217] (-) TimerEvent: {}
+[7.028709] (-) TimerEvent: {}
+[7.129118] (-) TimerEvent: {}
+[7.229606] (-) TimerEvent: {}
+[7.330179] (-) TimerEvent: {}
+[7.430789] (-) TimerEvent: {}
+[7.531296] (-) TimerEvent: {}
+[7.631835] (-) TimerEvent: {}
+[7.732366] (-) TimerEvent: {}
+[7.833021] (-) TimerEvent: {}
+[7.933494] (-) TimerEvent: {}
+[8.033982] (-) TimerEvent: {}
+[8.134700] (-) TimerEvent: {}
+[8.235202] (-) TimerEvent: {}
+[8.335700] (-) TimerEvent: {}
+[8.436341] (-) TimerEvent: {}
+[8.536840] (-) TimerEvent: {}
+[8.637484] (-) TimerEvent: {}
+[8.737933] (-) TimerEvent: {}
+[8.838420] (-) TimerEvent: {}
+[8.938930] (-) TimerEvent: {}
+[9.039406] (-) TimerEvent: {}
+[9.140081] (-) TimerEvent: {}
+[9.240692] (-) TimerEvent: {}
+[9.341171] (-) TimerEvent: {}
+[9.441777] (-) TimerEvent: {}
+[9.542380] (-) TimerEvent: {}
+[9.642939] (-) TimerEvent: {}
+[9.743466] (-) TimerEvent: {}
+[9.844037] (-) TimerEvent: {}
+[9.944613] (-) TimerEvent: {}
+[10.045195] (-) TimerEvent: {}
+[10.145710] (-) TimerEvent: {}
+[10.246126] (-) TimerEvent: {}
+[10.346727] (-) TimerEvent: {}
+[10.447306] (-) TimerEvent: {}
+[10.547785] (-) TimerEvent: {}
+[10.648373] (-) TimerEvent: {}
+[10.749010] (-) TimerEvent: {}
+[10.849432] (-) TimerEvent: {}
+[10.949925] (-) TimerEvent: {}
+[11.050437] (-) TimerEvent: {}
+[11.150913] (-) TimerEvent: {}
+[11.251336] (-) TimerEvent: {}
+[11.351912] (-) TimerEvent: {}
+[11.452398] (-) TimerEvent: {}
+[11.553041] (-) TimerEvent: {}
+[11.653688] (-) TimerEvent: {}
+[11.754372] (-) TimerEvent: {}
+[11.855039] (-) TimerEvent: {}
+[11.955528] (-) TimerEvent: {}
+[12.056072] (-) TimerEvent: {}
+[12.156453] (-) TimerEvent: {}
+[12.256861] (-) TimerEvent: {}
+[12.357216] (-) TimerEvent: {}
+[12.457756] (-) TimerEvent: {}
+[12.558121] (-) TimerEvent: {}
+[12.658631] (-) TimerEvent: {}
+[12.759129] (-) TimerEvent: {}
+[12.859593] (-) TimerEvent: {}
+[12.959998] (-) TimerEvent: {}
+[13.060469] (-) TimerEvent: {}
+[13.160995] (-) TimerEvent: {}
+[13.261492] (-) TimerEvent: {}
+[13.361912] (-) TimerEvent: {}
+[13.462397] (-) TimerEvent: {}
+[13.562958] (-) TimerEvent: {}
+[13.663412] (-) TimerEvent: {}
+[13.763918] (-) TimerEvent: {}
+[13.864553] (-) TimerEvent: {}
+[13.965117] (-) TimerEvent: {}
+[14.065696] (-) TimerEvent: {}
+[14.166275] (-) TimerEvent: {}
+[14.266740] (-) TimerEvent: {}
+[14.367317] (-) TimerEvent: {}
+[14.467809] (-) TimerEvent: {}
+[14.568299] (-) TimerEvent: {}
+[14.668775] (-) TimerEvent: {}
+[14.769232] (-) TimerEvent: {}
+[14.869826] (-) TimerEvent: {}
+[14.970457] (-) TimerEvent: {}
+[15.071015] (-) TimerEvent: {}
+[15.171660] (-) TimerEvent: {}
+[15.272290] (-) TimerEvent: {}
+[15.372929] (-) TimerEvent: {}
+[15.473564] (-) TimerEvent: {}
+[15.574057] (-) TimerEvent: {}
+[15.674590] (-) TimerEvent: {}
+[15.775085] (-) TimerEvent: {}
+[15.875636] (-) TimerEvent: {}
+[15.976084] (-) TimerEvent: {}
+[16.076652] (-) TimerEvent: {}
+[16.177140] (-) TimerEvent: {}
+[16.277674] (-) TimerEvent: {}
+[16.378249] (-) TimerEvent: {}
+[16.478685] (-) TimerEvent: {}
+[16.579344] (-) TimerEvent: {}
+[16.679908] (-) TimerEvent: {}
+[16.780513] (-) TimerEvent: {}
+[16.881109] (-) TimerEvent: {}
+[16.981619] (-) TimerEvent: {}
+[17.082129] (-) TimerEvent: {}
+[17.182780] (-) TimerEvent: {}
+[17.283250] (-) TimerEvent: {}
+[17.383814] (-) TimerEvent: {}
+[17.484438] (-) TimerEvent: {}
+[17.584955] (-) TimerEvent: {}
+[17.685433] (-) TimerEvent: {}
+[17.785927] (-) TimerEvent: {}
+[17.886431] (-) TimerEvent: {}
+[17.986892] (-) TimerEvent: {}
+[18.087369] (-) TimerEvent: {}
+[18.174301] (om_gravity_compensation_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgravity_compensation_controller.so\x1b[0m\n'}
+[18.187516] (-) TimerEvent: {}
+[18.288200] (-) TimerEvent: {}
+[18.388838] (-) TimerEvent: {}
+[18.489310] (-) TimerEvent: {}
+[18.491293] (om_gravity_compensation_controller) StdoutLine: {'line': b'[100%] Built target gravity_compensation_controller\n'}
+[18.501484] (om_gravity_compensation_controller) CommandEnded: {'returncode': 0}
+[18.502195] (om_gravity_compensation_controller) JobProgress: {'identifier': 'om_gravity_compensation_controller', 'progress': 'install'}
+[18.512441] (om_gravity_compensation_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d6f7d07b-da78-4ed0-a052-9b7b4fb2fe16.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install:/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/9027_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-39b729e741af20c3.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/om_gravity_compensation_controller', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[18.519890] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[18.520303] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.521024] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp\n'}
+[18.529742] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller//gravity_compensation_plugin.xml\n'}
+[18.537455] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/gravity_compensation_controller.hpp\n'}
+[18.544833] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/visibility_control.h\n'}
+[18.552651] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.sh\n'}
+[18.560544] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.dsv\n'}
+[18.567714] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/package_run_dependencies/om_gravity_compensation_controller\n'}
+[18.574737] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/parent_prefix_path/om_gravity_compensation_controller\n'}
+[18.581789] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.sh\n'}
+[18.588557] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.dsv\n'}
+[18.589606] (-) TimerEvent: {}
+[18.595866] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.sh\n'}
+[18.605102] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.dsv\n'}
+[18.613874] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.bash\n'}
+[18.621015] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.sh\n'}
+[18.628639] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.zsh\n'}
+[18.635666] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.dsv\n'}
+[18.642526] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.dsv\n'}
+[18.649677] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/packages/om_gravity_compensation_controller\n'}
+[18.656516] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_gravity_compensation_controller\n'}
+[18.664537] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.671539] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.678477] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig.cmake\n'}
+[18.685960] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig-version.cmake\n'}
+[18.689830] (-) TimerEvent: {}
+[18.692745] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Symlinking: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.xml\n'}
+[18.700744] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Installing: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/lib/libgravity_compensation_controller.so\n'}
+[18.702203] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/lib/libgravity_compensation_controller.so" to ""\n'}
+[18.702465] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Installing: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport.cmake\n'}
+[18.702554] (om_gravity_compensation_controller) StdoutLine: {'line': b'-- Installing: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport-release.cmake\n'}
+[18.704106] (om_gravity_compensation_controller) CommandEnded: {'returncode': 0}
+[18.723727] (om_gravity_compensation_controller) JobEnded: {'identifier': 'om_gravity_compensation_controller', 'rc': 0}
+[18.724250] (-) EventReactorShutdown: {}

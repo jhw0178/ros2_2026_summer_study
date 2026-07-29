@@ -1,0 +1,28 @@
+[0.930s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop/build --no-deps symlink_data
+[1.166s] running develop
+[1.305s] running egg_info
+[1.305s] creating open_manipulator_teleop.egg-info
+[1.323s] writing open_manipulator_teleop.egg-info/PKG-INFO
+[1.323s] writing dependency_links to open_manipulator_teleop.egg-info/dependency_links.txt
+[1.323s] writing entry points to open_manipulator_teleop.egg-info/entry_points.txt
+[1.323s] writing requirements to open_manipulator_teleop.egg-info/requires.txt
+[1.323s] writing top-level names to open_manipulator_teleop.egg-info/top_level.txt
+[1.323s] writing manifest file 'open_manipulator_teleop.egg-info/SOURCES.txt'
+[1.350s] reading manifest file 'open_manipulator_teleop.egg-info/SOURCES.txt'
+[1.351s] writing manifest file 'open_manipulator_teleop.egg-info/SOURCES.txt'
+[1.366s] running build_ext
+[1.366s] Creating /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages/open-manipulator-teleop.egg-link (link to .)
+[1.366s] Installing omx_f_teleop script to /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[1.367s] Installing omy_3m_teleop script to /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[1.367s] Installing omy_f3m_teleop script to /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[1.367s] Installing open_manipulator_x_teleop script to /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/lib/open_manipulator_teleop
+[1.367s] 
+[1.367s] Installed /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop
+[1.367s] running symlink_data
+[1.367s] creating /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/share/ament_index
+[1.367s] creating /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/share/ament_index/resource_index
+[1.368s] creating /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/share/ament_index/resource_index/packages
+[1.368s] symbolically linking /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop/resource/open_manipulator_teleop -> /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/share/ament_index/resource_index/packages
+[1.368s] symbolically linking /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop/package.xml -> /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/share/open_manipulator_teleop
+[1.368s] creating /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/share/open_manipulator_teleop/launch
+[1.399s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop/build --no-deps symlink_data
