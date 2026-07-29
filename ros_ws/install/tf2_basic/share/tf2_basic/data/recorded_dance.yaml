@@ -8,153 +8,76 @@ joint_limits:
   - -3.14159265359
   - 3.14159265359
   joint2:
-  - -2.0
-  - 2.0
+  - -1.5
+  - 1.5
   joint3:
   - -1.5
   - 1.4
   joint4:
   - -1.7
   - 1.97
-gripper_limits: 
-  - -0.011
-  - 0.02
+gripper_limits:
+- -0.011
+- 0.02
+randomization:
+  variation_ratio: 0.0
+  minimum_joint_jitter: 0.01
+  minimum_gripper_jitter: 0.0002
+  shuffle_patterns: false
+  shuffle_steps: false
+execution:
+  repeat_count: 1
+  default_duration: 1.0
+  default_pause: 0.15
+  gripper_max_effort: 5.0
 patterns:
-- name: test
+- name: taught_motion
   steps:
   - positions:
-    - -0.032214
-    - -1.701185
-    - 1.115204
-    - 0.526155
-    gripper: 0.018314
-    duration: 1.0
-    pause: 0.2
+    - 1.087592
+    - 0.679553
+    - -0.495476
+    - 0.997088
+    gripper: 0.017856
+    duration: 3.0
+    pause: 0.15
   - positions:
-    - 0.378893
-    - -1.702719
-    - 1.104466
-    - 0.527689
-    gripper: 0.018314
+    - 1.092194
+    - 0.679553
+    - -0.49701
+    - 0.997088
+    gripper: -0.011
     duration: 1.0
-    pause: 0.2
+    pause: 0.15
   - positions:
-    - 0.866699
-    - -1.817767
-    - 1.096796
-    - 0.719437
-    gripper: 0.018314
+    - 1.027767
+    - 0.345146
+    - -0.684155
+    - 1.245592
+    gripper: -0.011
     duration: 1.0
-    pause: 0.2
+    pause: 0.15
   - positions:
-    - 1.480291
-    - -1.882194
-    - 1.043107
-    - 0.716369
-    gripper: 0.018314
+    - 0.016874
+    - -0.337476
+    - 0.227029
+    - 1.388253
+    gripper: -0.011
     duration: 1.0
-    pause: 0.2
+    pause: 0.15
   - positions:
-    - 2.176719
-    - -1.793224
-    - 1.021631
-    - 0.714835
-    gripper: 0.018314
+    - -1.063049
+    - 0.110447
+    - 0.417243
+    - 1.052311
+    gripper: -0.011
     duration: 1.0
-    pause: 0.2
+    pause: 0.15
   - positions:
-    - 2.268758
-    - -1.366777
-    - 0.871301
-    - 0.720971
-    gripper: 0.018314
+    - -1.064583
+    - 0.110447
+    - 0.415709
+    - 1.052311
+    gripper: 0.017856
     duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.426758
-    - -1.001689
-    - 0.708699
-    - 0.754719
-    gripper: 0.018314
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.621573
-    - -0.604388
-    - 0.587515
-    - 0.756253
-    gripper: 0.018314
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.684466
-    - -0.312932
-    - 0.438719
-    - 0.753185
-    gripper: 0.018314
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.692136
-    - -0.012272
-    - 0.259243
-    - 0.823748
-    gripper: 0.018314
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.70134
-    - 0.141126
-    - 0.107379
-    - 0.917321
-    gripper: 0.018314
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.712078
-    - 0.369689
-    - -0.115049
-    - 1.139748
-    gripper: 0.018314
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.802583
-    - 0.230097
-    - 0.184078
-    - 0.762388
-    gripper: 0.017409
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.824059
-    - 0.073631
-    - 0.18101
-    - 0.742447
-    gripper: 0.017427
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.85934
-    - -0.088971
-    - 0.179476
-    - 0.549165
-    gripper: 0.017427
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.903826
-    - -0.230097
-    - 0.503146
-    - -0.067495
-    gripper: 0.017409
-    duration: 1.0
-    pause: 0.2
-  - positions:
-    - 2.962117
-    - 0.280718
-    - 1.130544
-    - -1.504835
-    gripper: 0.017427
-    duration: 1.0
-    pause: 0.2
+    pause: 0.15
