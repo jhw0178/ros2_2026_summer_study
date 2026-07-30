@@ -59,6 +59,9 @@
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/data/dance.yaml
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/data/recorded_dance.yaml
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/data/re.yaml
+/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models
+/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basicworld/empty_world.sdf
+/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basicworld/warehouse_world.sdf
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info/dependency_links.txt
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info/entry_points.txt
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info/requires.txt

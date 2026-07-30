@@ -50,3 +50,5 @@ urdf/02_myfirst.urdf
 urdf/03_myfirst.urdf
 urdf/04_myfirst.urdf
 urdf/05_myfirst.urdf
+world/empty_world.sdf
+world/warehouse_world.sdf
