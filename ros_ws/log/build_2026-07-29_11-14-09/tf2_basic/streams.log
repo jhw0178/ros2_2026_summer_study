@@ -1,0 +1,46 @@
+[1.668s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data
+[1.963s] running egg_info
+[1.992s] writing ../../build/tf2_basic/tf2_basic.egg-info/PKG-INFO
+[1.993s] writing dependency_links to ../../build/tf2_basic/tf2_basic.egg-info/dependency_links.txt
+[1.993s] writing entry points to ../../build/tf2_basic/tf2_basic.egg-info/entry_points.txt
+[1.994s] writing requirements to ../../build/tf2_basic/tf2_basic.egg-info/requires.txt
+[1.994s] writing top-level names to ../../build/tf2_basic/tf2_basic.egg-info/top_level.txt
+[2.050s] reading manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+[2.051s] writing manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+[2.052s] running build
+[2.052s] running build_py
+[2.053s] copying tf2_basic/moveit_class2.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+[2.053s] running install
+[2.060s] running install_lib
+[2.079s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/moveit_class2.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+[2.080s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/move_manipulator2.py to move_manipulator2.cpython-312.pyc
+[2.081s] Sorry: IndentationError: unindent does not match any outer indentation level (move_manipulator2.py, line 63)
+[2.081s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/moveit_class2.py to moveit_class2.cpython-312.pyc
+[2.082s]   File "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/moveit_class2.py", line 50
+[2.082s]     self.plan_and_execute(d
+[2.082s]                           
+[2.082s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2.083s] 
+[2.083s] running install_data
+[2.083s] running install_egg_info
+[2.117s] removing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info' (and everything under it)
+[2.118s] Copying ../../build/tf2_basic/tf2_basic.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info
+[2.119s] running install_scripts
+[2.292s] Installing dance_manipulator script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.293s] Installing dance_player script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.294s] Installing dance_player_action script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.294s] Installing dynamic_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.294s] Installing move_manipulator script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.294s] Installing move_manipulator2 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.294s] Installing move_manipulator_action script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.295s] Installing moveit_class script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.295s] Installing moveit_test script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.295s] Installing play_recorded_dance script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.295s] Installing static_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.295s] Installing teach_manipulator script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.295s] Installing teach_manipulator2 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.295s] Installing teach_manipulator3 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.295s] Installing tf_listener script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.296s] Installing tf_motion script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+[2.296s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log'
+[2.348s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/tf2_basic' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf2_basic build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log --install-scripts $base/lib/tf2_basic --single-version-externally-managed install_data

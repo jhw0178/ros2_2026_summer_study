@@ -13,6 +13,7 @@ data/re.yaml
 data/recorded_dance.yaml
 data/teach_data.yaml
 launch/display.launch.py
+launch/moveit_class.launch.py
 launch/moveit_test.launch.py
 meshes/l_finger.dae
 meshes/l_finger_color.png
@@ -30,7 +31,11 @@ tf2_basic/dance_player_action.py
 tf2_basic/dynamic_turtle_tf2_broadcaster.py
 tf2_basic/move_manipulator.py
 tf2_basic/move_manipulator_action.py
+tf2_basic/moveit_attached.py
 tf2_basic/moveit_class.py
+tf2_basic/moveit_class2.py
+tf2_basic/moveit_mini_project.py
+tf2_basic/moveit_scene_monitor.py
 tf2_basic/moveit_test.py
 tf2_basic/play_recorded_dance.py
 tf2_basic/static_turtle_tf2_broadcaster.py

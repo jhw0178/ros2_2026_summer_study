@@ -26,6 +26,24 @@ class OpenManipulatorMoveItNode(Node):
                 controller_name="arm_controller",
             )
             
+        for goal_name in ("my_pose1", "my_pose2", "my_pose1", "my_pose2"):
+            self.get_logger().info("joint move!!")
+            self.plan_and_execute(
+                self.moveit,
+                self.arm,
+                configuration_name=goal_name, # 따옴표 제거
+                controller_name="arm_controller",
+            )
+        
+        for goal_name in ("my_pose3", "my_pose4", "my_pose3", "my_pose4"):
+            self.get_logger().info("joint move!!")
+            self.plan_and_execute(
+                self.moveit,
+                self.arm,
+                configuration_name=goal_name, # 따옴표 제거
+                controller_name="arm_controller",
+            )        
+            
         for goal_name in ("open", "close", "open", "close"):
             self.get_logger().info("gripper move!!")
             self.plan_and_execute(

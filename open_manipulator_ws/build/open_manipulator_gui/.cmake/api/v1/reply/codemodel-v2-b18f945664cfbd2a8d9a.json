@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-740fd56f5e9dccfc36dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "open_manipulator_gui",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_ui_headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_ui_headers-770feebb5cb79b47296a.json",
+					"name" : "copy_ui_headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_f_gui_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_f_gui_node-3fdeb28f0322e3af3299.json",
+					"name" : "omx_f_gui_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_f_gui_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_f_gui_node_autogen-70932bc91f582db3737e.json",
+					"name" : "omx_f_gui_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omx_f_gui_node_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omx_f_gui_node_autogen_timestamp_deps-6e5121500e0e3068c2ee.json",
+					"name" : "omx_f_gui_node_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omy_3m_gui_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omy_3m_gui_node-e85b0204c33a013feb60.json",
+					"name" : "omy_3m_gui_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omy_3m_gui_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omy_3m_gui_node_autogen-77d639aca849fd3fba0a.json",
+					"name" : "omy_3m_gui_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omy_3m_gui_node_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omy_3m_gui_node_autogen_timestamp_deps-6daae02b4e7636a34c7d.json",
+					"name" : "omy_3m_gui_node_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omy_f3m_gui_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omy_f3m_gui_node-21409c1310ee0ea59c9b.json",
+					"name" : "omy_f3m_gui_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omy_f3m_gui_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omy_f3m_gui_node_autogen-0a123e75d586cfca7a9a.json",
+					"name" : "omy_f3m_gui_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omy_f3m_gui_node_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omy_f3m_gui_node_autogen_timestamp_deps-9cd96f5e7cc78a04cc96.json",
+					"name" : "omy_f3m_gui_node_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_gui_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_gui_uninstall-dc44d849b189cef18c4c.json",
+					"name" : "open_manipulator_gui_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_x_gui_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_x_gui_node-ef6451b40d096a4b39be.json",
+					"name" : "open_manipulator_x_gui_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_x_gui_node_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_x_gui_node_autogen-e3e84b83ed2a2686c727.json",
+					"name" : "open_manipulator_x_gui_node_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_manipulator_x_gui_node_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_manipulator_x_gui_node_autogen_timestamp_deps-9775504327bf9c51463c.json",
+					"name" : "open_manipulator_x_gui_node_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7f6d6ca37d56f62359f5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_gui",
+		"source" : "/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/open_manipulator_gui"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

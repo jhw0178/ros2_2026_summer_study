@@ -1,0 +1,6 @@
+  File "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/moveit_attached.py", line 69
+    "joint1": 0.946652312
+              
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+Sorry: IndentationError: unindent does not match any outer indentation level (move_manipulator2.py, line 63)

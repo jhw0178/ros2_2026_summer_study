@@ -1,0 +1,366 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (-) JobUnselected: {'identifier': 'dynamixel_hardware_interface'}
+[0.000211] (-) JobUnselected: {'identifier': 'dynamixel_interfaces'}
+[0.000225] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000294] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000333] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000346] (-) JobUnselected: {'identifier': 'om_gravity_compensation_controller'}
+[0.000353] (-) JobUnselected: {'identifier': 'om_joint_trajectory_command_broadcaster'}
+[0.000360] (-) JobUnselected: {'identifier': 'om_spring_actuator_controller'}
+[0.000367] (-) JobUnselected: {'identifier': 'open_manipulator'}
+[0.000373] (-) JobUnselected: {'identifier': 'open_manipulator_bringup'}
+[0.000380] (-) JobUnselected: {'identifier': 'open_manipulator_collision'}
+[0.000388] (-) JobUnselected: {'identifier': 'open_manipulator_description'}
+[0.000395] (-) JobUnselected: {'identifier': 'open_manipulator_moveit_config'}
+[0.000402] (-) JobUnselected: {'identifier': 'open_manipulator_playground'}
+[0.000428] (-) JobUnselected: {'identifier': 'open_manipulator_teleop'}
+[0.000814] (open_manipulator_gui) JobQueued: {'identifier': 'open_manipulator_gui', 'dependencies': OrderedDict()}
+[0.000869] (open_manipulator_gui) JobStarted: {'identifier': 'open_manipulator_gui'}
+[0.014970] (open_manipulator_gui) JobProgress: {'identifier': 'open_manipulator_gui', 'progress': 'cmake'}
+[0.016950] (open_manipulator_gui) Command: {'cmd': ['/usr/bin/cmake', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/src/open_manipulator/open_manipulator_gui', '-DCMKAE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_gui'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_gui', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_spring_actuator_controller/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178/ros2_2026_summer_study', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0259701e-a656-4e6a-9487-f939fc425146.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install:/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/564_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-09ce1dd5e93695f6.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_playground:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_moveit_config:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_bringup:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_spring_actuator_controller:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_gui', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_bringup:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_bringup/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_playground:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_moveit_config:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_spring_actuator_controller:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_bringup:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.099123] (-) TimerEvent: {}
+[0.199514] (-) TimerEvent: {}
+[0.287873] (open_manipulator_gui) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299754] (-) TimerEvent: {}
+[0.400089] (-) TimerEvent: {}
+[0.500394] (-) TimerEvent: {}
+[0.600834] (-) TimerEvent: {}
+[0.701323] (-) TimerEvent: {}
+[0.801641] (-) TimerEvent: {}
+[0.902033] (-) TimerEvent: {}
+[0.937590] (open_manipulator_gui) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.002164] (-) TimerEvent: {}
+[1.102498] (-) TimerEvent: {}
+[1.202986] (-) TimerEvent: {}
+[1.303448] (-) TimerEvent: {}
+[1.403858] (-) TimerEvent: {}
+[1.469716] (open_manipulator_gui) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.503966] (-) TimerEvent: {}
+[1.604285] (-) TimerEvent: {}
+[1.699842] (open_manipulator_gui) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.704509] (-) TimerEvent: {}
+[1.706614] (open_manipulator_gui) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.708484] (open_manipulator_gui) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.709424] (open_manipulator_gui) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.797213] (open_manipulator_gui) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.804766] (-) TimerEvent: {}
+[1.905095] (-) TimerEvent: {}
+[2.005495] (-) TimerEvent: {}
+[2.034600] (open_manipulator_gui) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.043709] (open_manipulator_gui) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.043994] (open_manipulator_gui) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.044566] (open_manipulator_gui) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.088705] (open_manipulator_gui) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.105671] (-) TimerEvent: {}
+[2.206040] (-) TimerEvent: {}
+[2.232266] (open_manipulator_gui) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.306260] (-) TimerEvent: {}
+[2.346520] (open_manipulator_gui) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.406477] (-) TimerEvent: {}
+[2.468777] (open_manipulator_gui) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.506607] (-) TimerEvent: {}
+[2.606987] (-) TimerEvent: {}
+[2.699454] (open_manipulator_gui) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.707103] (-) TimerEvent: {}
+[2.724249] (open_manipulator_gui) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.762983] (open_manipulator_gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.794321] (open_manipulator_gui) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.807289] (-) TimerEvent: {}
+[2.869655] (open_manipulator_gui) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.907522] (-) TimerEvent: {}
+[2.977599] (open_manipulator_gui) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.985100] (open_manipulator_gui) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.007767] (-) TimerEvent: {}
+[3.108121] (-) TimerEvent: {}
+[3.111048] (open_manipulator_gui) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.202218] (open_manipulator_gui) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.208248] (-) TimerEvent: {}
+[3.308856] (-) TimerEvent: {}
+[3.409556] (-) TimerEvent: {}
+[3.413367] (open_manipulator_gui) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.509759] (-) TimerEvent: {}
+[3.610157] (-) TimerEvent: {}
+[3.673877] (open_manipulator_gui) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[3.706805] (open_manipulator_gui) StdoutLine: {'line': b'-- Found moveit_msgs: 2.6.0 (/opt/ros/jazzy/share/moveit_msgs/cmake)\n'}
+[3.710412] (-) TimerEvent: {}
+[3.810927] (-) TimerEvent: {}
+[3.911396] (-) TimerEvent: {}
+[3.962626] (open_manipulator_gui) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning/cmake)\n'}
+[4.011650] (-) TimerEvent: {}
+[4.111967] (-) TimerEvent: {}
+[4.160879] (open_manipulator_gui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono \n'}
+[4.196876] (open_manipulator_gui) StdoutLine: {'line': b'-- Found parameter_traits: 0.7.3 (/opt/ros/jazzy/share/parameter_traits/cmake)\n'}
+[4.212245] (-) TimerEvent: {}
+[4.224312] (open_manipulator_gui) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):\n'}
+[4.224614] (open_manipulator_gui) StderrLine: {'line': b"  Package 'tl_expected' is deprecated (This package will be removed in ROS 2\n"}
+[4.224725] (open_manipulator_gui) StderrLine: {'line': b'  Lyrical Luth.\n'}
+[4.224800] (open_manipulator_gui) StderrLine: {'line': b'\n'}
+[4.224853] (open_manipulator_gui) StderrLine: {'line': b'        Use tl/expected.hpp from libexpected-dev,\n'}
+[4.224935] (open_manipulator_gui) StderrLine: {'line': b'        or rcpputils/tl_expected/expected.hpp if the system header is not available)\n'}
+[4.224989] (open_manipulator_gui) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.225031] (open_manipulator_gui) StderrLine: {'line': b'  /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[4.225074] (open_manipulator_gui) StderrLine: {'line': b'  /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)\n'}
+[4.225114] (open_manipulator_gui) StderrLine: {'line': b'  /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library-extras.cmake:30 (find_package)\n'}
+[4.225155] (open_manipulator_gui) StderrLine: {'line': b'  /opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_libraryConfig.cmake:41 (include)\n'}
+[4.225196] (open_manipulator_gui) StderrLine: {'line': b'  /opt/ros/jazzy/share/moveit_ros_planning/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[4.225235] (open_manipulator_gui) StderrLine: {'line': b'  /opt/ros/jazzy/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake:41 (include)\n'}
+[4.225275] (open_manipulator_gui) StderrLine: {'line': b'  CMakeLists.txt:21 (find_package)\n'}
+[4.225315] (open_manipulator_gui) StderrLine: {'line': b'\n'}
+[4.225353] (open_manipulator_gui) StderrLine: {'line': b'\x1b[0m\n'}
+[4.232916] (open_manipulator_gui) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.21 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[4.312508] (-) TimerEvent: {}
+[4.318745] (open_manipulator_gui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[4.412777] (-) TimerEvent: {}
+[4.513253] (-) TimerEvent: {}
+[4.613637] (-) TimerEvent: {}
+[4.714019] (-) TimerEvent: {}
+[4.814407] (-) TimerEvent: {}
+[4.914732] (-) TimerEvent: {}
+[5.015065] (-) TimerEvent: {}
+[5.115426] (-) TimerEvent: {}
+[5.215805] (-) TimerEvent: {}
+[5.316234] (-) TimerEvent: {}
+[5.391855] (open_manipulator_gui) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.392062] (open_manipulator_gui) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.416483] (-) TimerEvent: {}
+[5.516817] (-) TimerEvent: {}
+[5.617253] (-) TimerEvent: {}
+[5.661587] (open_manipulator_gui) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)\n'}
+[5.665992] (open_manipulator_gui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread \n'}
+[5.684992] (open_manipulator_gui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options \n'}
+[5.717405] (-) TimerEvent: {}
+[5.718914] (open_manipulator_gui) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread \n'}
+[5.817531] (-) TimerEvent: {}
+[5.918215] (-) TimerEvent: {}
+[5.988177] (open_manipulator_gui) StdoutLine: {'line': b'-- Configuring done (5.9s)\n'}
+[6.018459] (-) TimerEvent: {}
+[6.118818] (-) TimerEvent: {}
+[6.141513] (open_manipulator_gui) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.144200] (open_manipulator_gui) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[6.144366] (open_manipulator_gui) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[6.144413] (open_manipulator_gui) StderrLine: {'line': b'\n'}
+[6.144454] (open_manipulator_gui) StderrLine: {'line': b'    CMKAE_BUILD_TYPE\n'}
+[6.144495] (open_manipulator_gui) StderrLine: {'line': b'\n'}
+[6.144541] (open_manipulator_gui) StderrLine: {'line': b'\x1b[0m\n'}
+[6.158248] (open_manipulator_gui) StdoutLine: {'line': b'-- Build files have been written to: /home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_gui\n'}
+[6.172505] (open_manipulator_gui) CommandEnded: {'returncode': 0}
+[6.173743] (open_manipulator_gui) JobProgress: {'identifier': 'open_manipulator_gui', 'progress': 'build'}
+[6.173833] (open_manipulator_gui) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_gui', '--', '-j16', '-l16'], 'cwd': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_gui', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jhw0178', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_spring_actuator_controller/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jhw0178', 'OLDPWD': '/home/jhw0178/ros2_2026_summer_study', 'TERM_PROGRAM_VERSION': '1.129.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0259701e-a656-4e6a-9487-f939fc425146.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/home/jhw0178/ros2_2026_summer_study/ros_ws', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install:/home/jhw0178/ros2_2026_summer_study/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jhw0178', 'NAME': 'localhost', 'WSL_INTEROP': '/run/WSL/564_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jhw0178/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jhw0178/.vscode-server/bin/8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jre-19.0.1.10-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jhw01/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jhw01/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jhw0178/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-09ce1dd5e93695f6.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jhw0178/.vscode-server/data/User/workspaceStorage/cea23cdaca387f506d098d56c7ea4eff/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca1f88d07b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_playground:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_moveit_config:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_bringup:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_spring_actuator_controller:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_gui', 'COPILOT_DEBUG_NONCE': 'ecc15d45389ba6e40b229a7648ee7885', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_teleop:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/build/open_manipulator_bringup:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_bringup/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_playground:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_moveit_config:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_description:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_collision:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_spring_actuator_controller:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_joint_trajectory_command_broadcaster:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/om_gravity_compensation_controller:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_examples:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk_custom_interfaces:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_hardware_interface:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_sdk:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/dynamixel_interfaces:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/user_interface:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_teleop:/home/jhw0178/ros2_2026_summer_study/open_manipulator_ws/install/open_manipulator_bringup:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/my_first_package:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[6.219104] (-) TimerEvent: {}
+[6.221130] (open_manipulator_gui) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating ui_open_manipulator_x_main_window.h\x1b[0m\n'}
+[6.221323] (open_manipulator_gui) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating ui_omy_3m_main_window.h\x1b[0m\n'}
+[6.221895] (open_manipulator_gui) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating ui_omy_f3m_main_window.h\x1b[0m\n'}
+[6.222053] (open_manipulator_gui) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating ui_omx_f_main_window.h\x1b[0m\n'}
+[6.237758] (open_manipulator_gui) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating omy_3m_gui/ui_omy_3m_main_window.h\x1b[0m\n'}
+[6.237983] (open_manipulator_gui) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating omx_f_gui/ui_omx_f_main_window.h\x1b[0m\n'}
+[6.238057] (open_manipulator_gui) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating open_manipulator_x_gui/ui_open_manipulator_x_main_window.h\x1b[0m\n'}
+[6.238612] (open_manipulator_gui) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating omy_f3m_gui/ui_omy_f3m_main_window.h\x1b[0m\n'}
+[6.253424] (open_manipulator_gui) StdoutLine: {'line': b'[ 14%] Built target copy_ui_headers\n'}
+[6.271662] (open_manipulator_gui) StdoutLine: {'line': b'[ 14%] Built target omy_3m_gui_node_autogen_timestamp_deps\n'}
+[6.271919] (open_manipulator_gui) StdoutLine: {'line': b'[ 14%] Built target open_manipulator_x_gui_node_autogen_timestamp_deps\n'}
+[6.272067] (open_manipulator_gui) StdoutLine: {'line': b'[ 14%] Built target omx_f_gui_node_autogen_timestamp_deps\n'}
+[6.272253] (open_manipulator_gui) StdoutLine: {'line': b'[ 14%] Built target omy_f3m_gui_node_autogen_timestamp_deps\n'}
+[6.289989] (open_manipulator_gui) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target omy_3m_gui_node\x1b[0m\n'}
+[6.290156] (open_manipulator_gui) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target omy_f3m_gui_node\x1b[0m\n'}
+[6.290204] (open_manipulator_gui) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target omx_f_gui_node\x1b[0m\n'}
+[6.319225] (-) TimerEvent: {}
+[6.347557] (open_manipulator_gui) StdoutLine: {'line': b'[ 19%] Built target omx_f_gui_node_autogen\n'}
+[6.347881] (open_manipulator_gui) StdoutLine: {'line': b'[ 19%] Built target omy_f3m_gui_node_autogen\n'}
+[6.347967] (open_manipulator_gui) StdoutLine: {'line': b'[ 19%] Built target omy_3m_gui_node_autogen\n'}
+[6.356241] (open_manipulator_gui) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating include/omy_f3m_gui/moc_main_window.cpp\x1b[0m\n'}
+[6.356504] (open_manipulator_gui) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating include/omx_f_gui/moc_main_window.cpp\x1b[0m\n'}
+[6.356796] (open_manipulator_gui) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating include/omx_f_gui/moc_qnode.cpp\x1b[0m\n'}
+[6.358950] (open_manipulator_gui) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating include/omy_f3m_gui/moc_qnode.cpp\x1b[0m\n'}
+[6.365873] (open_manipulator_gui) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target open_manipulator_x_gui_node\x1b[0m\n'}
+[6.390216] (open_manipulator_gui) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/omx_f_gui_node_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[6.391391] (open_manipulator_gui) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/include/omx_f_gui/moc_main_window.cpp.o\x1b[0m\n'}
+[6.391847] (open_manipulator_gui) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/src/omx_f/main.cpp.o\x1b[0m\n'}
+[6.393271] (open_manipulator_gui) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/src/omx_f/qnode.cpp.o\x1b[0m\n'}
+[6.393583] (open_manipulator_gui) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/src/omx_f/main_window.cpp.o\x1b[0m\n'}
+[6.395061] (open_manipulator_gui) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/omx_f_gui_node.dir/include/omx_f_gui/moc_qnode.cpp.o\x1b[0m\n'}
+[6.397440] (open_manipulator_gui) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/src/omy_f3m/qnode.cpp.o\x1b[0m\n'}
+[6.397999] (open_manipulator_gui) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/src/omy_f3m/main_window.cpp.o\x1b[0m\n'}
+[6.398255] (open_manipulator_gui) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/src/omy_f3m/main.cpp.o\x1b[0m\n'}
+[6.398626] (open_manipulator_gui) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/include/omy_f3m_gui/moc_qnode.cpp.o\x1b[0m\n'}
+[6.398745] (open_manipulator_gui) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/include/omy_f3m_gui/moc_main_window.cpp.o\x1b[0m\n'}
+[6.399357] (open_manipulator_gui) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/omy_f3m_gui_node.dir/omy_f3m_gui_node_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[6.414878] (open_manipulator_gui) StdoutLine: {'line': b'[ 50%] Built target open_manipulator_x_gui_node_autogen\n'}
+[6.419415] (-) TimerEvent: {}
+[6.425920] (open_manipulator_gui) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating include/open_manipulator_x_gui/moc_main_window.cpp\x1b[0m\n'}
+[6.426528] (open_manipulator_gui) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating include/omy_3m_gui/moc_main_window.cpp\x1b[0m\n'}
+[6.426793] (open_manipulator_gui) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating include/omy_3m_gui/moc_qnode.cpp\x1b[0m\n'}
+[6.427055] (open_manipulator_gui) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating include/open_manipulator_x_gui/moc_qnode.cpp\x1b[0m\n'}
+[6.488092] (open_manipulator_gui) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/src/omy_3m/main.cpp.o\x1b[0m\n'}
+[6.495833] (open_manipulator_gui) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/include/omy_3m_gui/moc_main_window.cpp.o\x1b[0m\n'}
+[6.496116] (open_manipulator_gui) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/src/omy_3m/main_window.cpp.o\x1b[0m\n'}
+[6.496249] (open_manipulator_gui) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/omy_3m_gui_node_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[6.500925] (open_manipulator_gui) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[6.508045] (open_manipulator_gui) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/src/omy_3m/qnode.cpp.o\x1b[0m\n'}
+[6.519549] (-) TimerEvent: {}
+[6.546574] (open_manipulator_gui) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/omy_3m_gui_node.dir/include/omy_3m_gui/moc_qnode.cpp.o\x1b[0m\n'}
+[6.550699] (open_manipulator_gui) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/open_manipulator_x/main.cpp.o\x1b[0m\n'}
+[6.619678] (-) TimerEvent: {}
+[6.720908] (-) TimerEvent: {}
+[6.822552] (-) TimerEvent: {}
+[6.923229] (-) TimerEvent: {}
+[7.023629] (-) TimerEvent: {}
+[7.124387] (-) TimerEvent: {}
+[7.226697] (-) TimerEvent: {}
+[7.327464] (-) TimerEvent: {}
+[7.427895] (-) TimerEvent: {}
+[7.528410] (-) TimerEvent: {}
+[7.632064] (-) TimerEvent: {}
+[7.732886] (-) TimerEvent: {}
+[7.836821] (-) TimerEvent: {}
+[7.937351] (-) TimerEvent: {}
+[8.037829] (-) TimerEvent: {}
+[8.138599] (-) TimerEvent: {}
+[8.239098] (-) TimerEvent: {}
+[8.339828] (-) TimerEvent: {}
+[8.440593] (-) TimerEvent: {}
+[8.547721] (-) TimerEvent: {}
+[8.648162] (-) TimerEvent: {}
+[8.750129] (-) TimerEvent: {}
+[8.851380] (-) TimerEvent: {}
+[8.953077] (-) TimerEvent: {}
+[9.057058] (-) TimerEvent: {}
+[9.157864] (-) TimerEvent: {}
+[9.258587] (-) TimerEvent: {}
+[9.359021] (-) TimerEvent: {}
+[9.459806] (-) TimerEvent: {}
+[9.561496] (-) TimerEvent: {}
+[9.664967] (-) TimerEvent: {}
+[9.765944] (-) TimerEvent: {}
+[9.866337] (-) TimerEvent: {}
+[9.968757] (-) TimerEvent: {}
+[10.069203] (-) TimerEvent: {}
+[10.171215] (-) TimerEvent: {}
+[10.272122] (-) TimerEvent: {}
+[10.372595] (-) TimerEvent: {}
+[10.476799] (-) TimerEvent: {}
+[10.577258] (-) TimerEvent: {}
+[10.677731] (-) TimerEvent: {}
+[10.781261] (-) TimerEvent: {}
+[10.881732] (-) TimerEvent: {}
+[10.982230] (-) TimerEvent: {}
+[11.083791] (-) TimerEvent: {}
+[11.188753] (-) TimerEvent: {}
+[11.289151] (-) TimerEvent: {}
+[11.389925] (-) TimerEvent: {}
+[11.490498] (-) TimerEvent: {}
+[11.590941] (-) TimerEvent: {}
+[11.691353] (-) TimerEvent: {}
+[11.791783] (-) TimerEvent: {}
+[12.242798] (-) TimerEvent: {}
+[12.343759] (-) TimerEvent: {}
+[12.444507] (-) TimerEvent: {}
+[12.545163] (-) TimerEvent: {}
+[12.646243] (-) TimerEvent: {}
+[12.746817] (-) TimerEvent: {}
+[12.847958] (-) TimerEvent: {}
+[12.948374] (-) TimerEvent: {}
+[13.049446] (-) TimerEvent: {}
+[13.151284] (-) TimerEvent: {}
+[13.253289] (-) TimerEvent: {}
+[13.353867] (-) TimerEvent: {}
+[13.454283] (-) TimerEvent: {}
+[13.554800] (-) TimerEvent: {}
+[13.655348] (-) TimerEvent: {}
+[13.755892] (-) TimerEvent: {}
+[13.857418] (-) TimerEvent: {}
+[13.957950] (-) TimerEvent: {}
+[14.058453] (-) TimerEvent: {}
+[14.160224] (-) TimerEvent: {}
+[14.260683] (-) TimerEvent: {}
+[14.361162] (-) TimerEvent: {}
+[14.461719] (-) TimerEvent: {}
+[14.562382] (-) TimerEvent: {}
+[14.664003] (-) TimerEvent: {}
+[14.767380] (-) TimerEvent: {}
+[14.873505] (-) TimerEvent: {}
+[14.973975] (-) TimerEvent: {}
+[15.074459] (-) TimerEvent: {}
+[15.175381] (-) TimerEvent: {}
+[15.276291] (-) TimerEvent: {}
+[15.376919] (-) TimerEvent: {}
+[15.478866] (-) TimerEvent: {}
+[15.581726] (-) TimerEvent: {}
+[15.685238] (-) TimerEvent: {}
+[15.785883] (-) TimerEvent: {}
+[15.888762] (-) TimerEvent: {}
+[15.989505] (-) TimerEvent: {}
+[16.090452] (-) TimerEvent: {}
+[16.192752] (-) TimerEvent: {}
+[16.293280] (-) TimerEvent: {}
+[16.396776] (-) TimerEvent: {}
+[16.497458] (-) TimerEvent: {}
+[16.600729] (-) TimerEvent: {}
+[16.704735] (-) TimerEvent: {}
+[16.805143] (-) TimerEvent: {}
+[16.905647] (-) TimerEvent: {}
+[17.006217] (-) TimerEvent: {}
+[17.110233] (-) TimerEvent: {}
+[17.211690] (-) TimerEvent: {}
+[17.317322] (-) TimerEvent: {}
+[17.417861] (-) TimerEvent: {}
+[17.518908] (-) TimerEvent: {}
+[17.619638] (-) TimerEvent: {}
+[17.720121] (-) TimerEvent: {}
+[17.820527] (-) TimerEvent: {}
+[17.921012] (-) TimerEvent: {}
+[18.021477] (-) TimerEvent: {}
+[18.122167] (-) TimerEvent: {}
+[18.222743] (-) TimerEvent: {}
+[18.323296] (-) TimerEvent: {}
+[18.424134] (-) TimerEvent: {}
+[18.524883] (-) TimerEvent: {}
+[18.626054] (-) TimerEvent: {}
+[18.727182] (-) TimerEvent: {}
+[18.828997] (-) TimerEvent: {}
+[18.933042] (-) TimerEvent: {}
+[19.033609] (-) TimerEvent: {}
+[19.134595] (-) TimerEvent: {}
+[19.235308] (-) TimerEvent: {}
+[19.335862] (-) TimerEvent: {}
+[19.438147] (-) TimerEvent: {}
+[19.539491] (-) TimerEvent: {}
+[19.641323] (-) TimerEvent: {}
+[19.742433] (-) TimerEvent: {}
+[19.842884] (-) TimerEvent: {}
+[19.943578] (-) TimerEvent: {}
+[20.044366] (-) TimerEvent: {}
+[20.144732] (-) TimerEvent: {}
+[20.245104] (-) TimerEvent: {}
+[20.345680] (-) TimerEvent: {}
+[20.446256] (-) TimerEvent: {}
+[20.547369] (-) TimerEvent: {}
+[20.647883] (-) TimerEvent: {}
+[20.748942] (-) TimerEvent: {}
+[20.849595] (-) TimerEvent: {}
+[20.950221] (-) TimerEvent: {}
+[21.050885] (-) TimerEvent: {}
+[21.151365] (-) TimerEvent: {}
+[21.252009] (-) TimerEvent: {}
+[21.352811] (-) TimerEvent: {}
+[21.453409] (-) TimerEvent: {}
+[21.554240] (-) TimerEvent: {}
+[21.654972] (-) TimerEvent: {}
+[21.755531] (-) TimerEvent: {}
+[21.856061] (-) TimerEvent: {}
+[21.956799] (-) TimerEvent: {}
+[22.057406] (-) TimerEvent: {}
+[22.157930] (-) TimerEvent: {}
+[22.258687] (-) TimerEvent: {}
+[22.359615] (-) TimerEvent: {}
+[22.460189] (-) TimerEvent: {}
+[22.560939] (-) TimerEvent: {}
+[22.661512] (-) TimerEvent: {}
+[22.762393] (-) TimerEvent: {}
+[22.862900] (-) TimerEvent: {}
+[22.963868] (-) TimerEvent: {}
+[23.064556] (-) TimerEvent: {}
+[23.165102] (-) TimerEvent: {}
+[23.265602] (-) TimerEvent: {}
+[23.502183] (-) TimerEvent: {}
+[23.622299] (-) TimerEvent: {}
+[24.057130] (-) TimerEvent: {}

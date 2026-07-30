@@ -1,0 +1,25 @@
+[2.365s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/mini_homework1': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mini_homework1 build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/install.log --install-scripts $base/lib/mini_homework1 --single-version-externally-managed install_data
+[2.818s] running egg_info
+[2.845s] writing ../../build/mini_homework1/mini_homework1.egg-info/PKG-INFO
+[2.845s] writing dependency_links to ../../build/mini_homework1/mini_homework1.egg-info/dependency_links.txt
+[2.846s] writing entry points to ../../build/mini_homework1/mini_homework1.egg-info/entry_points.txt
+[2.846s] writing requirements to ../../build/mini_homework1/mini_homework1.egg-info/requires.txt
+[2.846s] writing top-level names to ../../build/mini_homework1/mini_homework1.egg-info/top_level.txt
+[2.909s] reading manifest file '../../build/mini_homework1/mini_homework1.egg-info/SOURCES.txt'
+[2.911s] writing manifest file '../../build/mini_homework1/mini_homework1.egg-info/SOURCES.txt'
+[2.912s] running build
+[2.912s] running build_py
+[2.912s] running install
+[2.922s] running install_lib
+[2.966s] running install_data
+[2.967s] running install_egg_info
+[3.020s] removing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1-0.0.0-py3.12.egg-info' (and everything under it)
+[3.026s] Copying ../../build/mini_homework1/mini_homework1.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages/mini_homework1-0.0.0-py3.12.egg-info
+[3.028s] running install_scripts
+[3.328s] Installing publisher script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+[3.329s] Installing subscriber1 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+[3.330s] Installing subscriber2 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+[3.330s] Installing time_and_topic1_subscriber script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+[3.331s] Installing time_publisher script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/mini_homework1
+[3.331s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/install.log'
+[3.414s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/mini_homework1' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/mini_homework1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mini_homework1 build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/mini_homework1/install.log --install-scripts $base/lib/mini_homework1 --single-version-externally-managed install_data
