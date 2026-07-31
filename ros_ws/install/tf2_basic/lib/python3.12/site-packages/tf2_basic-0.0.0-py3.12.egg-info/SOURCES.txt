@@ -15,10 +15,18 @@ data/teach_data.yaml
 launch/display.launch.py
 launch/moveit_class.launch.py
 launch/moveit_test.launch.py
+launch/vehicle.launch.py
 meshes/l_finger.dae
 meshes/l_finger_color.png
 meshes/l_finger_tip.dae
 meshes/l_finger_tip_color.png
+models/aruco_cube/model.config
+models/aruco_cube/model.sdf
+models/aruco_cube/material/textures/aruco_0.png
+models/aruco_cube/material/textures/aruco_1.png
+models/aruco_cube/material/textures/create_aruco_marker.py
+models/vehicle_test/model.config
+models/vehicle_test/model.sdf
 resource/tf2_basic
 rviz/urdf.rviz
 test/test_copyright.py
@@ -50,5 +58,6 @@ urdf/02_myfirst.urdf
 urdf/03_myfirst.urdf
 urdf/04_myfirst.urdf
 urdf/05_myfirst.urdf
+world/building_robot.sdf
 world/empty_world.sdf
 world/warehouse_world.sdf

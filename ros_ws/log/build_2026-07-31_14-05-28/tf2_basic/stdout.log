@@ -1,0 +1,149 @@
+running egg_info
+creating ../../build/tf2_basic/tf2_basic.egg-info
+writing ../../build/tf2_basic/tf2_basic.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf2_basic/tf2_basic.egg-info/dependency_links.txt
+writing entry points to ../../build/tf2_basic/tf2_basic.egg-info/entry_points.txt
+writing requirements to ../../build/tf2_basic/tf2_basic.egg-info/requires.txt
+writing top-level names to ../../build/tf2_basic/tf2_basic.egg-info/top_level.txt
+writing manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+reading manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+writing manifest file '../../build/tf2_basic/tf2_basic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/play_recorded_dance.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/tf_motion.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/moveit_test.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/dance_player_action.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/turtle_tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/move_manipulator.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/teach_manipulator3.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/moveit_attached.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/moveit_mini_project.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/moveit_class.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/static_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/dance_player.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/move_manipulator_action.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/teach_manipulator.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/moveit_class2.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/moveit_scene_monitor.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/dance_manipulator.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+copying tf2_basic/teach_manipulator2.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic
+running install
+running install_lib
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/play_recorded_dance.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/tf_motion.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/dynamic_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/moveit_test.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/dance_player_action.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/__init__.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/turtle_tf_listener.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/move_manipulator.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/teach_manipulator3.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/moveit_attached.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/moveit_mini_project.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/moveit_class.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/static_turtle_tf2_broadcaster.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/dance_player.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/move_manipulator_action.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/teach_manipulator.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/moveit_class2.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/moveit_scene_monitor.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/dance_manipulator.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/build/lib/tf2_basic/teach_manipulator2.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/play_recorded_dance.py to play_recorded_dance.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/tf_motion.py to tf_motion.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/tf_listener.py to tf_listener.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/dynamic_turtle_tf2_broadcaster.py to dynamic_turtle_tf2_broadcaster.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/moveit_test.py to moveit_test.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/dance_player_action.py to dance_player_action.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/turtle_tf_listener.py to turtle_tf_listener.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/move_manipulator.py to move_manipulator.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/teach_manipulator3.py to teach_manipulator3.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/moveit_attached.py to moveit_attached.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/moveit_mini_project.py to moveit_mini_project.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/moveit_class.py to moveit_class.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/dance_player.py to dance_player.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/move_manipulator_action.py to move_manipulator_action.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/teach_manipulator.py to teach_manipulator.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/moveit_class2.py to moveit_class2.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/moveit_scene_monitor.py to moveit_scene_monitor.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/dance_manipulator.py to dance_manipulator.cpython-312.pyc
+byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/teach_manipulator2.py to teach_manipulator2.cpython-312.pyc
+running install_data
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/ament_index
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/ament_index/resource_index
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/ament_index/resource_index/packages
+copying resource/tf2_basic -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/ament_index/resource_index/packages
+copying package.xml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/launch
+copying launch/moveit_class.launch.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/launch
+copying launch/vehicle.launch.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/launch
+copying launch/moveit_test.launch.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/launch
+copying launch/display.launch.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/launch
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/urdf
+copying urdf/01_myfirst.urdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/urdf
+copying urdf/04_myfirst.urdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/urdf
+copying urdf/05_myfirst.urdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/urdf
+copying urdf/02_myfirst.urdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/urdf
+copying urdf/03_myfirst.urdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/urdf
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/rviz
+copying rviz/urdf.rviz -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/rviz
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/meshes
+copying meshes/l_finger_tip_color.png -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/meshes
+copying meshes/l_finger_color.png -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/meshes
+copying meshes/l_finger_tip.dae -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/meshes
+copying meshes/l_finger.dae -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/meshes
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/data
+copying data/teach_data.yaml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/data
+copying data/dance.yaml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/data
+copying data/recorded_dance.yaml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/data
+copying data/re.yaml -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/data
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/world
+copying world/empty_world.sdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/world
+copying world/warehouse_world.sdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/world
+copying world/building_robot.sdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/world
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/vehicle_test
+copying models/vehicle_test/model.sdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/vehicle_test
+copying models/vehicle_test/model.config -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/vehicle_test
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/aruco_cube
+copying models/aruco_cube/model.sdf -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/aruco_cube
+copying models/aruco_cube/model.config -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/aruco_cube
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/aruco_cube/material
+creating /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/aruco_cube/material/textures
+copying models/aruco_cube/material/textures/create_aruco_marker.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/aruco_cube/material/textures
+copying models/aruco_cube/material/textures/aruco_0.png -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/aruco_cube/material/textures
+copying models/aruco_cube/material/textures/aruco_1.png -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/share/tf2_basic/models/aruco_cube/material/textures
+running install_egg_info
+Copying ../../build/tf2_basic/tf2_basic.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dance_manipulator script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing dance_player script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing dance_player_action script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing dynamic_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing move_manipulator script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing move_manipulator_action script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing moveit_attached script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing moveit_class script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing moveit_class2 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing moveit_mini_project script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing moveit_scene_monitor script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing moveit_test script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing play_recorded_dance script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing static_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing teach_manipulator script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing teach_manipulator2 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing teach_manipulator3 script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing tf_listener script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+Installing tf_motion script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/tf2_basic
+writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/tf2_basic/install.log'
