@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: camera-opencv
+Version: 0.0.0
+Summary: tutorial for using camera in ROS2
+Maintainer: jhw0178
+Maintainer-email: jhw0178@gmail.com
+License: Apache 2.0
+Provides-Extra: test

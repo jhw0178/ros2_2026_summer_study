@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/camera_opencv/camera_opencv.egg-info/PKG-INFO
+../../build/camera_opencv/camera_opencv.egg-info/SOURCES.txt
+../../build/camera_opencv/camera_opencv.egg-info/dependency_links.txt
+../../build/camera_opencv/camera_opencv.egg-info/entry_points.txt
+../../build/camera_opencv/camera_opencv.egg-info/requires.txt
+../../build/camera_opencv/camera_opencv.egg-info/top_level.txt
+../../build/camera_opencv/camera_opencv.egg-info/zip-safe
+camera_opencv/__init__.py
+camera_opencv/img_show.py
+resource/camera_opencv
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,2 @@
+[console_scripts]
+img_show = camera_opencv.img_show:main
