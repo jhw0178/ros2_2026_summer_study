@@ -13,7 +13,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='jhw0178',
+    maintainer='jhw0178', 
     maintainer_email='jhw0178@gmail.com',
     description='tutorial for using camera in ROS2',
     license='Apache 2.0',
@@ -29,6 +29,8 @@ setup(
             "img_sub = camera_opencv.img_sub:main",
             "img_compressed_pub = camera_opencv.img_compressed_pub:main",
             "img_compressed_sub = camera_opencv.img_compressed_sub:main",
+            "camera_pub = camera_opencv.camera_pub:main",
+            "circle_follow = camera_opencv.circle_follow:main",
         ],
     },
 )

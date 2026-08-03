@@ -9,6 +9,8 @@ setup.py
 ../../build/camera_opencv/camera_opencv.egg-info/top_level.txt
 ../../build/camera_opencv/camera_opencv.egg-info/zip-safe
 camera_opencv/__init__.py
+camera_opencv/camera_pub.py
+camera_opencv/circle_follow.py
 camera_opencv/img_compressed_pub.py
 camera_opencv/img_compressed_sub.py
 camera_opencv/img_pub.py
