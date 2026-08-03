@@ -17,7 +17,7 @@ def main():
     # black_img = np.zeros((300, 300, 1), dtype=np.uint8)
     # cv2.imshow("balck", black_img)
     # img = cv2.imread("data/robot.jpeg")  # 상대 경로
-    img = cv2.imread(str(file_path / "data/robot.jpeg"))  # 절대 경로
+    img = cv2.imread(str(file_path / "data/robot.jpg"))  # 절대 경로
     cv2.imshow("robot", img)
     cv2.waitKey()  # 블럭 함수
 

@@ -25,6 +25,10 @@ setup(
     entry_points={
         'console_scripts': [
             "img_show = camera_opencv.img_show:main",
+            "img_pub = camera_opencv.img_pub:main",
+            "img_sub = camera_opencv.img_sub:main",
+            "img_compressed_pub = camera_opencv.img_compressed_pub:main",
+            "img_compressed_sub = camera_opencv.img_compressed_sub:main",
         ],
     },
 )
