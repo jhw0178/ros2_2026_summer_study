@@ -11,6 +11,8 @@ setup.py
 camera_opencv/__init__.py
 camera_opencv/camera_pub.py
 camera_opencv/circle_follow.py
+camera_opencv/color.py
+camera_opencv/event_draw.py
 camera_opencv/img_compressed_pub.py
 camera_opencv/img_compressed_sub.py
 camera_opencv/img_pub.py
