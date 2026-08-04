@@ -8,6 +8,7 @@
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/img_sub.py
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/event_draw.py
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/circle_follow.py
+/home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/find_redball.py
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/__pycache__/img_pub.cpython-312.pyc
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/__pycache__/color.cpython-312.pyc
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/__pycache__/img_compressed_pub.cpython-312.pyc
@@ -18,6 +19,7 @@
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/__pycache__/img_sub.cpython-312.pyc
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/__pycache__/event_draw.cpython-312.pyc
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/__pycache__/circle_follow.cpython-312.pyc
+/home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/__pycache__/find_redball.cpython-312.pyc
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/share/ament_index/resource_index/packages/camera_opencv
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/share/camera_opencv/package.xml
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv-0.0.0-py3.12.egg-info/dependency_links.txt
@@ -31,6 +33,7 @@
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv/circle_follow
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv/color
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv/event_draw
+/home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv/find_redball
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv/img_compressed_pub
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv/img_compressed_sub
 /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv/img_pub

@@ -25,6 +25,11 @@ models/aruco_cube/model.sdf
 models/aruco_cube/material/textures/aruco_0.png
 models/aruco_cube/material/textures/aruco_1.png
 models/aruco_cube/material/textures/create_aruco_marker.py
+models/red_ball/model.config
+models/red_ball/model.sdf
+models/red_ball/material/textures/aruco_0.png
+models/red_ball/material/textures/aruco_1.png
+models/red_ball/material/textures/create_aruco_marker.py
 models/vehicle_test/model.config
 models/vehicle_test/model.sdf
 resource/tf2_basic

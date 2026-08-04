@@ -19,7 +19,7 @@ def main():
     cv2.ellipse(img, pt2, size, 90, -45, 90, color.ORANGE, 1)  # type = ignore
     cv2.imshow("canvas", img)
     cv2.waitKey()
-
+    cv2.destroyAllWindows()
 
 if __name__ == "__main__":
     main()

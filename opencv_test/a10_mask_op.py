@@ -27,6 +27,7 @@ def main():
     cv2.imshow("background", bg)
     cv2.imshow("logo", logo)
     cv2.waitKey()
+    cv2.destroyAllWindows()
     
 if __name__ == "__main__":
     main()
