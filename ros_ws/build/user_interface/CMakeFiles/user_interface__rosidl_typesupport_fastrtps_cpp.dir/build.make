@@ -119,7 +119,7 @@ rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/dds_fastrtps/user_int_
 rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/dds_fastrtps/user_int__type_support.cpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/dds_fastrtps/user_int__type_support.cpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_typesupport_fastrtps_cpp__arguments.json
+	/home/jhw0178/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_typesupport_fastrtps_cpp__arguments.json
 
 rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/user_int__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/dds_fastrtps/user_int__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/user_interface/msg/detail/user_int__rosidl_typesupport_fastrtps_cpp.hpp

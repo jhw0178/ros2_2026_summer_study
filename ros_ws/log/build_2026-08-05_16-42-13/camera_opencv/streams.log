@@ -1,0 +1,30 @@
+[1.799s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/camera_opencv': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_opencv build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/install.log --install-scripts $base/lib/camera_opencv --single-version-externally-managed install_data
+[2.080s] running egg_info
+[2.098s] writing ../../build/camera_opencv/camera_opencv.egg-info/PKG-INFO
+[2.098s] writing dependency_links to ../../build/camera_opencv/camera_opencv.egg-info/dependency_links.txt
+[2.099s] writing entry points to ../../build/camera_opencv/camera_opencv.egg-info/entry_points.txt
+[2.099s] writing requirements to ../../build/camera_opencv/camera_opencv.egg-info/requires.txt
+[2.099s] writing top-level names to ../../build/camera_opencv/camera_opencv.egg-info/top_level.txt
+[2.141s] reading manifest file '../../build/camera_opencv/camera_opencv.egg-info/SOURCES.txt'
+[2.142s] writing manifest file '../../build/camera_opencv/camera_opencv.egg-info/SOURCES.txt'
+[2.142s] running build
+[2.142s] running build_py
+[2.143s] running install
+[2.149s] running install_lib
+[2.168s] running install_data
+[2.168s] running install_egg_info
+[2.187s] removing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv-0.0.0-py3.12.egg-info' (and everything under it)
+[2.188s] Copying ../../build/camera_opencv/camera_opencv.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv-0.0.0-py3.12.egg-info
+[2.188s] running install_scripts
+[2.316s] Installing camera_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.317s] Installing circle_follow script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.317s] Installing color script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.317s] Installing event_draw script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.317s] Installing find_redball script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.318s] Installing img_compressed_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.318s] Installing img_compressed_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.318s] Installing img_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.318s] Installing img_show script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.318s] Installing img_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.318s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/install.log'
+[2.383s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/camera_opencv' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_opencv build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/install.log --install-scripts $base/lib/camera_opencv --single-version-externally-managed install_data

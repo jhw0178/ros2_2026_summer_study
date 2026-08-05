@@ -76,7 +76,7 @@ rosidl_generator_type_description/user_interface/msg/UserInt.json: rosidl_adapte
 rosidl_generator_type_description/user_interface/msg/UserInt.json: rosidl_adapter/user_interface/srv/AddAndOdd.idl
 rosidl_generator_type_description/user_interface/msg/UserInt.json: rosidl_adapter/user_interface/action/Fibonacci.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_type_description__arguments.json
+	/home/jhw0178/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/user_interface/srv/AddAndOdd.json: rosidl_generator_type_description/user_interface/msg/UserInt.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/user_interface/srv/AddAndOdd.json

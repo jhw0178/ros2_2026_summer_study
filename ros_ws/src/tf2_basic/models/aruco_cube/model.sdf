@@ -45,7 +45,7 @@
                 <pbr>
                     <metal>
                         <albedo_map>
-                            material/textures/aruco_0.png
+                            material/textures/aruco_2.png
                         </albedo_map>
                         <roughness>1.0</roughness>
                         <metalness>0.0</metalness>

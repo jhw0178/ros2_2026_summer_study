@@ -1,4 +1,5 @@
 [console_scripts]
+aruco_tf_node = tf2_basic.aruco_tf_node:main
 dance_manipulator = tf2_basic.dance_manipulator:main
 dance_player = tf2_basic.dance_player:main
 dance_player_action = tf2_basic.dance_player_action:main

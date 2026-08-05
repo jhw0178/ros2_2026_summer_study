@@ -1,0 +1,5 @@
+  File "/home/jhw0178/ros2_2026_summer_study/ros_ws/install/tf2_basic/lib/python3.12/site-packages/tf2_basic/aruco_tf_node.py", line 1
+    ```python
+    ^
+SyntaxError: invalid syntax
+

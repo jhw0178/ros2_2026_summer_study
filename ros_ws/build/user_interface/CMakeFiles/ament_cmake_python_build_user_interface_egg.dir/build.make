@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_user_interface_egg.dir/compiler_depe
 include CMakeFiles/ament_cmake_python_build_user_interface_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_user_interface_egg:
-	cd /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/ament_cmake_python/user_interface && /usr/bin/python3 setup.py egg_info
+	cd /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/ament_cmake_python/user_interface && /home/jhw0178/.venv/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_user_interface_egg: CMakeFiles/ament_cmake_python_build_user_interface_egg
 ament_cmake_python_build_user_interface_egg: CMakeFiles/ament_cmake_python_build_user_interface_egg.dir/build.make

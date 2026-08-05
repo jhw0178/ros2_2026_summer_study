@@ -119,7 +119,7 @@ rosidl_typesupport_introspection_c/user_interface/msg/detail/user_int__rosidl_ty
 rosidl_typesupport_introspection_c/user_interface/msg/detail/user_int__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 rosidl_typesupport_introspection_c/user_interface/msg/detail/user_int__rosidl_typesupport_introspection_c.h: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_typesupport_introspection_c__arguments.json
+	/home/jhw0178/.venv/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/user_interface/srv/detail/add_and_odd__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/user_interface/msg/detail/user_int__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/user_interface/srv/detail/add_and_odd__rosidl_typesupport_introspection_c.h

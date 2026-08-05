@@ -24,6 +24,8 @@ models/aruco_cube/model.config
 models/aruco_cube/model.sdf
 models/aruco_cube/material/textures/aruco_0.png
 models/aruco_cube/material/textures/aruco_1.png
+models/aruco_cube/material/textures/aruco_2.png
+models/aruco_cube/material/textures/aruco_3.png
 models/aruco_cube/material/textures/create_aruco_marker.py
 models/red_ball/model.config
 models/red_ball/model.sdf
@@ -38,6 +40,7 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 tf2_basic/__init__.py
+tf2_basic/aruco_tf_node.py
 tf2_basic/dance_manipulator.py
 tf2_basic/dance_player.py
 tf2_basic/dance_player_action.py

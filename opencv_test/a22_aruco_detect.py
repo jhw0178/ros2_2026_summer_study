@@ -2,7 +2,7 @@
 
 
 ### aruco가 있는지 확인
-# python3 -c "import cv2; print(cv2.__version__); print(cv2.getBuildInformation())"
+# python3 -c "import cv2; print(cv2.__version__); print(cv2.getBuildInformation())" | rg aruco
 # aruco 설치
 # sudo apt install -y python3-venv python3-full
 
@@ -13,7 +13,9 @@
 # python -m pip install "numpy==1.26.4"
 
 from pathlib import Path
+
 import cv2
+import numpy as np
 
 
 def main():
@@ -35,7 +37,15 @@ def main():
 
     previous_ids = set()
 
+    marker_length = 0.04
+
+    camera_matrix = np.array(
+        [[600.0, 0.0, 320.0], [0.0, 600.0, 240.0], [0.0, 0.0, 1.0]], dtype=np.float64
+    )
+    dist_coeffs = np.zeros((5, 1), dtype=np.float64)
+
     if not cap.isOpened():
+        print("cap close")
         return
     while True:
         ret, frame = cap.read()
@@ -43,9 +53,13 @@ def main():
         corners, ids, rejected = cv2.aruco.detectMarkers(gray, dictionary, parameters=parameters)
         if ids is not None:
             cv2.aruco.drawDetectedMarkers(frame, corners, ids)
+            rvecs, tvecs, object_points = cv2.aruco.estimatePoseSingleMarkers(
+                corners, marker_length, camera_matrix, dist_coeffs
+            )
+            print(rvecs, tvecs)
         if not ret:
-            break
-        # detection(탐지, 검출) 하는 코드
+            continue
+        # detection 하는 코드
 
         cv2.imshow("Camera", frame)
         if cv2.waitKey(1) == ord("q"):

@@ -130,7 +130,7 @@ rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/action_ms
 rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 rosidl_generator_c/user_interface/msg/user_int.h: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_c__arguments.json
+	/home/jhw0178/.venv/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/jhw0178/ros2_2026_summer_study/ros_ws/build/user_interface/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/user_interface/msg/detail/user_int__functions.h: rosidl_generator_c/user_interface/msg/user_int.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/user_interface/msg/detail/user_int__functions.h
