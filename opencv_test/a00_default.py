@@ -9,7 +9,7 @@ def main():
     black_img = np.zeros((300, 300, 1), dtype=np.uint8)
     cv2.imshow("black", black_img)
     cv2.waitKey()  # 블럭 함수
-
+    cv2.destroyAllWindows()
 
 if __name__ == "__main__":
     main()
