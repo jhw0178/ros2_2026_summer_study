@@ -34,6 +34,8 @@ setup(
             "event_draw = camera_opencv.event_draw:main",
             "color = camera_opencv.color:main",
             "find_redball = camera_opencv.find_redball:main",
+            "camera_Canny = camera_opencv.camera_Canny:main",
+            "camera_Canny_gpt = camera_opencv.camera_Canny_gpt:main",
         ],
     },
 )

@@ -9,6 +9,8 @@ setup.py
 ../../build/camera_opencv/camera_opencv.egg-info/top_level.txt
 ../../build/camera_opencv/camera_opencv.egg-info/zip-safe
 camera_opencv/__init__.py
+camera_opencv/camera_Canny.py
+camera_opencv/camera_Canny_gpt.py
 camera_opencv/camera_pub.py
 camera_opencv/circle_follow.py
 camera_opencv/color.py

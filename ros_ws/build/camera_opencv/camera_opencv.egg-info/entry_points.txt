@@ -1,4 +1,6 @@
 [console_scripts]
+camera_Canny = camera_opencv.camera_Canny:main
+camera_Canny_gpt = camera_opencv.camera_Canny_gpt:main
 camera_pub = camera_opencv.camera_pub:main
 circle_follow = camera_opencv.circle_follow:main
 color = camera_opencv.color:main
