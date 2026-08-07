@@ -36,6 +36,7 @@ setup(
             "find_redball = camera_opencv.find_redball:main",
             "camera_Canny = camera_opencv.camera_Canny:main",
             "camera_Canny_gpt = camera_opencv.camera_Canny_gpt:main",
+            "orb_object_detector = camera_opencv.orb_object_detector:main",
         ],
     },
 )

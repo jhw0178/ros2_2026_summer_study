@@ -1,0 +1,22 @@
+[1.866s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/follow_turtle': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/follow_turtle build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/install.log --install-scripts $base/lib/follow_turtle --single-version-externally-managed install_data
+[2.253s] running egg_info
+[2.275s] writing ../../build/follow_turtle/follow_turtle.egg-info/PKG-INFO
+[2.276s] writing dependency_links to ../../build/follow_turtle/follow_turtle.egg-info/dependency_links.txt
+[2.276s] writing entry points to ../../build/follow_turtle/follow_turtle.egg-info/entry_points.txt
+[2.276s] writing requirements to ../../build/follow_turtle/follow_turtle.egg-info/requires.txt
+[2.276s] writing top-level names to ../../build/follow_turtle/follow_turtle.egg-info/top_level.txt
+[2.328s] reading manifest file '../../build/follow_turtle/follow_turtle.egg-info/SOURCES.txt'
+[2.329s] writing manifest file '../../build/follow_turtle/follow_turtle.egg-info/SOURCES.txt'
+[2.330s] running build
+[2.330s] running build_py
+[2.330s] running install
+[2.340s] running install_lib
+[2.370s] running install_data
+[2.371s] running install_egg_info
+[2.401s] removing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle-0.0.0-py3.12.egg-info' (and everything under it)
+[2.401s] Copying ../../build/follow_turtle/follow_turtle.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages/follow_turtle-0.0.0-py3.12.egg-info
+[2.402s] running install_scripts
+[2.568s] Installing dynamic_turtle_tf2_broadcaster script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/follow_turtle
+[2.569s] Installing tf_listener script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/follow_turtle
+[2.569s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/install.log'
+[2.641s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/follow_turtle' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/follow_turtle/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/follow_turtle build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/follow_turtle/install.log --install-scripts $base/lib/follow_turtle --single-version-externally-managed install_data

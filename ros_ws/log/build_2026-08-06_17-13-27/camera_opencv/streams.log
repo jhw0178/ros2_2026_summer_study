@@ -1,0 +1,36 @@
+[2.283s] Invoking command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/camera_opencv': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_opencv build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/install.log --install-scripts $base/lib/camera_opencv --single-version-externally-managed install_data
+[2.598s] running egg_info
+[2.626s] writing ../../build/camera_opencv/camera_opencv.egg-info/PKG-INFO
+[2.627s] writing dependency_links to ../../build/camera_opencv/camera_opencv.egg-info/dependency_links.txt
+[2.627s] writing entry points to ../../build/camera_opencv/camera_opencv.egg-info/entry_points.txt
+[2.628s] writing requirements to ../../build/camera_opencv/camera_opencv.egg-info/requires.txt
+[2.628s] writing top-level names to ../../build/camera_opencv/camera_opencv.egg-info/top_level.txt
+[2.679s] reading manifest file '../../build/camera_opencv/camera_opencv.egg-info/SOURCES.txt'
+[2.681s] writing manifest file '../../build/camera_opencv/camera_opencv.egg-info/SOURCES.txt'
+[2.681s] running build
+[2.681s] running build_py
+[2.682s] copying camera_opencv/orb_object_detector.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/build/lib/camera_opencv
+[2.682s] running install
+[2.689s] running install_lib
+[2.709s] copying /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/build/lib/camera_opencv/orb_object_detector.py -> /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv
+[2.710s] byte-compiling /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv/orb_object_detector.py to orb_object_detector.cpython-312.pyc
+[2.715s] running install_data
+[2.715s] running install_egg_info
+[2.743s] removing '/home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv-0.0.0-py3.12.egg-info' (and everything under it)
+[2.743s] Copying ../../build/camera_opencv/camera_opencv.egg-info to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages/camera_opencv-0.0.0-py3.12.egg-info
+[2.747s] running install_scripts
+[2.948s] Installing camera_Canny script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.950s] Installing camera_Canny_gpt script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.951s] Installing camera_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.952s] Installing circle_follow script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.952s] Installing color script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.954s] Installing event_draw script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.956s] Installing find_redball script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.956s] Installing img_compressed_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.956s] Installing img_compressed_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.956s] Installing img_pub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.957s] Installing img_show script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.957s] Installing img_sub script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.957s] Installing orb_object_detector script to /home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/camera_opencv
+[2.959s] writing list of installed files to '/home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/install.log'
+[3.013s] Invoked command in '/home/jhw0178/ros2_2026_summer_study/ros_ws/src/camera_opencv' returned '0': PYTHONPATH=/home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhw0178/ros2_2026_summer_study/ros_ws/install/camera_opencv/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_opencv build --build-base /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/build install --record /home/jhw0178/ros2_2026_summer_study/ros_ws/build/camera_opencv/install.log --install-scripts $base/lib/camera_opencv --single-version-externally-managed install_data

@@ -21,6 +21,7 @@ camera_opencv/img_compressed_sub.py
 camera_opencv/img_pub.py
 camera_opencv/img_show.py
 camera_opencv/img_sub.py
+camera_opencv/orb_object_detector.py
 resource/camera_opencv
 test/test_copyright.py
 test/test_flake8.py
