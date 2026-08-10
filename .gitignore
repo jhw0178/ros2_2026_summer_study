@@ -6,3 +6,6 @@ __pycache__/
 browse.*
 frozen_inference_graph.pb
 faster_rcnn_resnet50_coco.onnx
+.env
+.venv/
+__pycache__/
